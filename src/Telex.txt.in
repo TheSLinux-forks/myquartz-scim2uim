@@ -1,0 +1,3592 @@
+### File header must not be modified
+### This file must be encoded into UTF-8.
+SCIM_Generic_Table_Phrase_Library_TEXT
+VERSION_1_0
+
+### Begin Table definition.
+BEGIN_DEFINITION
+
+### An unique id to distinguish this table among others.
+### Use uuidgen to generate this kind of id.
+UUID = 1b45abed-565b-4539-b0d9-405adf587df1
+
+### A unique number indicates the version of this file.
+### For example the last modified date of this file.
+### This number must be less than 2^32.
+SERIAL_NUMBER = 20080304
+
+ICON = @SCIM_ICONDIR@/vikb.png
+
+### The default name of this table
+NAME = Telex
+
+### The local names of this table 
+### NAME.vi_VN = Việt Telex
+
+### Supported languages of this table
+LANGUAGES = vi_VN
+
+### The author of this table
+AUTHOR = Tran Thach Anh <myquartz@gmail.com>
+
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = Vi
+
+### If true then the first candidate phrase
+### will be selected automatically during inputing.
+AUTO_SELECT = TRUE
+
+### If true then a multi wildcard will be appended
+### at the end of inputing string automatically.
+AUTO_WILDCARD = FALSE
+
+### If true then the result string will be committed to client automatically.
+### This should be used with AUTO_SELECT = TRUE.
+AUTO_COMMIT = TRUE
+
+### If true then the inputted string will be automatically splitted during inputing.
+AUTO_SPLIT = TRUE
+
+### If true then the phrases' frequencies will be adjusted dynamically.
+DYNAMIC_ADJUST = FALSE
+
+### If true then the preedit area will be filled up by the current candidate phrase automatically.
+AUTO_FILL = TRUE
+
+### If true then the lookup table will always be shown if there is any candidate phrase.
+### Otherwise the lookup table won't be shown unless the user requires it by moving the preedit caret left.
+ALWAYS_SHOW_LOOKUP = FALSE
+
+### Enable full width punctuation property
+USE_FULL_WIDTH_PUNCT = FALSE
+
+### Use full width punctuation by default
+DEF_FULL_WIDTH_PUNCT = FALSE
+
+### Enable full width letter property
+USE_FULL_WIDTH_LETTER = FALSE
+
+### Use full width letter by default
+DEF_FULL_WIDTH_LETTER = FALSE
+
+### The maxmium length of a key.
+MAX_KEY_LENGTH = 7
+
+### Valid input chars.
+VALID_INPUT_CHARS = QWERTYUIOPASDFGJXCNMHqwertyuiopasdfgjxcnmh
+
+### Single wildcard char, can have multiple chars.
+###SINGLE_WILDCARD_CHAR = ?
+
+### Multi wildcard char.
+###MULTI_WILDCARD_CHAR = *
+
+### The key strokes to split inputted string.
+###SPLIT_KEYS = quoteright
+
+### The key strokes to commit the convert result to client.
+COMMIT_KEYS = VoidSymbol
+
+### The key strokes to forward the inputted string to client.
+FORWARD_KEYS = Shift+space
+
+### The key strokes to select candidiate phrases.
+SELECT_KEYS = VoidSymbol
+
+### The key strokes to page up the lookup table.
+PAGE_UP_KEYS = VoidSymbol
+
+### The key strokes to page down the lookup table.
+PAGE_DOWN_KEYS = VoidSymbol
+
+END_DEFINITION
+
+### Begin Table data.
+BEGIN_TABLE
+### CHU HOA
+AC	AC	0
+AU	AU	0
+AI	AI	0
+AO	AO	0
+OA	OA	0
+AN	AN	0
+ANH	ANH	0
+ANG	ANG	0
+AM	AM	0
+AP	AP	0
+AT	AT	0
+AY	AY	0
+OAC	OAC	0
+OACH	OACH	0
+OAI	OAI	0
+OAT	OAT	0
+OAN	OAN	0
+OANH	OANH	0
+OANG	OANG	0
+###
+AS	Á	0
+ACS	ÁC	0
+ACHS	ÁCH	0
+ATS	ÁT	0
+APS	ÁP	0
+AUS	ÁU	0
+AIS	ÁI	0
+AOS	ÁO	0
+OAS	OÁ	0
+ANS	ÁN	0
+ANHS	ÁNH	0
+ANGS	ÁNG	0
+AMS	ÁM	0
+AYS	ÁY	0
+OACS	OÁC	0
+OACHS	OÁCH	0
+OAIS	OÁI	0
+OATS	OÁT	0
+OANS	OÁN	0
+OANHS	OÁNH	0
+OANGS	OÁNG	0
+###
+OASS	OAS	0
+ASS	AS	0
+AUSS	AUS	0
+APSS	APS	0
+AMSS	AMS	0
+ANSS	ANS	0
+OACSS	OACS	0
+ACHSS	ACHS	0
+APSS	APS	0
+###
+AF	À	0
+ACF	ÀC	0
+ACHF	ÀCH	0
+ATF	ÀT	0
+APF	ÀP	0
+AUF	ÀU	0
+AIF	ÀI	0
+AOF	ÀO	0
+OAF	OÀ	0
+ANF	ÀN	0
+ANHF	ÀNH	0
+ANGF	ÀNG	0
+AMF	ÀM	0
+AY	AY	0
+AYF	ÀY	0
+OACF	OÀC	0
+OACHF	OÀCH	0
+OAIF	OÀI	0
+OATF	OÀT	0
+OANF	OÀN	0
+OANHF	OÀNH	0
+OANGF	OÀNG	0
+###
+AFF	AF	0
+###
+AR	Ả	0
+ACR	ẢC	0
+ACHR	ẢCH	0
+ATR	ẢT	0
+APR	ẢP	0
+AUR	ẢU	0
+AIR	ẢI	0
+AOR	ẢO	0
+OAR	OẢ	0
+ANR	ẢN	0
+ANHR	ẢNH	0
+ANGR	ẢNG	0
+AMR	ẢM	0
+AYR	ẢY	0
+OACR	OẢC	0
+OACHR	OẢCH	0
+OAIR	OẢI	0
+OATR	OẢT	0
+OANR	OẢN	0
+OANHR	OẢNH	0
+OANGR	OẢNG	0
+###
+ARR	AR	0
+ACRR	ACR	0
+ATRR	ATR	0
+AURR	AUR	0
+###
+AX	Ã	0
+ACX	ÃC	0
+ACHX	ÃCH	0
+ATX	ÃT	0
+APX	ÃP	0
+AUX	ÃU	0
+AIX	ÃI	0
+AOX	ÃO	0
+OAX	OÃ	0
+ANX	ÃN	0
+ANHX	ÃNH	0
+ANGX	ÃNG	0
+AMX	ÃM	0
+AYX	ÃY	0
+OACX	OÃC	0
+OACHX	OÃCH	0
+OAIX	OÃI	0
+OATX	OÃT	0
+OANX	OÃN	0
+OANHX	OÃNH	0
+OANGX	OÃNG	0
+###
+AXX	AX	0
+AUXX	AUX	0
+AIXX	AIX	0
+ATXX	ATX	0
+###
+AJ	Ạ	0
+ACJ	ẠC	0
+ACHJ	ẠCH	0
+ATJ	ẠT	0
+APJ	ẠP	0
+AUJ	ẠU	0
+AIJ	ẠI	0
+AOJ	ẠO	0
+OAJ	OẠ	0
+ANJ	ẠN	0
+ANHJ	ẠNH	0
+ANGJ	ẠNG	0
+AMJ	ẠM	0
+AYJ	ẠY	0
+OACJ	OẠC	0
+OACHJ	OẠCH	0
+OAIJ	OẠI	0
+OATJ	OẠT	0
+OANJ	OẠN	0
+OANGJ	OẠNH	0
+OANHJ	OẠNG	0
+###
+AJJ	AJ	0
+ACJJ	ACJ	0
+###
+AA	Â	0
+AAM	ÂM	0
+AAU	ÂU	0
+AAN	ÂN	0
+AAY	ÂY	0
+AANG	ÂNG	0
+UAAT	UÂT	0
+UAAN	UÂN	0
+UAANG	UÂNG	0
+###
+AAA	AA	0
+###
+AAS	Ấ	0
+AACS	ẤC	0
+AATS	ẤT	0
+AAPS	ẤP	0
+AAUS	ẤU	0
+AANS	ẤN	0
+AANGS	ẤNG	0
+AAMS	ẤM	0
+AAYS	ẤY	0
+UAATS	UẤT	0
+UAANS	UẤN	0
+UAANGS	UẤNG	0
+###
+AAF	Ầ	0
+AACF	ẦC	0
+AATF	ẦT	0
+AAPF	ẦP	0
+AAUF	ẦU	0
+AANF	ẦN	0
+AANGF	ẦNG	0
+AAMF	ẦM	0
+AAYF	ẦY	0
+UAATF	UẦT	0
+UAANF	UẦN	0
+UAANGF	UẦNG	0
+###
+AAR	Ẩ	0
+AACR	ẨC	0
+AATR	ẨT	0
+AAPR	ẨP	0
+AAUR	ẨU	0
+AANR	ẨN	0
+AANGR	ẨNG	0
+AAMR	ẨM	0
+AAYR	ẨY	0
+UAATR	UẨT	0
+UAANR	UẨN	0
+UAANGR	UẨNG	0
+###
+AAX	Ẫ	0
+AACX	ẪC	0
+AATX	ẪT	0
+AAPX	ẪP	0
+AAUX	ẪU	0
+AANX	ẪN	0
+AANGX	ẪNG	0
+AAMX	ẪM	0
+AAYX	ẪY	0
+UAATX	UẪT	0
+UAANX	UẪN	0
+UAANGX	UẪNG	0
+###
+AAJ	Ậ	0
+AACJ	ẬC	0
+AATJ	ẬT	0
+AAPJ	ẬP	0
+AAUJ	ẬU	0
+AANJ	ẬN	0
+AANGJ	ẬNG	0
+AAMJ	ẬM	0
+AAYJ	ẬY	0
+UAATJ	UẬT	0
+UAANJ	UẬN	0
+UAANGJ	UẬNG	0
+###
+AW	Ă	0
+AWN	ĂN	0
+AWNG	ĂNG	0
+AWM	ĂM	0
+OAWN	OĂN	0
+OAWT	OĂT	0
+###
+AWW	AW	0
+###
+AWS	Ắ	0
+AWCS	ẮC	0
+AWTS	ẮT	0
+AWPS	ẮP	0
+AWNS	ẮN	0
+AWNGS	ẮNG	0
+AWMS	ẮM	0
+OAWS	OẮ	0
+OAWNS	OẮN	0
+OAWTS	OẮT	0
+OAWCS	OẮC	0
+###
+AWF	Ằ	0
+AWCF	ẰC	0
+AWTF	ẰT	0
+AWPF	ẰP	0
+AWNF	ẰN	0
+AWNGF	ẰNG	0
+AWMF	ẰM	0
+OAWF	OẰ	0
+OAWNF	OẰN	0
+OAWTF	OẰT	0
+###
+AWR	Ẳ	0
+AWCR	ẲC	0
+AWTR	ẲT	0
+AWPR	ẲP	0
+AWNR	ẲN	0
+AWNGR	ẲNG	0
+AWMR	ẲM	0
+OAWR	OẲ	0
+OAWNR	OẲN	0
+OAWTR	OẲT	0
+###
+AWX	Ẵ	0
+AWCX	ẴC	0
+AWTX	ẴT	0
+AWPX	ẴP	0
+AWNX	ẴN	0
+AWNGX	ẴNG	0
+AWMX	ẴM	0
+OAWX	OẴ	0
+OAWNX	OẴN	0
+OAWTX	OẴT	0
+###
+AWJ	Ặ	0
+AWCJ	ẶC	0
+AWTJ	ẶT	0
+AWPJ	ẶP	0
+AWNJ	ẶN	0
+AWNGJ	ẶNG	0
+AWMJ	ẶM	0
+OAWJ	OẶ	0
+OAWNJ	OẶN	0
+OAWTJ	OẶT	0
+OAWCJ	OẶC	0
+###
+EO	EO	0
+OE	OE	0
+EN	EN	0
+EM	EM	0
+ET	ET	0
+EC	EC	0
+EP	EP	0
+###
+ES	É	0
+ECS	ÉC	0
+ETS	ÉT	0
+EPS	ÉP	0
+EOS	ÉO	0
+OES	OÉ	0
+OETS	OÉT	0
+ENS	ÉN	0
+EMS	ÉM	0
+###
+ESS	ES	0
+ECSS	ECS	0
+ETSS	ETS	0
+EPSS	EPS	0
+ENSS	ENS	0
+EMSS	EMS	0
+###
+EF	È	0
+ECF	ÈC	0
+ETF	ÈT	0
+EPF	ÈP	0
+EOF	ÈO	0
+OEF	OÈ	0
+ENF	ÈN	0
+EMF	ÈM	0
+###
+EFF	EF	0
+ECFF	ECF	0
+ETFF	ETF	0
+OEFF	OEF	0
+###
+ER	Ẻ	0
+ECR	ẺC	0
+ETR	ẺT	0
+EPR	ẺP	0
+EOR	ẺO	0
+OER	OẺ	0
+ENR	ẺN	0
+EMR	ẺM	0
+###
+ERR	ER	0
+ECRR	ECR	0
+ETRR	ETR	0
+OERR	OER	0
+###
+EX	Ẽ	0
+ECX	ẼC	0
+ETX	ẼT	0
+EPX	ẼP	0
+EOX	ẼO	0
+OEX	OẼ	0
+ENX	ẼN	0
+EMX	ẼM	0
+###
+EXX	EX	0
+###
+EJ	Ẹ	0
+ECJ	ẸC	0
+ETJ	ẸT	0
+EPJ	ẸP	0
+EOJ	ẸO	0
+OEJ	OẸ	0
+ENJ	ẸN	0
+EMJ	ẸM	0
+###
+EJJ	EJ	0
+###
+EE	Ê	0
+EEU	ÊU	0
+EEN	ÊN	0
+EENH	ÊNH	0
+EEM	ÊM	0
+IEEN	IÊN	0
+IEENG	IÊNG	0
+IEEM	IÊM	0
+IEEC	IÊC	0
+IEEU	IÊU	0
+IEEP	IÊP	0
+YEEN	YÊN	0
+YEENG	YÊNG	0
+YEEM	YÊM	0
+YEET	YÊT	0
+YEEU	YÊU	0
+UYEET	UYÊT	0
+UYEEN	UYÊN	0
+###
+EEE	EE	0
+IE	IE	0
+YE	YE	0
+###
+EES	Ế	0
+EETS	ẾT	0
+EEUS	ẾU	0
+EEPS	ẾP	0
+EECHS	ẾCH	0
+EENS	ẾN	0
+EEMS	ẾM	0
+IEES	IẾ	0
+IEETS	IẾT	0
+IEEST	IẾT	0
+IEENS	IẾN	0
+EENGS	ẾNG	0
+IEENGS	IẾNG	0
+IEEMS	IẾM	0
+IEECS	IẾC	0
+IEEUS	IẾU	0
+IEEPS	IẾP	0
+YEES	YẾ	0
+YEENS	YẾN	0
+YEENGS	YẾNG	0
+YEEMS	YẾM	0
+YEETS	YẾT	0
+YEEST	YẾT	0
+YEEUS	YẾU	0
+UYEES	UYẾ	0
+UYEETS	UYẾT	0
+UYEENS	UYẾN	0
+###
+IE	IE	0
+EESS	EES	0
+EENSS	EENS	0
+EETSS	EETS	0
+EEPSS	EEPS	0
+###
+EEF	Ề	0
+EEUF	ỀU	0
+EEPF	ỀP	0
+EENF	ỀN	0
+EENHF	ỀNH	0
+EEMF	ỀM	0
+IEEF	IỀ	0
+IEENF	IỀN	0
+IEENGF	IỀNG	0
+IEEMF	IỀM	0
+IEECF	IỀC	0
+IEEUF	IỀU	0
+IEEPF	IỀP	0
+YEEF	YỀ	0
+YEENF	YỀN	0
+YEENGF	YỀNG	0
+YEEMF	YỀM	0
+YEETF	YỀT	0
+YEEUF	YỀU	0
+UYEEF	UYỀ	0
+UYEETF	UYỀT	0
+UYEENF	UYỀN	0
+###
+EER	Ể	0
+EETR	ỂT	0
+EEUR	ỂU	0
+EEPR	ỂP	0
+EENR	ỂN	0
+EENHR	ỂNH	0
+EEMR	ỂM	0
+IEER	IỂ	0
+IEENR	IỂN	0
+IEENGR	IỂNG	0
+IEEMR	IỂM	0
+IEECR	IỂC	0
+IEEUR	IỂU	0
+IEEPR	IỂP	0
+YEENR	YỂN	0
+YEENGR	YỂNG	0
+YEEMR	YỂM	0
+YEETR	YỂT	0
+YEEUR	YỂU	0
+UYEETR	UYỂT	0
+UYEENR	UYỂN	0
+UYEERN	UYỂN	0
+###
+EERR	EER	0
+###
+EEX	Ễ	0
+EETX	ỄT	0
+EEUX	ỄU	0
+EEPX	ỄP	0
+EENX	ỄN	0
+EEMX	ỄM	0
+IEEX	IỄ	0
+IEENX	IỄN	0
+IEENGX	IỄNG	0
+IEEMX	IỄM	0
+IEECX	IỄC	0
+IEEUX	IỄU	0
+IEEPX	IỄP	0
+YEENX	YỄN	0
+YEENGX	YỄNG	0
+YEEMX	YỄM	0
+YEETX	YỄT	0
+YEEUX	YỄU	0
+UYEETX	UYỄT	0
+UYEENX	UYỄN	0
+UYEEXN	UYỄN	0
+###
+EEJ	Ệ	0
+EETJ	ỆT	0
+EEUJ	ỆU	0
+EEPJ	ỆP	0
+EENJ	ỆN	0
+EENHJ	ỆNH	0
+EECHJ	ỆCH	0
+EECJH	ỆCH	0
+EEMJ	ỆM	0
+IEEJ	IỆ	0
+IEETJ	IỆT	0
+IEEJT	IỆT	0
+IEENJ	IỆN	0
+IEENGJ	IỆNG	0
+IEEMJ	IỆM	0
+IEECJ	IỆC	0
+IEEUJ	IỆU	0
+IEEPJ	IỆP	0
+YEENJ	YỆN	0
+YEENGJ	YỆNG	0
+YEEMJ	YỆM	0
+YEETJ	YỆT	0
+YEEUJ	YỆU	0
+UYEETJ	UYỆT	0
+UYEENJ	UYỆN	0
+UYEEJN	UYỆN	0
+###
+OI	OI	0
+OOO	OO	0
+OC	OC	0
+ON	ON	0
+ONG	ONG	0
+OM	OM	0
+OT	OT	0
+OP	OP	0
+###
+OS	Ó	0
+OTS	ÓT	0
+OIS	ÓI	0
+OOOS	OÓ	0
+OPS	ÓP	0
+OCS	ÓC	0
+ONS	ÓN	0
+ONGS	ÓNG	0
+OMS	ÓM	0
+###
+OSS	OS	0
+OTSS	OTS	0
+OISS	OIS	0
+OPSS	OPS	0
+ONSS	ONS	0
+OMSS	OMS	0
+###
+OF	Ò	0
+###OEF	ÒE	0
+OTF	ÒT	0
+OIF	ÒI	0
+OOOF	OÒ	0
+OPF	ÒP	0
+###OAF	ÒA	0
+OCF	ÒC	0
+ONF	ÒN	0
+ONGF	ÒNG	0
+OMF	ÒM	0
+###
+OFF	OF	0
+OTFF	OTF	0
+OPFF	OPF	0
+ONFF	ONF	0
+OMFF	OMF	0
+###
+OR	Ỏ	0
+###OER	ỎE	0
+OTR	ỎT	0
+OIR	ỎI	0
+OOOR	OỎ	0
+OPR	ỎP	0
+###OAR	ỎA	0
+OCR	ỎC	0
+ONR	ỎN	0
+ONGR	ỎNG	0
+OMR	ỎM	0
+###
+ORR	OR	0
+###
+OX	Õ	0
+###OEX	ÕE	0
+OTX	ÕT	0
+OIX	ÕI	0
+OOOX	OÕ	0
+OPX	ÕP	0
+###OAX	ÕA	0
+OCX	ÕC	0
+ONX	ÕN	0
+ONGX	ÕNG	0
+OMX	ÕM	0
+###
+OXX	OX	0
+###
+OJ	Ọ	0
+###OEJ	ỌE	0
+OTJ	ỌT	0
+OIJ	ỌI	0
+OOOJ	OỌ	0
+OPJ	ỌP	0
+###OAJ	ỌA	0
+OCJ	ỌC	0
+ONJ	ỌN	0
+ONGJ	ỌNG	0
+OMJ	ỌM	0
+###
+OO	Ô	0
+OOC	ÔC	0
+OOT	ÔT	0
+OOP	ÔP	0
+OON	ÔN	0
+OONG	ÔNG	0
+OOM	ÔM	0
+OOI	ÔI	0
+UOOI	UÔI	0
+UOOC	UÔC	0
+UOOT	UÔT	0
+UOON	UÔN	0
+UOONG	UÔNG	0
+UOOM	UÔM	0
+###
+OOS	Ố	0
+OOCS	ỐC	0
+OOTS	ỐT	0
+OOPS	ỐP	0
+OONS	ỐN	0
+OONGS	ỐNG	0
+OOMS	ỐM	0
+OOIS	ỐI	0
+UOOIS	UỐI	0
+UOOSI	UỐI	0
+UOOCS	UỐC	0
+UOOSC	UỐC	0
+UOOTS	UỐT	0
+UOONS	UỐN	0
+UOONGS	UỐNG	0
+UOOMS	UỐM	0
+###
+OOTSS	OOTS	0
+###
+OOF	Ồ	0
+OOCF	ỒC	0
+OOTF	ỒT	0
+OOPF	ỒP	0
+OONF	ỒN	0
+OONGF	ỒNG	0
+OOMF	ỒM	0
+OOIF	ỒI	0
+UOOCF	UỒC	0
+UOOTF	UỒT	0
+UOONF	UỒN	0
+UOONGF	UỒNG	0
+UOOMF	UỒM	0
+###
+OOR	Ổ	0
+OOCR	ỔC	0
+OOTR	ỔT	0
+OOPR	ỔP	0
+OONR	ỔN	0
+OONGR	ỔNG	0
+OOMR	ỔM	0
+OOIR	ỔI	0
+UOOIR	UỔI	0
+UOOCR	UỔC	0
+UOOTR	UỔT	0
+UOONR	UỔN	0
+UOONGR	UỔNG	0
+UOOMR	UỔM	0
+###
+OOX	Ỗ	0
+OOCX	ỖC	0
+OOTX	ỖT	0
+OOPX	ỖP	0
+OONX	ỖN	0
+OONGX	ỖNG	0
+OOMX	ỖM	0
+OOIX	ỖI	0
+UOOIX	UỖI	0
+UOOCX	UỖC	0
+UOOTX	UỖT	0
+UOONX	UỖN	0
+UOONGX	UỖNG	0
+UOOMX	UỖM	0
+###
+OOJ	Ộ	0
+OOCJ	ỘC	0
+OOTJ	ỘT	0
+OOPJ	ỘP	0
+OONJ	ỘN	0
+OONGJ	ỘNG	0
+OOMJ	ỘM	0
+OOIJ	ỘI	0
+UOOIJ	UỘI	0
+UOOJI	UỘI	0
+UOOCJ	UỘC	0
+UOOJC	UỘC	0
+UOOTJ	UỘT	0
+UOONJ	UỘN	0
+UOONGJ	UỘNG	0
+UOOMJ	UỘM	0
+###
+OW	Ơ	0
+OWT	ƠT	0
+OWP	ƠP	0
+OWN	ƠN	0
+OWM	ƠM	0
+OWI	ƠI	0
+UOWC	ƯƠC	0
+WOWC	ƯƠC	0
+UWOWC	ƯƠC	0
+UOWI	ƯƠI	0
+WOWI	ƯƠI	0
+UWOWI	ƯƠI	0
+UOWT	ƯƠT	0
+WOWT	ƯƠT	0
+UWOWT	ƯƠT	0
+UOWP	ƯƠP	0
+WOWP	ƯƠP	0
+UWOWP	ƯƠP	0
+UOWN	ƯƠN	0
+WOWN	ƯƠN	0
+UWOWN	ƯƠN	0
+UOWM	ƯƠM	0
+WOWM	ƯƠM	0
+UWOWM	ƯƠM	0
+UWOWU	ƯƠU	0
+UOWNG	ƯƠNG	0
+WOWNG	ƯƠNG	0
+UWOWNG	ƯƠNG	0
+###
+OWW	OW	0
+WO	WO	0
+###
+OWS	Ớ	0
+OWTS	ỚT	0
+OWPS	ỚP	0
+OWNS	ỚN	0
+OWMS	ỚM	0
+OWIS	ỚI	0
+UOWS	ƯỚ	0
+WOWS	ƯỚ	0
+UWOWS	ƯỚ	0
+UOWCS	ƯỚC	0
+WOWCS	ƯỚC	0
+UWOWCS	ƯỚC	0
+UOWIS	ƯỚI	0
+WOWIS	ƯỚI	0
+UWOWIS	ƯỚI	0
+UOWTS	ƯỚT	0
+WOWTS	ƯỚT	0
+UWOWTS	ƯỚT	0
+UOWPS	ƯỚP	0
+WOWPS	ƯỚP	0
+UWOWPS	ƯỚP	0
+UOWNS	ƯỚN	0
+WOWNS	ƯỚN	0
+UWOWNS	ƯỚN	0
+UOWMS	ƯỚM	0
+WOWMS	ƯỚM	0
+UWOWMS	ƯỚM	0
+UWOWUS	ƯỚU	0
+UOWCS	ƯỚNG	0
+WOWNGS	ƯỚNG	0
+UWOWNGS	ƯỚNG	0
+###
+OWSS	OWS	0
+###
+OWF	Ờ	0
+OWTF	ỜT	0
+OWPF	ỜP	0
+OWNF	ỜN	0
+OWMF	ỜM	0
+OWIF	ỜI	0
+UOWF	ƯỜ	0
+WOWF	ƯỜ	0
+UWOWF	ƯỜ	0
+UOWTF	ƯỜT	0
+WOWTF	ƯỜT	0
+UWOWTF	ƯỜT	0
+UOWIF	ƯỜI	0
+WOWIF	ƯỜI	0
+UWOWIF	ƯỜI	0
+UOWPF	ƯỜP	0
+WOWPF	ƯỜP	0
+UWOWPF	ƯỜP	0
+UOWNF	ƯỜN	0
+WOWNF	ƯỜN	0
+UWOWNF	ƯỜN	0
+UOWMF	ƯỜM	0
+WOWMF	ƯỜM	0
+UWOWMF	ƯỜM	0
+UOWNGF	ƯỜNG	0
+WOWNGF	ƯỜNG	0
+UWOWNGF	ƯỜNG	0
+###
+OWFF	OWF	0
+###
+OWR	Ở	0
+OWTR	ỞT	0
+OWPR	ỞP	0
+OWNR	ỞN	0
+OWMR	ỞM	0
+OWIR	ỞI	0
+UOWR	ƯỞ	0
+WOWR	ƯỞ	0
+UWOWR	ƯỞ	0
+UOWTR	ƯỞT	0
+WOWTR	ƯỞT	0
+UWOWTR	ƯỞT	0
+UOWIR	ƯỞI	0
+WOWIR	ƯỞI	0
+UWOWIR	ƯỞI	0
+UOWPR	ƯỞP	0
+WOWPR	ƯỞP	0
+UWOWPR	ƯỞP	0
+UOWNR	ƯỞN	0
+WOWNR	ƯỞN	0
+UWOWNR	ƯỞN	0
+UOWMR	ƯỞM	0
+WOWMR	ƯỞM	0
+UWOWMR	ƯỞM	0
+UOWNGR	ƯỞNG	0
+WOWNGR	ƯỞNG	0
+UWOWNGR	ƯỞNG	0
+###
+OWRR	OWR	0
+###
+OWX	Ỡ	0
+OWTX	ỠT	0
+OWPX	ỠP	0
+OWNX	ỠN	0
+OWMX	ỠM	0
+OWIX	ỠI	0
+UOWX	ƯỠ	0
+WOWX	ƯỠ	0
+UWOWX	ƯỠ	0
+UOWTX	ƯỠT	0
+WOWTX	ƯỠT	0
+UWOWTX	ƯỠT	0
+UOWIX	ƯỠI	0
+WOWIX	ƯỠI	0
+UWOWIX	ƯỠI	0
+UOWPX	ƯỠP	0
+WOWPX	ƯỠP	0
+UWOWPX	ƯỠP	0
+UOWNX	ƯỠN	0
+WOWNX	ƯỠN	0
+UWOWNX	ƯỠN	0
+UOWMX	ƯỠM	0
+WOWMX	ƯỠM	0
+UWOWMX	ƯỠM	0
+UOWNGX	ƯỠNG	0
+WOWNGX	ƯỠNG	0
+UWOWNGX	ƯỠNG	0
+###
+OWXX	OWX	0
+###
+OWJ	Ợ	0
+OWTJ	ỢT	0
+OWPJ	ỢP	0
+OWNJ	ỢN	0
+OWMJ	ỢM	0
+OWIJ	ỢI	0
+UOWJ	ƯỢ	0
+WOWJ	ƯỢ	0
+UWOWJ	ƯỢ	0
+UOWTJ	ƯỢT	0
+WOWTJ	ƯỢT	0
+UWOWTJ	ƯỢT	0
+UOWIJ	ƯỢI	0
+WOWIJ	ƯỢI	0
+UWOWIJ	ƯỢI	0
+UOWPJ	ƯỢP	0
+WOWPJ	ƯỢP	0
+UWOWPJ	ƯỢP	0
+UOWCJ	ƯỢC	0
+WOWCJ	ƯỢC	0
+UWOWCJ	ƯỢC	0
+UOWNJ	ƯỢN	0
+WOWNJ	ƯỢN	0
+UWOWNJ	ƯỢN	0
+UOWMJ	ƯỢM	0
+WOWMJ	ƯỢM	0
+UWOWMJ	ƯỢM	0
+UWOWUJ	ƯỢU	0
+UOWNGJ	ƯỢNG	0
+WOWNGJ	ƯỢNG	0
+UWOWNGJ	ƯỢNG	0
+###
+OWJJ	OWJ	0
+###
+UI	UI	0
+UP	UP	0
+UT	UT	0
+UY	UY	0
+UA	UA	0
+UC	UC	0
+UN	UN	0
+UM	UM	0
+UNG	UNG	0
+UO	UO	0
+###
+US	Ú	0
+UIS	ÚI	0
+UPS	ÚP	0
+UTS	ÚT	0
+###UYS	ÚY	0
+UAS	ÚA	0
+UCS	ÚC	0
+UNS	ÚN	0
+UMS	ÚM	0
+UNGS	ÚNG	0
+###
+USS	US	0
+###
+UF	Ù	0
+UIF	ÙI	0
+###UYF	ÙY	0
+UAF	ÙA	0
+UNF	ÙN	0
+UMF	ÙM	0
+UNGF	ÙNG	0
+###
+UFF	UF	0
+UIFF	UIF	0
+UAFF	UAF	0
+UNFF	UNF	0
+UMFF	UMF	0
+###
+UR	Ủ	0
+UIR	ỦI	0
+###UYR	ỦY	0
+UAR	ỦA	0
+UNR	ỦN	0
+UMR	ỦM	0
+UNGR	ỦNG	0
+###
+URR	UR	0
+UNRR	UNR	0
+UMRR	UMR	0
+###
+UX	Ũ	0
+UIX	ŨI	0
+###UYX	ŨY	0
+UAX	ŨA	0
+UNX	ŨN	0
+UMX	ŨM	0
+UNGX	ŨNG	0
+###
+UXX	UX	0
+UAXX	UAX	0
+UNXX	UNX	0
+UMXX	UMX	0
+###
+UJ	Ụ	0
+UIJ	ỤI	0
+###UYJ	ỤY	0
+UAJ	ỤA	0
+UNJ	ỤN	0
+UMJ	ỤM	0
+UNGJ	ỤNG	0
+UTJ	ỤT	0
+UCJ	ỤC	0
+UPJ	ỤP	0
+###
+UJJ	UJ	0
+UNJJ	UNJ	0
+UMJJ	UMJ	0
+###
+UW	Ư	0
+UWI	ƯI	0
+UWA	ƯA	0
+UWN	ƯN	0
+###UWM	ƯM	0
+UWNG	ƯNG	0
+###UWT	ƯT	0
+UWC	ƯC	0
+###UWP	ƯP	0
+UWU	ƯU	0
+###
+UWW	UW	0
+###
+UWS	Ứ	0
+UWAS	ỨA	0
+UWNGS	ỨNG	0
+UWTS	ỨT	0
+UWCS	ỨC	0
+UWUS	ỨU	0
+###
+UWF	Ừ	0
+UWAF	ỪA	0
+UWNGF	ỪNG	0
+UWUF	ỪU	0
+###
+UWR	Ử	0
+UWIR	ỬI	0
+UWAR	ỬA	0
+UWNGR	ỬNG	0
+UWUR	ỬU	0
+###
+UWX	Ữ	0
+UWAX	ỮA	0
+UWNX	ỮN	0
+UWNGX	ỮNG	0
+UWUX	ỮU	0
+###
+UWJ	Ự	0
+UWAJ	ỰA	0
+UWNGJ	ỰNG	0
+UWUJ	ỰU	0
+UWCJ	ỰC	0
+###
+GI	GI	0
+###
+IA	IA	0
+IT	IT	0
+IP	IP	0
+IC	IC	0
+IN	IN	0
+IU	IU	0
+IM	IM	0
+INH	INH	0
+ICH	ICH	0
+###
+IS	Í	0
+IAS	ÍA	0
+ICS	ÍC	0
+ITS	ÍT	0
+IPS	ÍP	0
+ICHS	ÍCH	0
+INS	ÍN	0
+IUS	ÍU	0
+IMS	ÍM	0
+INHS	ÍNH	0
+###
+ISS	IS	0
+IASS	IAS	0
+ICSS	ICS	0
+ITSS	ITS	0
+INSS	INS	0
+IPSS	IPS	0
+###
+IF	Ì	0
+IAF	ÌA	0
+INF	ÌN	0
+IMF	ÌM	0
+INHF	ÌNH	0
+IUF	ÌU	0
+GIF	GÌ	0
+###
+IFF	IF	0
+IAFF	IAF	0
+INFF	INF	0
+IMFF	IMF	0
+IUFF	IUF	0
+GIFF	GIF	0
+###
+IR	Ỉ	0
+IAR	ỈA	0
+INR	ỈN	0
+IMR	ỈM	0
+INHR	ỈNH	0
+IUR	ỈU	0
+GIR	GỈ	0
+###
+IRR	IR	0
+IARR	IAR	0
+INRR	INR	0
+IMRR	IMR	0
+INHRR	INHR	0
+IURR	IUR	0
+GIRR	GIR	0
+###
+IX	Ĩ	0
+IAX	ĨA	0
+INX	ĨN	0
+IMX	ĨM	0
+INHX	ĨNH	0
+IUX	ĨU	0
+###
+IXX	IX	0
+IAXX	IAX	0
+INXX	INX	0
+IMXX	IMX	0
+INHXX	INHX	0
+IUXX	IUX	0
+###
+IJ	Ị	0
+IAJ	ỊA	0
+INJ	ỊN	0
+IMJ	ỊM	0
+IPJ	ỊP	0
+INHJ	ỊNH	0
+ITJ	ỊT	0
+ICHJ	ỊCH	0
+ICJH	ỊCH	0
+IUJ	ỊU	0
+###
+ICJJ	ICJ	0
+INJJ	INJ	0
+IPJJ	IPJ	0
+ITJJ	ITJ	0
+ICHJJ	ICHJ	0
+IUJJ	IUJ	0
+###
+UY	UY	0
+UYNH	UYNH	0
+UYT	UYT	0
+UYCH	UYCH	0
+###
+YS	Ý	0
+YNHS	ÝNH	0
+UYS	UÝ	0
+UYNHS	UÝNH	0
+UYTS	UÝT	0
+UYCHS	UÝCH	0
+###
+YSS	YS	0
+###
+YF	Ỳ	0
+YNHF	ỲNH	0
+UYF	UỲ	0
+UYNHF	UỲNH	0
+###UYTF	UỲT	0
+UYCHF	UỲCH	0
+###
+YR	Ỷ	0
+UYR	UỶ	0
+###UYNHR	UỶNH	0
+###UYTR	UỶT	0
+UYCHR	UỶCH	0
+###
+YX	Ỹ	0
+UYX	UỸ	0
+###
+YJ	Ỵ	0
+UYJ	UỴ	0
+UYTJ	UỴT	0
+UYCHJ	UỴCH	0
+###
+DD	Đ	0
+DDD	DD	0
+QU	QU	0
+###
+### Chu dau tien hoa
+Ac	Ac	0
+Au	Au	0
+Ai	Ai	0
+Ao	Ao	0
+Oa	Oa	0
+An	An	0
+Anh	Anh	0
+Ang	Ang	0
+Am	Am	0
+Ap	Ap	0
+At	At	0
+Ay	Ay	0
+Oac	Oac	0
+Oach	Oach	0
+Oai	Oai	0
+Oat	Oat	0
+Oan	Oan	0
+Oanh	Oanh	0
+Oang	Oang	0
+###
+As	Á	0
+Acs	Ác	0
+Achs	Ách	0
+Ats	Át	0
+Aps	Áp	0
+Aus	Áu	0
+Ais	Ái	0
+Aos	Áo	0
+Oas	Oá	0
+Ans	Án	0
+Anhs	Ánh	0
+Angs	Áng	0
+Ams	Ám	0
+Ays	Áy	0
+Oacs	Oác	0
+Oachs	Oách	0
+Oais	Oái	0
+Oats	Oát	0
+Oans	Oán	0
+Oanhs	Oánh	0
+Oangs	Oáng	0
+###
+Oass	Oas	0
+Ass	As	0
+Auss	Aus	0
+Apss	Aps	0
+Amss	Ams	0
+Anss	Ans	0
+Oacss	Oacs	0
+Achss	Achs	0
+Apss	Aps	0
+###
+Af	À	0
+Acf	Àc	0
+Achf	Àch	0
+Atf	Àt	0
+Apf	Àp	0
+Auf	Àu	0
+Aif	Ài	0
+Aof	Ào	0
+Oaf	Oà	0
+Anf	Àn	0
+Anhf	Ành	0
+Angf	Àng	0
+Amf	Àm	0
+Ay	Ay	0
+Ayf	Ày	0
+Oacf	Oàc	0
+Oachf	Oàch	0
+Oaif	Oài	0
+Oatf	Oàt	0
+Oanf	Oàn	0
+Oanhf	Oành	0
+Oangf	Oàng	0
+###
+Aff	Af	0
+###
+Ar	Ả	0
+Acr	Ảc	0
+Achr	Ảch	0
+Atr	Ảt	0
+Apr	Ảp	0
+Aur	Ảu	0
+Air	Ải	0
+Aor	Ảo	0
+Oar	Oả	0
+Anr	Ản	0
+Anhr	Ảnh	0
+Angr	Ảng	0
+Amr	Ảm	0
+Ayr	Ảy	0
+Oacr	Oảc	0
+Oachr	Oảch	0
+Oair	Oải	0
+Oatr	Oảt	0
+Oanr	Oản	0
+Oanhr	Oảnh	0
+Oangr	Oảng	0
+###
+Arr	Ar	0
+Acrr	Acr	0
+Atrr	Atr	0
+Aurr	Aur	0
+###
+Ax	Ã	0
+Acx	Ãc	0
+Achx	Ãch	0
+Atx	Ãt	0
+Apx	Ãp	0
+Aux	Ãu	0
+Aix	Ãi	0
+Aox	Ão	0
+Oax	Oã	0
+Anx	Ãn	0
+Anhx	Ãnh	0
+Angx	Ãng	0
+Amx	Ãm	0
+Ayx	Ãy	0
+Oacx	Oãc	0
+Oachx	Oãch	0
+Oaix	Oãi	0
+Oatx	Oãt	0
+Oanx	Oãn	0
+Oanhx	Oãnh	0
+Oangx	Oãng	0
+###
+Axx	Ax	0
+Auxx	Aux	0
+Aixx	Aix	0
+Atxx	Atx	0
+###
+Aj	Ạ	0
+Acj	Ạc	0
+Achj	Ạch	0
+Atj	Ạt	0
+Apj	Ạp	0
+Auj	Ạu	0
+Aij	Ại	0
+Aoj	Ạo	0
+Oaj	Oạ	0
+Anj	Ạn	0
+Anhj	Ạnh	0
+Angj	Ạng	0
+Amj	Ạm	0
+Ayj	Ạy	0
+Oacj	Oạc	0
+Oachj	Oạch	0
+Oaij	Oại	0
+Oatj	Oạt	0
+Oanj	Oạn	0
+Oangj	Oạnh	0
+Oanhj	Oạng	0
+###
+Ajj	Aj	0
+Acjj	Acj	0
+###
+Aa	Â	0
+Aam	Âm	0
+Aau	Âu	0
+Aan	Ân	0
+Aay	Ây	0
+Aang	Âng	0
+Uaat	Uât	0
+Uaan	Uân	0
+Uaang	Uâng	0
+###
+Aaa	Aa	0
+###
+Aas	Ấ	0
+Aacs	Ấc	0
+Aats	Ất	0
+Aaps	Ấp	0
+Aaus	Ấu	0
+Aans	Ấn	0
+Aangs	Ấng	0
+Aams	Ấm	0
+Aays	Ấy	0
+Uaats	Uất	0
+Uaans	Uấn	0
+Uaangs	Uấng	0
+###
+Aaf	Ầ	0
+Aacf	Ầc	0
+Aatf	Ầt	0
+Aapf	Ầp	0
+Aauf	Ầu	0
+Aanf	Ần	0
+Aangf	Ầng	0
+Aamf	Ầm	0
+Aayf	Ầy	0
+Uaatf	Uầt	0
+Uaanf	Uần	0
+Uaangf	Uầng	0
+###
+Aar	Ẩ	0
+Aacr	Ẩc	0
+Aatr	Ẩt	0
+Aapr	Ẩp	0
+Aaur	Ẩu	0
+Aanr	Ẩn	0
+Aangr	Ẩng	0
+Aamr	Ẩm	0
+Aayr	Ẩy	0
+Uaatr	Uẩt	0
+Uaanr	Uẩn	0
+Uaangr	Uẩng	0
+###
+Aax	Ẫ	0
+Aacx	Ẫc	0
+Aatx	Ẫt	0
+Aapx	Ẫp	0
+Aaux	Ẫu	0
+Aanx	Ẫn	0
+Aangx	Ẫng	0
+Aamx	Ẫm	0
+Aayx	Ẫy	0
+Uaatx	Uẫt	0
+Uaanx	Uẫn	0
+Uaangx	Uẫng	0
+###
+Aaj	Ậ	0
+Aacj	Ậc	0
+Aatj	Ật	0
+Aapj	Ập	0
+Aauj	Ậu	0
+Aanj	Ận	0
+Aangj	Ậng	0
+Aamj	Ậm	0
+Aayj	Ậy	0
+Uaatj	Uật	0
+Uaanj	Uận	0
+Uaangj	Uậng	0
+###
+Aw	Ă	0
+Awn	Ăn	0
+Awng	Ăng	0
+Awm	Ăm	0
+Oawn	Oăn	0
+Oawt	Oăt	0
+###
+Aww	Aw	0
+###
+Aws	Ắ	0
+Awcs	Ắc	0
+Awts	Ắt	0
+Awps	Ắp	0
+Awns	Ắn	0
+Awngs	Ắng	0
+Awms	Ắm	0
+Oaws	Oắ	0
+Oawns	Oắn	0
+Oawts	Oắt	0
+Oawcs	Oắc	0
+###
+Awf	Ằ	0
+Awcf	Ằc	0
+Awtf	Ằt	0
+Awpf	Ằp	0
+Awnf	Ằn	0
+Awngf	Ằng	0
+Awmf	Ằm	0
+Oawf	Oằ	0
+Oawnf	Oằn	0
+Oawtf	Oằt	0
+###
+Awr	Ẳ	0
+Awcr	Ẳc	0
+Awtr	Ẳt	0
+Awpr	Ẳp	0
+Awnr	Ẳn	0
+Awngr	Ẳng	0
+Awmr	Ẳm	0
+Oawr	Oẳ	0
+Oawnr	Oẳn	0
+Oawtr	Oẳt	0
+###
+Awx	Ẵ	0
+Awcx	Ẵc	0
+Awtx	Ẵt	0
+Awpx	Ẵp	0
+Awnx	Ẵn	0
+Awngx	Ẵng	0
+Awmx	Ẵm	0
+Oawx	Oẵ	0
+Oawnx	Oẵn	0
+Oawtx	Oẵt	0
+###
+Awj	Ặ	0
+Awcj	Ặc	0
+Awtj	Ặt	0
+Awpj	Ặp	0
+Awnj	Ặn	0
+Awngj	Ặng	0
+Awmj	Ặm	0
+Oawj	Oặ	0
+Oawnj	Oặn	0
+Oawtj	Oặt	0
+Oawcj	Oặc	0
+###
+Eo	Eo	0
+Oe	Oe	0
+En	En	0
+Em	Em	0
+Et	Et	0
+Ec	Ec	0
+Ep	Ep	0
+###
+Es	É	0
+Ecs	Éc	0
+Ets	Ét	0
+Eps	Ép	0
+Eos	Éo	0
+Oes	Oé	0
+Oets	Oét	0
+Ens	Én	0
+Ems	Ém	0
+###
+Ess	Es	0
+Ecss	Ecs	0
+Etss	Ets	0
+Epss	Eps	0
+Enss	Ens	0
+Emss	Ems	0
+###
+Ef	È	0
+Ecf	Èc	0
+Etf	Èt	0
+Epf	Èp	0
+Eof	Èo	0
+Oef	Oè	0
+Enf	Èn	0
+Emf	Èm	0
+###
+Eff	Ef	0
+Ecff	Ecf	0
+Etff	Etf	0
+Oeff	Oef	0
+###
+Er	Ẻ	0
+Ecr	Ẻc	0
+Etr	Ẻt	0
+Epr	Ẻp	0
+Eor	Ẻo	0
+Oer	Oẻ	0
+Enr	Ẻn	0
+Emr	Ẻm	0
+###
+Err	Er	0
+Ecrr	Ecr	0
+Etrr	Etr	0
+Oerr	Oer	0
+###
+Ex	Ẽ	0
+Ecx	Ẽc	0
+Etx	Ẽt	0
+Epx	Ẽp	0
+Eox	Ẽo	0
+Oex	Oẽ	0
+Enx	Ẽn	0
+Emx	Ẽm	0
+###
+Exx	Ex	0
+###
+Ej	Ẹ	0
+Ecj	Ẹc	0
+Etj	Ẹt	0
+Epj	Ẹp	0
+Eoj	Ẹo	0
+Oej	Oẹ	0
+Enj	Ẹn	0
+Emj	Ẹm	0
+###
+Ejj	Ej	0
+###
+Ee	Ê	0
+Eeu	Êu	0
+Een	Ên	0
+Eenh	Ênh	0
+Eem	Êm	0
+Ieen	Iên	0
+Ieeng	Iêng	0
+Ieem	Iêm	0
+Ieec	Iêc	0
+Ieeu	Iêu	0
+Ieep	Iêp	0
+Yeen	Yên	0
+Yeeng	Yêng	0
+Yeem	Yêm	0
+Yeet	Yêt	0
+Yeeu	Yêu	0
+Uyeet	Uyêt	0
+Uyeen	Uyên	0
+###
+Eee	Ee	0
+Ie	Ie	0
+Ye	Ye	0
+###
+Ees	Ế	0
+Eets	Ết	0
+Eeus	Ếu	0
+Eeps	Ếp	0
+Eechs	Ếch	0
+Eens	Ến	0
+Eems	Ếm	0
+Iees	Iế	0
+Ieets	Iết	0
+Ieest	Iết	0
+Ieens	Iến	0
+Eengs	Ếng	0
+Ieengs	Iếng	0
+Ieems	Iếm	0
+Ieecs	Iếc	0
+Ieeus	Iếu	0
+Ieeps	Iếp	0
+Yees	Yế	0
+Yeens	Yến	0
+Yeengs	Yếng	0
+Yeems	Yếm	0
+Yeets	Yết	0
+Yeest	Yết	0
+Yeeus	Yếu	0
+Uyees	Uyế	0
+Uyeets	Uyết	0
+Uyeens	Uyến	0
+###
+Ie	Ie	0
+Eess	Ees	0
+Eenss	Eens	0
+Eetss	Eets	0
+Eepss	Eeps	0
+###
+Eef	Ề	0
+Eeuf	Ều	0
+Eepf	Ềp	0
+Eenf	Ền	0
+Eenhf	Ềnh	0
+Eemf	Ềm	0
+Ieef	Iề	0
+Ieenf	Iền	0
+Ieengf	Iềng	0
+Ieemf	Iềm	0
+Ieecf	Iềc	0
+Ieeuf	Iều	0
+Ieepf	Iềp	0
+Yeef	Yề	0
+Yeenf	Yền	0
+Yeengf	Yềng	0
+Yeemf	Yềm	0
+Yeetf	Yềt	0
+Yeeuf	Yều	0
+Uyeef	Uyề	0
+Uyeetf	Uyềt	0
+Uyeenf	Uyền	0
+###
+Eer	Ể	0
+Eetr	Ểt	0
+Eeur	Ểu	0
+Eepr	Ểp	0
+Eenr	Ển	0
+Eenhr	Ểnh	0
+Eemr	Ểm	0
+Ieer	Iể	0
+Ieenr	Iển	0
+Ieengr	Iểng	0
+Ieemr	Iểm	0
+Ieecr	Iểc	0
+Ieeur	Iểu	0
+Ieepr	Iểp	0
+Yeenr	Yển	0
+Yeengr	Yểng	0
+Yeemr	Yểm	0
+Yeetr	Yểt	0
+Yeeur	Yểu	0
+Uyeetr	Uyểt	0
+Uyeenr	Uyển	0
+Uyeern	Uyển	0
+###
+Eerr	Eer	0
+###
+Eex	Ễ	0
+Eetx	Ễt	0
+Eeux	Ễu	0
+Eepx	Ễp	0
+Eenx	Ễn	0
+Eemx	Ễm	0
+Ieex	Iễ	0
+Ieenx	Iễn	0
+Ieengx	Iễng	0
+Ieemx	Iễm	0
+Ieecx	Iễc	0
+Ieeux	Iễu	0
+Ieepx	Iễp	0
+Yeenx	Yễn	0
+Yeengx	Yễng	0
+Yeemx	Yễm	0
+Yeetx	Yễt	0
+Yeeux	Yễu	0
+Uyeetx	Uyễt	0
+Uyeenx	Uyễn	0
+Uyeexn	Uyễn	0
+###
+Eej	Ệ	0
+Eetj	Ệt	0
+Eeuj	Ệu	0
+Eepj	Ệp	0
+Eenj	Ện	0
+Eenhj	Ệnh	0
+Eechj	Ệch	0
+Eecjh	Ệch	0
+Eemj	Ệm	0
+Ieej	Iệ	0
+Ieetj	Iệt	0
+Ieejt	Iệt	0
+Ieenj	Iện	0
+Ieengj	Iệng	0
+Ieemj	Iệm	0
+Ieecj	Iệc	0
+Ieeuj	Iệu	0
+Ieepj	Iệp	0
+Yeenj	Yện	0
+Yeengj	Yệng	0
+Yeemj	Yệm	0
+Yeetj	Yệt	0
+Yeeuj	Yệu	0
+Uyeetj	Uyệt	0
+Uyeenj	Uyện	0
+Uyeejn	Uyện	0
+###
+Oi	Oi	0
+Ooo	Oo	0
+Oc	Oc	0
+On	On	0
+Ong	Ong	0
+Om	Om	0
+Ot	Ot	0
+Op	Op	0
+###
+Os	Ó	0
+Ots	Ót	0
+Ois	Ói	0
+Ooos	Oó	0
+Ops	Óp	0
+Ocs	Óc	0
+Ons	Ón	0
+Ongs	Óng	0
+Oms	Óm	0
+###
+Oss	Os	0
+Otss	Ots	0
+Oiss	Ois	0
+Opss	Ops	0
+Onss	Ons	0
+Omss	Oms	0
+###
+Of	Ò	0
+###Oef	Òe	0
+Otf	Òt	0
+Oif	Òi	0
+Ooof	Oò	0
+Opf	Òp	0
+###Oaf	Òa	0
+Ocf	Òc	0
+Onf	Òn	0
+Ongf	Òng	0
+Omf	Òm	0
+###
+Off	Of	0
+Otff	Otf	0
+Opff	Opf	0
+Onff	Onf	0
+Omff	Omf	0
+###
+Or	Ỏ	0
+###Oer	Ỏe	0
+Otr	Ỏt	0
+Oir	Ỏi	0
+Ooor	Oỏ	0
+Opr	Ỏp	0
+###Oar	Ỏa	0
+Ocr	Ỏc	0
+Onr	Ỏn	0
+Ongr	Ỏng	0
+Omr	Ỏm	0
+###
+Orr	Or	0
+###
+Ox	Õ	0
+###Oex	Õe	0
+Otx	Õt	0
+Oix	Õi	0
+Ooox	Oõ	0
+Opx	Õp	0
+###Oax	Õa	0
+Ocx	Õc	0
+Onx	Õn	0
+Ongx	Õng	0
+Omx	Õm	0
+###
+Oxx	Ox	0
+###
+Oj	Ọ	0
+###Oej	Ọe	0
+Otj	Ọt	0
+Oij	Ọi	0
+Oooj	Oọ	0
+Opj	Ọp	0
+###Oaj	Ọa	0
+Ocj	Ọc	0
+Onj	Ọn	0
+Ongj	Ọng	0
+Omj	Ọm	0
+###
+Oo	Ô	0
+Ooc	Ôc	0
+Oot	Ôt	0
+Oop	Ôp	0
+Oon	Ôn	0
+Oong	Ông	0
+Oom	Ôm	0
+Ooi	Ôi	0
+Uooi	Uôi	0
+Uooc	Uôc	0
+Uoot	Uôt	0
+Uoon	Uôn	0
+Uoong	Uông	0
+Uoom	Uôm	0
+###
+Oos	Ố	0
+Oocs	Ốc	0
+Oots	Ốt	0
+Oops	Ốp	0
+Oons	Ốn	0
+Oongs	Ống	0
+Ooms	Ốm	0
+Oois	Ối	0
+Uoois	Uối	0
+Uoosi	Uối	0
+Uoocs	Uốc	0
+Uoosc	Uốc	0
+Uoots	Uốt	0
+Uoons	Uốn	0
+Uoongs	Uống	0
+Uooms	Uốm	0
+###
+Ootss	Oots	0
+###
+Oof	Ồ	0
+Oocf	Ồc	0
+Ootf	Ồt	0
+Oopf	Ồp	0
+Oonf	Ồn	0
+Oongf	Ồng	0
+Oomf	Ồm	0
+Ooif	Ồi	0
+Uoocf	Uồc	0
+Uootf	Uồt	0
+Uoonf	Uồn	0
+Uoongf	Uồng	0
+Uoomf	Uồm	0
+###
+Oor	Ổ	0
+Oocr	Ổc	0
+Ootr	Ổt	0
+Oopr	Ổp	0
+Oonr	Ổn	0
+Oongr	Ổng	0
+Oomr	Ổm	0
+Ooir	Ổi	0
+Uooir	Uổi	0
+Uoocr	Uổc	0
+Uootr	Uổt	0
+Uoonr	Uổn	0
+Uoongr	Uổng	0
+Uoomr	Uổm	0
+###
+Oox	Ỗ	0
+Oocx	Ỗc	0
+Ootx	Ỗt	0
+Oopx	Ỗp	0
+Oonx	Ỗn	0
+Oongx	Ỗng	0
+Oomx	Ỗm	0
+Ooix	Ỗi	0
+Uooix	Uỗi	0
+Uoocx	Uỗc	0
+Uootx	Uỗt	0
+Uoonx	Uỗn	0
+Uoongx	Uỗng	0
+Uoomx	Uỗm	0
+###
+Ooj	Ộ	0
+Oocj	Ộc	0
+Ootj	Ột	0
+Oopj	Ộp	0
+Oonj	Ộn	0
+Oongj	Ộng	0
+Oomj	Ộm	0
+Ooij	Ội	0
+Uooij	Uội	0
+Uooji	Uội	0
+Uoocj	Uộc	0
+Uoojc	Uộc	0
+Uootj	Uột	0
+Uoonj	Uộn	0
+Uoongj	Uộng	0
+Uoomj	Uộm	0
+###
+Ow	Ơ	0
+Owt	Ơt	0
+Owp	Ơp	0
+Own	Ơn	0
+Owm	Ơm	0
+Owi	Ơi	0
+Uowc	Ươc	0
+Wowc	Ươc	0
+Uwowc	Ươc	0
+Uowi	Ươi	0
+Wowi	Ươi	0
+Uwowi	Ươi	0
+Uowt	Ươt	0
+Wowt	Ươt	0
+Uwowt	Ươt	0
+Uowp	Ươp	0
+Wowp	Ươp	0
+Uwowp	Ươp	0
+Uown	Ươn	0
+Wown	Ươn	0
+Uwown	Ươn	0
+Uowm	Ươm	0
+Wowm	Ươm	0
+Uwowm	Ươm	0
+Uwowu	Ươu	0
+Uowng	Ương	0
+Wowng	Ương	0
+Uwowng	Ương	0
+###
+Oww	Ow	0
+Wo	Wo	0
+###
+Ows	Ớ	0
+Owts	Ớt	0
+Owps	Ớp	0
+Owns	Ớn	0
+Owms	Ớm	0
+Owis	Ới	0
+Uows	Ướ	0
+Wows	Ướ	0
+Uwows	Ướ	0
+Uowcs	Ước	0
+Wowcs	Ước	0
+Uwowcs	Ước	0
+Uowis	Ưới	0
+Wowis	Ưới	0
+Uwowis	Ưới	0
+Uowts	Ướt	0
+Wowts	Ướt	0
+Uwowts	Ướt	0
+Uowps	Ướp	0
+Wowps	Ướp	0
+Uwowps	Ướp	0
+Uowns	Ướn	0
+Wowns	Ướn	0
+Uwowns	Ướn	0
+Uowms	Ướm	0
+Wowms	Ướm	0
+Uwowms	Ướm	0
+Uwowus	Ướu	0
+Uowcs	Ướng	0
+Wowngs	Ướng	0
+Uwowngs	Ướng	0
+###
+Owss	Ows	0
+###
+Owf	Ờ	0
+Owtf	Ờt	0
+Owpf	Ờp	0
+Ownf	Ờn	0
+Owmf	Ờm	0
+Owif	Ời	0
+Uowf	Ườ	0
+Wowf	Ườ	0
+Uwowf	Ườ	0
+Uowtf	Ườt	0
+Wowtf	Ườt	0
+Uwowtf	Ườt	0
+Uowif	Ười	0
+Wowif	Ười	0
+Uwowif	Ười	0
+Uowpf	Ườp	0
+Wowpf	Ườp	0
+Uwowpf	Ườp	0
+Uownf	Ườn	0
+Wownf	Ườn	0
+Uwownf	Ườn	0
+Uowmf	Ườm	0
+Wowmf	Ườm	0
+Uwowmf	Ườm	0
+Uowngf	Ường	0
+Wowngf	Ường	0
+Uwowngf	Ường	0
+###
+Owff	Owf	0
+###
+Owr	Ở	0
+Owtr	Ởt	0
+Owpr	Ởp	0
+Ownr	Ởn	0
+Owmr	Ởm	0
+Owir	Ởi	0
+Uowr	Ưở	0
+Wowr	Ưở	0
+Uwowr	Ưở	0
+Uowtr	Ưởt	0
+Wowtr	Ưởt	0
+Uwowtr	Ưởt	0
+Uowir	Ưởi	0
+Wowir	Ưởi	0
+Uwowir	Ưởi	0
+Uowpr	Ưởp	0
+Wowpr	Ưởp	0
+Uwowpr	Ưởp	0
+Uownr	Ưởn	0
+Wownr	Ưởn	0
+Uwownr	Ưởn	0
+Uowmr	Ưởm	0
+Wowmr	Ưởm	0
+Uwowmr	Ưởm	0
+Uowngr	Ưởng	0
+Wowngr	Ưởng	0
+Uwowngr	Ưởng	0
+###
+Owrr	Owr	0
+###
+Owx	Ỡ	0
+Owtx	Ỡt	0
+Owpx	Ỡp	0
+Ownx	Ỡn	0
+Owmx	Ỡm	0
+Owix	Ỡi	0
+Uowx	Ưỡ	0
+Wowx	Ưỡ	0
+Uwowx	Ưỡ	0
+Uowtx	Ưỡt	0
+Wowtx	Ưỡt	0
+Uwowtx	Ưỡt	0
+Uowix	Ưỡi	0
+Wowix	Ưỡi	0
+Uwowix	Ưỡi	0
+Uowpx	Ưỡp	0
+Wowpx	Ưỡp	0
+Uwowpx	Ưỡp	0
+Uownx	Ưỡn	0
+Wownx	Ưỡn	0
+Uwownx	Ưỡn	0
+Uowmx	Ưỡm	0
+Wowmx	Ưỡm	0
+Uwowmx	Ưỡm	0
+Uowngx	Ưỡng	0
+Wowngx	Ưỡng	0
+Uwowngx	Ưỡng	0
+###
+Owxx	Owx	0
+###
+Owj	Ợ	0
+Owtj	Ợt	0
+Owpj	Ợp	0
+Ownj	Ợn	0
+Owmj	Ợm	0
+Owij	Ợi	0
+Uowj	Ượ	0
+Wowj	Ượ	0
+Uwowj	Ượ	0
+Uowtj	Ượt	0
+Wowtj	Ượt	0
+Uwowtj	Ượt	0
+Uowij	Ượi	0
+Wowij	Ượi	0
+Uwowij	Ượi	0
+Uowpj	Ượp	0
+Wowpj	Ượp	0
+Uwowpj	Ượp	0
+Uowcj	Ược	0
+Wowcj	Ược	0
+Uwowcj	Ược	0
+Uownj	Ượn	0
+Wownj	Ượn	0
+Uwownj	Ượn	0
+Uowmj	Ượm	0
+Wowmj	Ượm	0
+Uwowmj	Ượm	0
+Uwowuj	Ượu	0
+Uowngj	Ượng	0
+Wowngj	Ượng	0
+Uwowngj	Ượng	0
+###
+Owjj	Owj	0
+###
+Ui	Ui	0
+Up	Up	0
+Ut	Ut	0
+Uy	Uy	0
+Ua	Ua	0
+Uc	Uc	0
+Un	Un	0
+Um	Um	0
+Ung	Ung	0
+Uo	Uo	0
+###
+Us	Ú	0
+Uis	Úi	0
+Ups	Úp	0
+Uts	Út	0
+###Uys	Úy	0
+Uas	Úa	0
+Ucs	Úc	0
+Uns	Ún	0
+Ums	Úm	0
+Ungs	Úng	0
+###
+Uss	Us	0
+###
+Uf	Ù	0
+Uif	Ùi	0
+###Uyf	Ùy	0
+Uaf	Ùa	0
+Unf	Ùn	0
+Umf	Ùm	0
+Ungf	Ùng	0
+###
+Uff	Uf	0
+Uiff	Uif	0
+Uaff	Uaf	0
+Unff	Unf	0
+Umff	Umf	0
+###
+Ur	Ủ	0
+Uir	Ủi	0
+###Uyr	Ủy	0
+Uar	Ủa	0
+Unr	Ủn	0
+Umr	Ủm	0
+Ungr	Ủng	0
+###
+Urr	Ur	0
+Unrr	Unr	0
+Umrr	Umr	0
+###
+Ux	Ũ	0
+Uix	Ũi	0
+###Uyx	Ũy	0
+Uax	Ũa	0
+Unx	Ũn	0
+Umx	Ũm	0
+Ungx	Ũng	0
+###
+Uxx	Ux	0
+Uaxx	Uax	0
+Unxx	Unx	0
+Umxx	Umx	0
+###
+Uj	Ụ	0
+Uij	Ụi	0
+###Uyj	Ụy	0
+Uaj	Ụa	0
+Unj	Ụn	0
+Umj	Ụm	0
+Ungj	Ụng	0
+Utj	Ụt	0
+Ucj	Ục	0
+Upj	Ụp	0
+###
+Ujj	Uj	0
+Unjj	Unj	0
+Umjj	Umj	0
+###
+Uw	Ư	0
+Uwi	Ưi	0
+Uwa	Ưa	0
+Uwn	Ưn	0
+###Uwm	Ưm	0
+Uwng	Ưng	0
+###Uwt	Ưt	0
+Uwc	Ưc	0
+###Uwp	Ưp	0
+Uwu	Ưu	0
+###
+Uww	Uw	0
+###
+Uws	Ứ	0
+Uwas	Ứa	0
+Uwngs	Ứng	0
+Uwts	Ứt	0
+Uwcs	Ức	0
+Uwus	Ứu	0
+###
+Uwf	Ừ	0
+Uwaf	Ừa	0
+Uwngf	Ừng	0
+Uwuf	Ừu	0
+###
+Uwr	Ử	0
+Uwir	Ửi	0
+Uwar	Ửa	0
+Uwngr	Ửng	0
+Uwur	Ửu	0
+###
+Uwx	Ữ	0
+Uwax	Ữa	0
+Uwnx	Ữn	0
+Uwngx	Ững	0
+Uwux	Ữu	0
+###
+Uwj	Ự	0
+Uwaj	Ựa	0
+Uwngj	Ựng	0
+Uwuj	Ựu	0
+Uwcj	Ực	0
+###
+Gi	Gi	0
+###
+Ia	Ia	0
+It	It	0
+Ip	Ip	0
+Ic	Ic	0
+In	In	0
+Iu	Iu	0
+Im	Im	0
+Inh	Inh	0
+Ich	Ich	0
+###
+Is	Í	0
+Ias	Ía	0
+Ics	Íc	0
+Its	Ít	0
+Ips	Íp	0
+Ichs	Ích	0
+Ins	Ín	0
+Ius	Íu	0
+Ims	Ím	0
+Inhs	Ính	0
+###
+Iss	Is	0
+Iass	Ias	0
+Icss	Ics	0
+Itss	Its	0
+Inss	Ins	0
+Ipss	Ips	0
+###
+If	Ì	0
+Iaf	Ìa	0
+Inf	Ìn	0
+Imf	Ìm	0
+Inhf	Ình	0
+Iuf	Ìu	0
+Gif	Gì	0
+###
+Iff	If	0
+Iaff	Iaf	0
+Inff	Inf	0
+Imff	Imf	0
+Iuff	Iuf	0
+Giff	Gif	0
+###
+Ir	Ỉ	0
+Iar	Ỉa	0
+Inr	Ỉn	0
+Imr	Ỉm	0
+Inhr	Ỉnh	0
+Iur	Ỉu	0
+Gir	Gỉ	0
+###
+Irr	Ir	0
+Iarr	Iar	0
+Inrr	Inr	0
+Imrr	Imr	0
+Inhrr	Inhr	0
+Iurr	Iur	0
+Girr	Gir	0
+###
+Ix	Ĩ	0
+Iax	Ĩa	0
+Inx	Ĩn	0
+Imx	Ĩm	0
+Inhx	Ĩnh	0
+Iux	Ĩu	0
+###
+Ixx	Ix	0
+Iaxx	Iax	0
+Inxx	Inx	0
+Imxx	Imx	0
+Inhxx	Inhx	0
+Iuxx	Iux	0
+###
+Ij	Ị	0
+Iaj	Ịa	0
+Inj	Ịn	0
+Imj	Ịm	0
+Ipj	Ịp	0
+Inhj	Ịnh	0
+Itj	Ịt	0
+Ichj	Ịch	0
+Icjh	Ịch	0
+Iuj	Ịu	0
+###
+Icjj	Icj	0
+Injj	Inj	0
+Ipjj	Ipj	0
+Itjj	Itj	0
+Ichjj	Ichj	0
+Iujj	Iuj	0
+###
+Uy	Uy	0
+Uynh	Uynh	0
+Uyt	Uyt	0
+Uych	Uych	0
+###
+Ys	Ý	0
+Ynhs	Ýnh	0
+Uys	Uý	0
+Uynhs	Uýnh	0
+Uyts	Uýt	0
+Uychs	Uých	0
+###
+Yss	Ys	0
+###
+Yf	Ỳ	0
+Ynhf	Ỳnh	0
+Uyf	Uỳ	0
+Uynhf	Uỳnh	0
+###Uytf	Uỳt	0
+Uychf	Uỳch	0
+###
+Yr	Ỷ	0
+Uyr	Uỷ	0
+###Uynhr	Uỷnh	0
+###Uytr	Uỷt	0
+Uychr	Uỷch	0
+###
+Yx	Ỹ	0
+Uyx	Uỹ	0
+###
+Yj	Ỵ	0
+Uyj	Uỵ	0
+Uytj	Uỵt	0
+Uychj	Uỵch	0
+###
+Dd	Đ	0
+Ddd	Dd	0
+Qu	Qu	0
+###
+### Chu thuong
+ac	ac	0
+au	au	0
+ai	ai	0
+ao	ao	0
+oa	oa	0
+an	an	0
+anh	anh	0
+ang	ang	0
+am	am	0
+ap	ap	0
+at	at	0
+ay	ay	0
+oac	oac	0
+oach	oach	0
+oai	oai	0
+oat	oat	0
+oan	oan	0
+oanh	oanh	0
+oang	oang	0
+###
+as	á	0
+acs	ác	0
+achs	ách	0
+ats	át	0
+aps	áp	0
+aus	áu	0
+ais	ái	0
+aos	áo	0
+oas	oá	0
+ans	án	0
+anhs	ánh	0
+angs	áng	0
+ams	ám	0
+ays	áy	0
+oacs	oác	0
+oachs	oách	0
+oais	oái	0
+oats	oát	0
+oans	oán	0
+oanhs	oánh	0
+oangs	oáng	0
+###
+oass	oas	0
+ass	as	0
+auss	aus	0
+apss	aps	0
+amss	ams	0
+anss	ans	0
+oacss	oacs	0
+achss	achs	0
+apss	aps	0
+###
+af	à	0
+acf	àc	0
+achf	àch	0
+atf	àt	0
+apf	àp	0
+auf	àu	0
+aif	ài	0
+aof	ào	0
+oaf	oà	0
+anf	àn	0
+anhf	ành	0
+angf	àng	0
+amf	àm	0
+ay	ay	0
+ayf	ày	0
+oacf	oàc	0
+oachf	oàch	0
+oaif	oài	0
+oatf	oàt	0
+oanf	oàn	0
+oanhf	oành	0
+oangf	oàng	0
+###
+aff	af	0
+###
+ar	ả	0
+acr	ảc	0
+achr	ảch	0
+atr	ảt	0
+apr	ảp	0
+aur	ảu	0
+air	ải	0
+aor	ảo	0
+oar	oả	0
+anr	ản	0
+anhr	ảnh	0
+angr	ảng	0
+amr	ảm	0
+ayr	ảy	0
+oacr	oảc	0
+oachr	oảch	0
+oair	oải	0
+oatr	oảt	0
+oanr	oản	0
+oanhr	oảnh	0
+oangr	oảng	0
+###
+arr	ar	0
+acrr	acr	0
+atrr	atr	0
+aurr	aur	0
+###
+ax	ã	0
+acx	ãc	0
+achx	ãch	0
+atx	ãt	0
+apx	ãp	0
+aux	ãu	0
+aix	ãi	0
+aox	ão	0
+oax	oã	0
+anx	ãn	0
+anhx	ãnh	0
+angx	ãng	0
+amx	ãm	0
+ayx	ãy	0
+oacx	oãc	0
+oachx	oãch	0
+oaix	oãi	0
+oatx	oãt	0
+oanx	oãn	0
+oanhx	oãnh	0
+oangx	oãng	0
+###
+axx	ax	0
+auxx	aux	0
+aixx	aix	0
+atxx	atx	0
+###
+aj	ạ	0
+acj	ạc	0
+achj	ạch	0
+atj	ạt	0
+apj	ạp	0
+auj	ạu	0
+aij	ại	0
+aoj	ạo	0
+oaj	oạ	0
+anj	ạn	0
+anhj	ạnh	0
+angj	ạng	0
+amj	ạm	0
+ayj	ạy	0
+oacj	oạc	0
+oachj	oạch	0
+oaij	oại	0
+oatj	oạt	0
+oanj	oạn	0
+oangj	oạnh	0
+oanhj	oạng	0
+###
+ajj	aj	0
+acjj	acj	0
+###
+aa	â	0
+aam	âm	0
+aau	âu	0
+aan	ân	0
+aay	ây	0
+aang	âng	0
+uaat	uât	0
+uaan	uân	0
+uaang	uâng	0
+###
+aaa	aa	0
+###
+aas	ấ	0
+aacs	ấc	0
+aats	ất	0
+aaps	ấp	0
+aaus	ấu	0
+aans	ấn	0
+aangs	ấng	0
+aams	ấm	0
+aays	ấy	0
+uaats	uất	0
+uaans	uấn	0
+uaangs	uấng	0
+###
+aaf	ầ	0
+aacf	ầc	0
+aatf	ầt	0
+aapf	ầp	0
+aauf	ầu	0
+aanf	ần	0
+aangf	ầng	0
+aamf	ầm	0
+aayf	ầy	0
+uaatf	uầt	0
+uaanf	uần	0
+uaangf	uầng	0
+###
+aar	ẩ	0
+aacr	ẩc	0
+aatr	ẩt	0
+aapr	ẩp	0
+aaur	ẩu	0
+aanr	ẩn	0
+aangr	ẩng	0
+aamr	ẩm	0
+aayr	ẩy	0
+uaatr	uẩt	0
+uaanr	uẩn	0
+uaangr	uẩng	0
+###
+aax	ẫ	0
+aacx	ẫc	0
+aatx	ẫt	0
+aapx	ẫp	0
+aaux	ẫu	0
+aanx	ẫn	0
+aangx	ẫng	0
+aamx	ẫm	0
+aayx	ẫy	0
+uaatx	uẫt	0
+uaanx	uẫn	0
+uaangx	uẫng	0
+###
+aaj	ậ	0
+aacj	ậc	0
+aatj	ật	0
+aapj	ập	0
+aauj	ậu	0
+aanj	ận	0
+aangj	ậng	0
+aamj	ậm	0
+aayj	ậy	0
+uaatj	uật	0
+uaanj	uận	0
+uaangj	uậng	0
+###
+aw	ă	0
+awn	ăn	0
+awng	ăng	0
+awm	ăm	0
+oawn	oăn	0
+oawng	oăng	0
+oawt	oăt	0
+###
+aww	aw	0
+###
+aws	ắ	0
+awcs	ắc	0
+awts	ắt	0
+awps	ắp	0
+awns	ắn	0
+awngs	ắng	0
+awms	ắm	0
+oaws	oắ	0
+oawns	oắn	0
+oawngs	oắng	0
+oawts	oắt	0
+oawcs	oắc	0
+###
+awf	ằ	0
+awcf	ằc	0
+awtf	ằt	0
+awpf	ằp	0
+awnf	ằn	0
+awngf	ằng	0
+awmf	ằm	0
+oawf	oằ	0
+oawnf	oằn	0
+oawngf	oằng	0
+oawtf	oằt	0
+###
+awr	ẳ	0
+awcr	ẳc	0
+awtr	ẳt	0
+awpr	ẳp	0
+awnr	ẳn	0
+awngr	ẳng	0
+awmr	ẳm	0
+oawr	oẳ	0
+oawnr	oẳn	0
+oawngr	oẳng	0
+oawtr	oẳt	0
+###
+awx	ẵ	0
+awcx	ẵc	0
+awtx	ẵt	0
+awpx	ẵp	0
+awnx	ẵn	0
+awngx	ẵng	0
+awmx	ẵm	0
+oawx	oẵ	0
+oawnx	oẵn	0
+oawngx	oẵng	0
+oawtx	oẵt	0
+###
+awj	ặ	0
+awcj	ặc	0
+awtj	ặt	0
+awpj	ặp	0
+awnj	ặn	0
+awngj	ặng	0
+awmj	ặm	0
+oawj	oặ	0
+oawnj	oặn	0
+oawngj	oặng	0
+oawtj	oặt	0
+oawcj	oặc	0
+###
+eo	eo	0
+oe	oe	0
+en	en	0
+em	em	0
+et	et	0
+ec	ec	0
+ep	ep	0
+###
+es	é	0
+ecs	éc	0
+ets	ét	0
+eps	ép	0
+eos	éo	0
+oes	oé	0
+oets	oét	0
+ens	én	0
+engs	éng	0
+ems	ém	0
+###
+ess	es	0
+ecss	ecs	0
+etss	ets	0
+epss	eps	0
+enss	ens	0
+emss	ems	0
+###
+ef	è	0
+ecf	èc	0
+etf	èt	0
+epf	èp	0
+eof	èo	0
+oef	oè	0
+enf	èn	0
+emf	èm	0
+###
+eff	ef	0
+ecff	ecf	0
+etff	etf	0
+oeff	oef	0
+###
+er	ẻ	0
+ecr	ẻc	0
+etr	ẻt	0
+epr	ẻp	0
+eor	ẻo	0
+oer	oẻ	0
+enr	ẻn	0
+emr	ẻm	0
+###
+err	er	0
+ecrr	ecr	0
+etrr	etr	0
+oerr	oer	0
+###
+ex	ẽ	0
+ecx	ẽc	0
+etx	ẽt	0
+epx	ẽp	0
+eox	ẽo	0
+oex	oẽ	0
+enx	ẽn	0
+emx	ẽm	0
+###
+exx	ex	0
+###
+ej	ẹ	0
+ecj	ẹc	0
+etj	ẹt	0
+epj	ẹp	0
+eoj	ẹo	0
+oej	oẹ	0
+enj	ẹn	0
+emj	ẹm	0
+###
+ejj	ej	0
+###
+ee	ê	0
+eeu	êu	0
+een	ên	0
+eenh	ênh	0
+eem	êm	0
+ieen	iên	0
+ieeng	iêng	0
+ieem	iêm	0
+ieec	iêc	0
+ieeu	iêu	0
+ieep	iêp	0
+yeen	yên	0
+yeeng	yêng	0
+yeem	yêm	0
+yeet	yêt	0
+yeeu	yêu	0
+uyeet	uyêt	0
+uyeen	uyên	0
+###
+eee	ee	0
+ie	ie	0
+ye	ye	0
+###
+ees	ế	0
+eets	ết	0
+eeus	ếu	0
+eeps	ếp	0
+eechs	ếch	0
+eens	ến	0
+eems	ếm	0
+iees	iế	0
+ieets	iết	0
+ieest	iết	0
+ieens	iến	0
+eengs	ếng	0
+ieengs	iếng	0
+ieems	iếm	0
+ieecs	iếc	0
+ieeus	iếu	0
+ieeps	iếp	0
+yees	yế	0
+yeens	yến	0
+yeengs	yếng	0
+yeems	yếm	0
+yeets	yết	0
+yeest	yết	0
+yeeus	yếu	0
+uyees	uyế	0
+uyeets	uyết	0
+uyeens	uyến	0
+###
+ie	ie	0
+eess	ees	0
+eenss	eens	0
+eetss	eets	0
+eepss	eeps	0
+###
+eef	ề	0
+eeuf	ều	0
+eepf	ềp	0
+eenf	ền	0
+eenhf	ềnh	0
+eemf	ềm	0
+ieef	iề	0
+ieenf	iền	0
+ieengf	iềng	0
+ieemf	iềm	0
+ieecf	iềc	0
+ieeuf	iều	0
+ieepf	iềp	0
+yeef	yề	0
+yeenf	yền	0
+yeengf	yềng	0
+yeemf	yềm	0
+yeetf	yềt	0
+yeeuf	yều	0
+uyeef	uyề	0
+uyeetf	uyềt	0
+uyeenf	uyền	0
+###
+eer	ể	0
+eetr	ểt	0
+eeur	ểu	0
+eepr	ểp	0
+eenr	ển	0
+eenhr	ểnh	0
+eemr	ểm	0
+ieer	iể	0
+ieenr	iển	0
+ieengr	iểng	0
+ieemr	iểm	0
+ieecr	iểc	0
+ieeur	iểu	0
+ieepr	iểp	0
+yeenr	yển	0
+yeengr	yểng	0
+yeemr	yểm	0
+yeetr	yểt	0
+yeeur	yểu	0
+uyeetr	uyểt	0
+uyeenr	uyển	0
+uyeern	uyển	0
+###
+eerr	eer	0
+###
+eex	ễ	0
+eetx	ễt	0
+eeux	ễu	0
+eepx	ễp	0
+eenx	ễn	0
+eemx	ễm	0
+ieex	iễ	0
+ieenx	iễn	0
+ieengx	iễng	0
+ieemx	iễm	0
+ieecx	iễc	0
+ieeux	iễu	0
+ieepx	iễp	0
+yeenx	yễn	0
+yeengx	yễng	0
+yeemx	yễm	0
+yeetx	yễt	0
+yeeux	yễu	0
+uyeetx	uyễt	0
+uyeenx	uyễn	0
+uyeexn	uyễn	0
+###
+eej	ệ	0
+eetj	ệt	0
+eeuj	ệu	0
+eepj	ệp	0
+eenj	ện	0
+eenhj	ệnh	0
+eechj	ệch	0
+eecjh	ệch	0
+eemj	ệm	0
+ieej	iệ	0
+ieetj	iệt	0
+ieejt	iệt	0
+ieenj	iện	0
+ieengj	iệng	0
+ieemj	iệm	0
+ieecj	iệc	0
+ieeuj	iệu	0
+ieepj	iệp	0
+yeenj	yện	0
+yeengj	yệng	0
+yeemj	yệm	0
+yeetj	yệt	0
+yeeuj	yệu	0
+uyeetj	uyệt	0
+uyeenj	uyện	0
+uyeejn	uyện	0
+###
+oi	oi	0
+ooo	oo	0
+oc	oc	0
+on	on	0
+ong	ong	0
+om	om	0
+ot	ot	0
+op	op	0
+###
+os	ó	0
+ots	ót	0
+ois	ói	0
+ooos	oó	0
+ops	óp	0
+ocs	óc	0
+ons	ón	0
+ongs	óng	0
+oms	óm	0
+###
+oss	os	0
+otss	ots	0
+oiss	ois	0
+opss	ops	0
+onss	ons	0
+omss	oms	0
+###
+of	ò	0
+###oef	òe	0
+otf	òt	0
+oif	òi	0
+ooof	oò	0
+opf	òp	0
+###oaf	òa	0
+ocf	òc	0
+onf	òn	0
+ongf	òng	0
+omf	òm	0
+###
+off	of	0
+otff	otf	0
+opff	opf	0
+onff	onf	0
+omff	omf	0
+###
+or	ỏ	0
+###oer	ỏe	0
+otr	ỏt	0
+oir	ỏi	0
+ooor	oỏ	0
+opr	ỏp	0
+###oar	ỏa	0
+ocr	ỏc	0
+onr	ỏn	0
+ongr	ỏng	0
+omr	ỏm	0
+###
+orr	or	0
+###
+ox	õ	0
+###oex	õe	0
+otx	õt	0
+oix	õi	0
+ooox	oõ	0
+opx	õp	0
+###oax	õa	0
+ocx	õc	0
+onx	õn	0
+ongx	õng	0
+omx	õm	0
+###
+oxx	ox	0
+###
+oj	ọ	0
+###oej	ọe	0
+otj	ọt	0
+oij	ọi	0
+oooj	oọ	0
+opj	ọp	0
+###oaj	ọa	0
+ocj	ọc	0
+onj	ọn	0
+ongj	ọng	0
+omj	ọm	0
+###
+ojj	oj	0
+###
+oo	ô	0
+ooc	ôc	0
+oot	ôt	0
+oop	ôp	0
+oon	ôn	0
+oong	ông	0
+oom	ôm	0
+ooi	ôi	0
+uooi	uôi	0
+uooc	uôc	0
+uoot	uôt	0
+uoon	uôn	0
+uoong	uông	0
+uoom	uôm	0
+###
+oos	ố	0
+oocs	ốc	0
+oots	ốt	0
+oops	ốp	0
+oons	ốn	0
+oongs	ống	0
+ooms	ốm	0
+oois	ối	0
+uoois	uối	0
+uoosi	uối	0
+uoocs	uốc	0
+uoosc	uốc	0
+uoots	uốt	0
+uoons	uốn	0
+uoongs	uống	0
+uooms	uốm	0
+###
+ootss	oots	0
+###
+oof	ồ	0
+oocf	ồc	0
+ootf	ồt	0
+oopf	ồp	0
+oonf	ồn	0
+oongf	ồng	0
+oomf	ồm	0
+ooif	ồi	0
+uoocf	uồc	0
+uootf	uồt	0
+uoonf	uồn	0
+uoongf	uồng	0
+uoomf	uồm	0
+###
+oor	ổ	0
+oocr	ổc	0
+ootr	ổt	0
+oopr	ổp	0
+oonr	ổn	0
+oongr	ổng	0
+oomr	ổm	0
+ooir	ổi	0
+uooir	uổi	0
+uoocr	uổc	0
+uootr	uổt	0
+uoonr	uổn	0
+uoongr	uổng	0
+uoomr	uổm	0
+###
+oox	ỗ	0
+oocx	ỗc	0
+ootx	ỗt	0
+oopx	ỗp	0
+oonx	ỗn	0
+oongx	ỗng	0
+oomx	ỗm	0
+ooix	ỗi	0
+uooix	uỗi	0
+uoocx	uỗc	0
+uootx	uỗt	0
+uoonx	uỗn	0
+uoongx	uỗng	0
+uoomx	uỗm	0
+###
+ooj	ộ	0
+oocj	ộc	0
+ootj	ột	0
+oopj	ộp	0
+oonj	ộn	0
+oongj	ộng	0
+oomj	ộm	0
+ooij	ội	0
+uooij	uội	0
+uooji	uội	0
+uoocj	uộc	0
+uoojc	uộc	0
+uootj	uột	0
+uoonj	uộn	0
+uoongj	uộng	0
+uoomj	uộm	0
+###
+ow	ơ	0
+owt	ơt	0
+owp	ơp	0
+own	ơn	0
+owm	ơm	0
+owi	ơi	0
+uowc	ươc	0
+wowc	ươc	0
+uwowc	ươc	0
+uowi	ươi	0
+wowi	ươi	0
+uwowi	ươi	0
+uowt	ươt	0
+wowt	ươt	0
+uwowt	ươt	0
+uowp	ươp	0
+wowp	ươp	0
+uwowp	ươp	0
+uown	ươn	0
+wown	ươn	0
+uwown	ươn	0
+uowm	ươm	0
+wowm	ươm	0
+uwowm	ươm	0
+uwowu	ươu	0
+uowng	ương	0
+wowng	ương	0
+uwowng	ương	0
+###
+oww	ow	0
+wo	wo	0
+###
+ows	ớ	0
+owts	ớt	0
+owps	ớp	0
+owns	ớn	0
+owms	ớm	0
+owis	ới	0
+uows	ướ	0
+wows	ướ	0
+uwows	ướ	0
+uowcs	ước	0
+wowcs	ước	0
+uwowcs	ước	0
+uowis	ưới	0
+wowis	ưới	0
+uwowis	ưới	0
+uowts	ướt	0
+wowts	ướt	0
+uwowts	ướt	0
+uowps	ướp	0
+wowps	ướp	0
+uwowps	ướp	0
+uowns	ướn	0
+wowns	ướn	0
+uwowns	ướn	0
+uowms	ướm	0
+wowms	ướm	0
+uwowms	ướm	0
+uwowus	ướu	0
+uowcs	ướng	0
+wowngs	ướng	0
+uwowngs	ướng	0
+###
+owss	ows	0
+###
+owf	ờ	0
+owtf	ờt	0
+owpf	ờp	0
+ownf	ờn	0
+owmf	ờm	0
+owif	ời	0
+uowf	ườ	0
+wowf	ườ	0
+uwowf	ườ	0
+uowtf	ườt	0
+wowtf	ườt	0
+uwowtf	ườt	0
+uowif	ười	0
+wowif	ười	0
+uwowif	ười	0
+uowpf	ườp	0
+wowpf	ườp	0
+uwowpf	ườp	0
+uownf	ườn	0
+wownf	ườn	0
+uwownf	ườn	0
+uowmf	ườm	0
+wowmf	ườm	0
+uwowmf	ườm	0
+uowngf	ường	0
+wowngf	ường	0
+uwowngf	ường	0
+###
+owff	owf	0
+###
+owr	ở	0
+owtr	ởt	0
+owpr	ởp	0
+ownr	ởn	0
+owmr	ởm	0
+owir	ởi	0
+uowr	ưở	0
+wowr	ưở	0
+uwowr	ưở	0
+uowtr	ưởt	0
+wowtr	ưởt	0
+uwowtr	ưởt	0
+uowir	ưởi	0
+wowir	ưởi	0
+uwowir	ưởi	0
+uowpr	ưởp	0
+wowpr	ưởp	0
+uwowpr	ưởp	0
+uownr	ưởn	0
+wownr	ưởn	0
+uwownr	ưởn	0
+uowmr	ưởm	0
+wowmr	ưởm	0
+uwowmr	ưởm	0
+uowngr	ưởng	0
+wowngr	ưởng	0
+uwowngr	ưởng	0
+###
+owrr	owr	0
+###
+owx	ỡ	0
+owtx	ỡt	0
+owpx	ỡp	0
+ownx	ỡn	0
+owmx	ỡm	0
+owix	ỡi	0
+uowx	ưỡ	0
+wowx	ưỡ	0
+uwowx	ưỡ	0
+uowtx	ưỡt	0
+wowtx	ưỡt	0
+uwowtx	ưỡt	0
+uowix	ưỡi	0
+wowix	ưỡi	0
+uwowix	ưỡi	0
+uowpx	ưỡp	0
+wowpx	ưỡp	0
+uwowpx	ưỡp	0
+uownx	ưỡn	0
+wownx	ưỡn	0
+uwownx	ưỡn	0
+uowmx	ưỡm	0
+wowmx	ưỡm	0
+uwowmx	ưỡm	0
+uowngx	ưỡng	0
+wowngx	ưỡng	0
+uwowngx	ưỡng	0
+###
+owxx	owx	0
+###
+owj	ợ	0
+owtj	ợt	0
+owpj	ợp	0
+ownj	ợn	0
+owmj	ợm	0
+owij	ợi	0
+uowj	ượ	0
+wowj	ượ	0
+uwowj	ượ	0
+uowtj	ượt	0
+wowtj	ượt	0
+uwowtj	ượt	0
+uowij	ượi	0
+wowij	ượi	0
+uwowij	ượi	0
+uowpj	ượp	0
+wowpj	ượp	0
+uwowpj	ượp	0
+uowcj	ược	0
+wowcj	ược	0
+uwowcj	ược	0
+uownj	ượn	0
+wownj	ượn	0
+uwownj	ượn	0
+uowmj	ượm	0
+wowmj	ượm	0
+uwowmj	ượm	0
+uwowuj	ượu	0
+uowngj	ượng	0
+wowngj	ượng	0
+uwowngj	ượng	0
+###
+owjj	owj	0
+###
+ui	ui	0
+up	up	0
+ut	ut	0
+uy	uy	0
+ua	ua	0
+uc	uc	0
+un	un	0
+um	um	0
+ung	ung	0
+uo	uo	0
+###
+us	ú	0
+uis	úi	0
+ups	úp	0
+uts	út	0
+###uys	úy	0
+uas	úa	0
+ucs	úc	0
+uns	ún	0
+ums	úm	0
+ungs	úng	0
+###
+uss	us	0
+###
+uf	ù	0
+uif	ùi	0
+###uyf	ùy	0
+uaf	ùa	0
+unf	ùn	0
+umf	ùm	0
+ungf	ùng	0
+###
+uff	uf	0
+uiff	uif	0
+uaff	uaf	0
+unff	unf	0
+umff	umf	0
+###
+ur	ủ	0
+uir	ủi	0
+###uyr	ủy	0
+uar	ủa	0
+unr	ủn	0
+umr	ủm	0
+ungr	ủng	0
+###
+urr	ur	0
+unrr	unr	0
+umrr	umr	0
+###
+ux	ũ	0
+uix	ũi	0
+###uyx	ũy	0
+uax	ũa	0
+unx	ũn	0
+umx	ũm	0
+ungx	ũng	0
+###
+uxx	ux	0
+uaxx	uax	0
+unxx	unx	0
+umxx	umx	0
+###
+uj	ụ	0
+uij	ụi	0
+###uyj	ụy	0
+uaj	ụa	0
+unj	ụn	0
+umj	ụm	0
+ungj	ụng	0
+utj	ụt	0
+ucj	ục	0
+upj	ụp	0
+###
+ujj	uj	0
+unjj	unj	0
+umjj	umj	0
+###
+uw	ư	0
+uwi	ưi	0
+uwa	ưa	0
+uwn	ưn	0
+###uwm	ưm	0
+uwng	ưng	0
+###uwt	ưt	0
+uwc	ưc	0
+###uwp	ưp	0
+uwu	ưu	0
+###
+uww	uw	0
+###
+uws	ứ	0
+uwas	ứa	0
+uwngs	ứng	0
+uwts	ứt	0
+uwcs	ức	0
+uwus	ứu	0
+###
+uwf	ừ	0
+uwaf	ừa	0
+uwngf	ừng	0
+uwuf	ừu	0
+###
+uwr	ử	0
+uwir	ửi	0
+uwar	ửa	0
+uwngr	ửng	0
+uwur	ửu	0
+###
+uwx	ữ	0
+uwax	ữa	0
+uwnx	ữn	0
+uwngx	ững	0
+uwux	ữu	0
+###
+uwj	ự	0
+uwaj	ựa	0
+uwngj	ựng	0
+uwuj	ựu	0
+uwcj	ực	0
+###
+gi	gi	0
+###
+ia	ia	0
+it	it	0
+ip	ip	0
+ic	ic	0
+in	in	0
+iu	iu	0
+im	im	0
+inh	inh	0
+ich	ich	0
+###
+is	í	0
+ias	ía	0
+ics	íc	0
+its	ít	0
+ips	íp	0
+ichs	ích	0
+ins	ín	0
+ius	íu	0
+ims	ím	0
+inhs	ính	0
+###
+iss	is	0
+iass	ias	0
+icss	ics	0
+itss	its	0
+inss	ins	0
+ipss	ips	0
+###
+if	ì	0
+iaf	ìa	0
+inf	ìn	0
+imf	ìm	0
+inhf	ình	0
+iuf	ìu	0
+gif	gì	0
+###
+iff	if	0
+iaff	iaf	0
+inff	inf	0
+imff	imf	0
+iuff	iuf	0
+giff	gif	0
+###
+ir	ỉ	0
+iar	ỉa	0
+inr	ỉn	0
+imr	ỉm	0
+inhr	ỉnh	0
+iur	ỉu	0
+gir	gỉ	0
+###
+irr	ir	0
+iarr	iar	0
+inrr	inr	0
+imrr	imr	0
+inhrr	inhr	0
+iurr	iur	0
+girr	gir	0
+###
+ix	ĩ	0
+iax	ĩa	0
+inx	ĩn	0
+imx	ĩm	0
+inhx	ĩnh	0
+iux	ĩu	0
+###
+ixx	ix	0
+iaxx	iax	0
+inxx	inx	0
+imxx	imx	0
+inhxx	inhx	0
+iuxx	iux	0
+###
+ij	ị	0
+iaj	ịa	0
+inj	ịn	0
+imj	ịm	0
+ipj	ịp	0
+inhj	ịnh	0
+itj	ịt	0
+ichj	ịch	0
+icjh	ịch	0
+iuj	ịu	0
+###
+icjj	icj	0
+injj	inj	0
+ipjj	ipj	0
+itjj	itj	0
+ichjj	ichj	0
+iujj	iuj	0
+###
+uy	uy	0
+uynh	uynh	0
+uyt	uyt	0
+uych	uych	0
+###
+ys	ý	0
+ynhs	ýnh	0
+uys	uý	0
+uynhs	uýnh	0
+uyts	uýt	0
+uychs	uých	0
+###
+yss	ys	0
+###
+yf	ỳ	0
+ynhf	ỳnh	0
+uyf	uỳ	0
+uynhf	uỳnh	0
+###uytf	uỳt	0
+uychf	uỳch	0
+###
+yr	ỷ	0
+uyr	uỷ	0
+###uynhr	uỷnh	0
+###uytr	uỷt	0
+uychr	uỷch	0
+###
+yx	ỹ	0
+uyx	uỹ	0
+###
+yj	ỵ	0
+uyj	uỵ	0
+uytj	uỵt	0
+uychj	uỵch	0
+###
+dd	đ	0
+ddd	dd	0
+qu	qu	0
+www www 0
+###
+### Dac biet chi co 1 chu
+a	a	0
+e	e	0
+i	i	0
+o	o	0
+u	u	0
+y	y	0
+A	A	0
+E	E	0
+I	I	0
+O	O	0
+U	U	0
+Y	Y	0
+
+d	d	0
+D	D	0
+g	g	0
+G	G	0
+q	q	0
+Q	Q	0
+w	w	0
+W	W	0
+###
+END_TABLE

@@ -1,0 +1,22 @@
+- Required packages: scim scim-libs scim-tables
+- Optional package: scim-bridge
+
+- Install required packages for Fedora 5,6,7 (you must have an Internet Connection): 
+	yum -y install scim scim-libs scim-tables scim-bridge
+- Install required packages for Ubuntu 7 (you must have an Internet Connection): 
+	sudo apt-get install scim-bridge scim-qtimm
+
+To install, login as root and type:
+	tar -zxf scim-tables-vietnamese-ext*.tar.gz
+	cd scim-tables-vietnamese-ext/
+	make install
+
+To active scim:
+- Fedora: go to System => Preference => [Personal =>] Input Method, select custom input method, then scim.
+- Ubuntu: open terminal and type:
+	im-switch -z en_US -s scim
+See https://help.ubuntu.com/community/SCIM for detail.
+
+Logout and relogin X session.
+
+Tran Thach Anh (myquartz@gmail.com)

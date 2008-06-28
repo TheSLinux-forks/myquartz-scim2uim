@@ -1,0 +1,27 @@
+* Mon May 19 2008 Tran Thach Anh <myquartz@gmail.com> - 0.5.6-15
+- Fix: engs fixed.
+- Fix: oawngf fixed.
+- Added: type ojj to oj (in 'project'...).
+
+* Fri Apr 4 2008 Tran Thach Anh <myquartz@gmail.com> - 0.5.6-14
+- Fix: uwowuj now fixed.
+
+* Tue Jan 8 2008 Tran Thach Anh <myquartz@gmail.com> - 0.5.6-13
+- Fixed: add ye, uo, ans, oats, oacs for mixed Viet/English typing.
+- Fixed: now ruwowuj can type in.
+
+* Mon Sep 17 2007 Tran Thach Anh <myquartz@gmail.com> - 0.5.6-12
+- Fixed: add u7o7m phrase for VNI.
+- Fixed: upcase typing correctly for VNI.
+- Changed: Forward key now is Shift+space or Shift_R+Shift_L for both Telex and VNI.
+
+* Fri Sep 14 2007 Tran Thach Anh <myquartz@gmail.com> - 0.5.6-11
+- Fixed: add uwowm phrase for Telex.
+- Fixed: upcase typing correctly for Telex.
+
+* Sat May 05 2007 Tran Thach Anh <myquartz@gmail.com> - 0.5.6-10
+- Added more duplicate typing for English Words.
+
+* Thu Mar 01 2007 Tran Thach Anh <myquartz@gmail.com> - 0.5.6-9
+- Added duplicate typing for English Words.
+- Fixed: Mix Vietnamese/English compliance. Now you can type "update" word.
