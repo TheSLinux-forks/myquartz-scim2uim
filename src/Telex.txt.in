@@ -342,6 +342,7 @@ AWN	ĂN	0
 AWNG	ĂNG	0
 AWM	ĂM	0
 OAWN	OĂN	0
+OAWNG	OĂNG	0
 OAWT	OĂT	0
 ###
 AWW	AW	0
@@ -355,6 +356,7 @@ AWNGS	ẮNG	0
 AWMS	ẮM	0
 OAWS	OẮ	0
 OAWNS	OẮN	0
+OAWNGS	OẮNG	0
 OAWTS	OẮT	0
 OAWCS	OẮC	0
 ###
@@ -367,6 +369,7 @@ AWNGF	ẰNG	0
 AWMF	ẰM	0
 OAWF	OẰ	0
 OAWNF	OẰN	0
+OAWNGF	OẰNG	0
 OAWTF	OẰT	0
 ###
 AWR	Ẳ	0
@@ -378,6 +381,7 @@ AWNGR	ẲNG	0
 AWMR	ẲM	0
 OAWR	OẲ	0
 OAWNR	OẲN	0
+OAWNGR	OẲNG	0
 OAWTR	OẲT	0
 ###
 AWX	Ẵ	0
@@ -389,6 +393,7 @@ AWNGX	ẴNG	0
 AWMX	ẴM	0
 OAWX	OẴ	0
 OAWNX	OẴN	0
+OAWNGX	OẴNG	0
 OAWTX	OẴT	0
 ###
 AWJ	Ặ	0
@@ -400,6 +405,7 @@ AWNGJ	ẶNG	0
 AWMJ	ẶM	0
 OAWJ	OẶ	0
 OAWNJ	OẶN	0
+OAWNGJ	OẶNG	0
 OAWTJ	OẶT	0
 OAWCJ	OẶC	0
 ###
@@ -419,6 +425,7 @@ EOS	ÉO	0
 OES	OÉ	0
 OETS	OÉT	0
 ENS	ÉN	0
+ENGS	ÉNG	0
 EMS	ÉM	0
 ###
 ESS	ES	0
@@ -473,6 +480,7 @@ ETJ	ẸT	0
 EPJ	ẸP	0
 EOJ	ẸO	0
 OEJ	OẸ	0
+OETJ	OẸT	0
 ENJ	ẸN	0
 EMJ	ẸM	0
 ###
@@ -606,6 +614,7 @@ UYEENX	UYỄN	0
 UYEEXN	UYỄN	0
 ###
 EEJ	Ệ	0
+EECJ	ỆC	0
 EETJ	ỆT	0
 EEUJ	ỆU	0
 EEPJ	ỆP	0
@@ -715,6 +724,8 @@ OCJ	ỌC	0
 ONJ	ỌN	0
 ONGJ	ỌNG	0
 OMJ	ỌM	0
+###
+OJJ	OJ	0
 ###
 OO	Ô	0
 OOC	ÔC	0
@@ -1083,6 +1094,7 @@ UW	Ư	0
 UWI	ƯI	0
 UWA	ƯA	0
 UWN	ƯN	0
+WA	ƯA	0
 ###UWM	ƯM	0
 UWNG	ƯNG	0
 ###UWT	ƯT	0
@@ -1222,6 +1234,7 @@ UYCH	UYCH	0
 ###
 YS	Ý	0
 YNHS	ÝNH	0
+YTS	ÝT	0 #QUYTS
 UYS	UÝ	0
 UYNHS	UÝNH	0
 UYTS	UÝT	0
@@ -1493,6 +1506,7 @@ Awn	Ăn	0
 Awng	Ăng	0
 Awm	Ăm	0
 Oawn	Oăn	0
+Oawng	Oăng	0
 Oawt	Oăt	0
 ###
 Aww	Aw	0
@@ -1506,6 +1520,7 @@ Awngs	Ắng	0
 Awms	Ắm	0
 Oaws	Oắ	0
 Oawns	Oắn	0
+Oawngs	Oắng	0
 Oawts	Oắt	0
 Oawcs	Oắc	0
 ###
@@ -1518,6 +1533,7 @@ Awngf	Ằng	0
 Awmf	Ằm	0
 Oawf	Oằ	0
 Oawnf	Oằn	0
+Oawngf	Oằng	0
 Oawtf	Oằt	0
 ###
 Awr	Ẳ	0
@@ -1529,6 +1545,7 @@ Awngr	Ẳng	0
 Awmr	Ẳm	0
 Oawr	Oẳ	0
 Oawnr	Oẳn	0
+Oawngr	Oẳng	0
 Oawtr	Oẳt	0
 ###
 Awx	Ẵ	0
@@ -1540,6 +1557,7 @@ Awngx	Ẵng	0
 Awmx	Ẵm	0
 Oawx	Oẵ	0
 Oawnx	Oẵn	0
+Oawngx	Oẵng	0
 Oawtx	Oẵt	0
 ###
 Awj	Ặ	0
@@ -1551,6 +1569,7 @@ Awngj	Ặng	0
 Awmj	Ặm	0
 Oawj	Oặ	0
 Oawnj	Oặn	0
+Oawngj	Oặng	0
 Oawtj	Oặt	0
 Oawcj	Oặc	0
 ###
@@ -1570,6 +1589,7 @@ Eos	Éo	0
 Oes	Oé	0
 Oets	Oét	0
 Ens	Én	0
+Engs	Éng	0
 Ems	Ém	0
 ###
 Ess	Es	0
@@ -1624,6 +1644,7 @@ Etj	Ẹt	0
 Epj	Ẹp	0
 Eoj	Ẹo	0
 Oej	Oẹ	0
+Oetj	Oẹt	0
 Enj	Ẹn	0
 Emj	Ẹm	0
 ###
@@ -1757,6 +1778,7 @@ Uyeenx	Uyễn	0
 Uyeexn	Uyễn	0
 ###
 Eej	Ệ	0
+Eecj	Ệc	0
 Eetj	Ệt	0
 Eeuj	Ệu	0
 Eepj	Ệp	0
@@ -1866,6 +1888,8 @@ Ocj	Ọc	0
 Onj	Ọn	0
 Ongj	Ọng	0
 Omj	Ọm	0
+###
+Ojj	Oj	0
 ###
 Oo	Ô	0
 Ooc	Ôc	0
@@ -2234,6 +2258,7 @@ Uw	Ư	0
 Uwi	Ưi	0
 Uwa	Ưa	0
 Uwn	Ưn	0
+Wa	Ưa	0
 ###Uwm	Ưm	0
 Uwng	Ưng	0
 ###Uwt	Ưt	0
@@ -2373,6 +2398,7 @@ Uych	Uych	0
 ###
 Ys	Ý	0
 Ynhs	Ýnh	0
+Yts	Ýt	0 #Quyts
 Uys	Uý	0
 Uynhs	Uýnh	0
 Uyts	Uýt	0
@@ -2400,10 +2426,6 @@ Yj	Ỵ	0
 Uyj	Uỵ	0
 Uytj	Uỵt	0
 Uychj	Uỵch	0
-###
-Dd	Đ	0
-Ddd	Dd	0
-Qu	Qu	0
 ###
 ### Chu thuong
 ac	ac	0
@@ -2782,6 +2804,7 @@ etj	ẹt	0
 epj	ẹp	0
 eoj	ẹo	0
 oej	oẹ	0
+oetj	oẹt	0
 enj	ẹn	0
 emj	ẹm	0
 ###
@@ -2915,6 +2938,7 @@ uyeenx	uyễn	0
 uyeexn	uyễn	0
 ###
 eej	ệ	0
+eecj	ệc	0
 eetj	ệt	0
 eeuj	ệu	0
 eepj	ệp	0
@@ -3394,6 +3418,7 @@ uw	ư	0
 uwi	ưi	0
 uwa	ưa	0
 uwn	ưn	0
+wa	ưa	0
 ###uwm	ưm	0
 uwng	ưng	0
 ###uwt	ưt	0
@@ -3533,6 +3558,7 @@ uych	uych	0
 ###
 ys	ý	0
 ynhs	ýnh	0
+yts	ýt	0 #quyts
 uys	uý	0
 uynhs	uýnh	0
 uyts	uýt	0

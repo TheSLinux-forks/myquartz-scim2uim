@@ -1,3 +1,7 @@
+* Fri Sep 26 2008 Tran Thach Anh <myquartz@gmail.com> - 0.5.6-16
+- Fix: yts (in quyts), eecj now accept for typing ieecj.
+- Create a release
+
 * Mon May 19 2008 Tran Thach Anh <myquartz@gmail.com> - 0.5.6-15
 - Fix: engs fixed.
 - Fix: oawngf fixed.
