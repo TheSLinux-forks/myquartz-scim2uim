@@ -1,5 +1,5 @@
-SCIM_TABLES_DIR=/usr/share/scim/tables
-SCIM_ICONS_DIR=/usr/share/scim/icons
+SCIM_TABLES_DIR=$(DESTDIR)/usr/share/scim/tables
+SCIM_ICONS_DIR=$(DESTDIR)/usr/share/scim/icons
 
 SRC_DIR=./src
 BIN_DIR=./bin
@@ -12,8 +12,12 @@ compile: compile-telex compile-vni
 compile-telex: $(BIN_DIR)/Telex.bin
 compile-vni: $(BIN_DIR)/VNI.bin
 
-install: install-telex install-vni
+install: createdir install-telex install-vni
 uninstall: uninstall-telex uninstall-vni
+
+createdir:
+	mkdir -p $(SCIM_TABLES_DIR)
+	mkdir -p $(SCIM_ICONS_DIR)
 
 install-telex: compile-telex
 	cp $(BIN_DIR)/Telex.bin $(SCIM_TABLES_DIR)
