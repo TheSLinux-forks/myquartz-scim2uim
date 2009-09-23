@@ -21,7 +21,7 @@ ICON = @SCIM_ICONDIR@/vikb.png
 NAME = Telex
 
 ### The local names of this table 
-### NAME.vi_VN = Việt Telex
+NAME.vi_VN = Việt Telex
 
 ### Supported languages of this table
 LANGUAGES = vi_VN
@@ -31,6 +31,12 @@ AUTHOR = Tran Thach Anh <myquartz@gmail.com>
 
 ### Prompt string to be displayed in the status area.
 STATUS_PROMPT = Vi
+
+### Whether support PinYin Mode, default is true.
+### this feature is just for Chinese, set it to False if your IM is not
+### Chinese.
+###this is for ibus
+###PINYIN_MODE = FALSE
 
 ### If true then the first candidate phrase
 ### will be selected automatically during inputing.
@@ -69,11 +75,20 @@ USE_FULL_WIDTH_LETTER = FALSE
 ### Use full width letter by default
 DEF_FULL_WIDTH_LETTER = FALSE
 
+### Whether user are allow to define phrase, default is true
+### You have to define the word construction rules below.
+### For input methods which do not input phrases, set this to False
+###this is for ibus
+###USER_CAN_DEFINE_PHRASE = FALSE
+
 ### The maxmium length of a key.
 MAX_KEY_LENGTH = 7
 
 ### Valid input chars.
 VALID_INPUT_CHARS = QWERTYUIOPASDFGJXCNMHqwertyuiopasdfgjxcnmh
+
+###this is for ibus
+###LAYOUT = us
 
 ### Single wildcard char, can have multiple chars.
 ###SINGLE_WILDCARD_CHAR = ?
@@ -638,6 +653,7 @@ YEEMJ	YỆM	0
 YEETJ	YỆT	0
 YEEUJ	YỆU	0
 UYEETJ	UYỆT	0
+UYEEJT	UYỆT	0
 UYEENJ	UYỆN	0
 UYEEJN	UYỆN	0
 ###
@@ -1103,6 +1119,7 @@ UWC	ƯC	0
 UWU	ƯU	0
 ###
 UWW	UW	0
+WWA	WA	0
 ###
 UWS	Ứ	0
 UWAS	ỨA	0
@@ -1234,7 +1251,8 @@ UYCH	UYCH	0
 ###
 YS	Ý	0
 YNHS	ÝNH	0
-YTS	ÝT	0 #QUYTS
+### QUYTS
+YTS	ÝT	0
 UYS	UÝ	0
 UYNHS	UÝNH	0
 UYTS	UÝT	0
@@ -1262,6 +1280,7 @@ YJ	Ỵ	0
 UYJ	UỴ	0
 UYTJ	UỴT	0
 UYCHJ	UỴCH	0
+### Dac biet
 ###
 DD	Đ	0
 DDD	DD	0
@@ -1802,6 +1821,7 @@ Yeemj	Yệm	0
 Yeetj	Yệt	0
 Yeeuj	Yệu	0
 Uyeetj	Uyệt	0
+Uyeejt	Uyệt	0
 Uyeenj	Uyện	0
 Uyeejn	Uyện	0
 ###
@@ -2267,6 +2287,8 @@ Uwc	Ưc	0
 Uwu	Ưu	0
 ###
 Uww	Uw	0
+WWa	Wa	0
+Wwa	Wa	0
 ###
 Uws	Ứ	0
 Uwas	Ứa	0
@@ -2398,7 +2420,8 @@ Uych	Uych	0
 ###
 Ys	Ý	0
 Ynhs	Ýnh	0
-Yts	Ýt	0 #Quyts
+###Quyts
+Yts	Ýt	0
 Uys	Uý	0
 Uynhs	Uýnh	0
 Uyts	Uýt	0
@@ -2426,7 +2449,11 @@ Yj	Ỵ	0
 Uyj	Uỵ	0
 Uytj	Uỵt	0
 Uychj	Uỵch	0
+### Dac biet
 ###
+Dd	Đ  0
+Ddd	Dd  0
+Qu	Qu	0
 ### Chu thuong
 ac	ac	0
 au	au	0
@@ -2766,6 +2793,7 @@ epf	èp	0
 eof	èo	0
 oef	oè	0
 enf	èn	0
+engf	èng	0
 emf	èm	0
 ###
 eff	ef	0
@@ -2780,6 +2808,7 @@ epr	ẻp	0
 eor	ẻo	0
 oer	oẻ	0
 enr	ẻn	0
+engr	ẻng	0
 emr	ẻm	0
 ###
 err	er	0
@@ -2962,6 +2991,7 @@ yeemj	yệm	0
 yeetj	yệt	0
 yeeuj	yệu	0
 uyeetj	uyệt	0
+uyeejt	uyệt	0
 uyeenj	uyện	0
 uyeejn	uyện	0
 ###
@@ -3427,6 +3457,7 @@ uwc	ưc	0
 uwu	ưu	0
 ###
 uww	uw	0
+wwa	wa	0
 ###
 uws	ứ	0
 uwas	ứa	0
@@ -3558,7 +3589,8 @@ uych	uych	0
 ###
 ys	ý	0
 ynhs	ýnh	0
-yts	ýt	0 #quyts
+###in quyts
+yts	ýt	0
 uys	uý	0
 uynhs	uýnh	0
 uyts	uýt	0
