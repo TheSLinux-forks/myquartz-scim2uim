@@ -20,7 +20,7 @@ ICON = @SCIM_ICONDIR@/vikb.png
 ### The default name of this table
 NAME = Telex
 
-### The local names of this table 
+### The local names of this table
 NAME.vi_VN = Việt Telex
 
 ### Supported languages of this table
@@ -269,6 +269,7 @@ OACHJ	OẠCH	0
 OAIJ	OẠI	0
 OATJ	OẠT	0
 OANJ	OẠN	0
+OAMJ	OẠM	0
 OANGJ	OẠNH	0
 OANHJ	OẠNG	0
 ###
@@ -505,6 +506,7 @@ EE	Ê	0
 EEU	ÊU	0
 EEN	ÊN	0
 EENH	ÊNH	0
+EENG	ÊNG	0
 EEM	ÊM	0
 IEEN	IÊN	0
 IEENG	IÊNG	0
@@ -785,6 +787,7 @@ OONF	ỒN	0
 OONGF	ỒNG	0
 OOMF	ỒM	0
 OOIF	ỒI	0
+UOOIF	UỒI	0
 UOOCF	UỒC	0
 UOOTF	UỒT	0
 UOONF	UỒN	0
@@ -1673,6 +1676,7 @@ Ee	Ê	0
 Eeu	Êu	0
 Een	Ên	0
 Eenh	Ênh	0
+Eeng	Êng	0
 Eem	Êm	0
 Ieen	Iên	0
 Ieeng	Iêng	0
@@ -1953,6 +1957,7 @@ Oonf	Ồn	0
 Oongf	Ồng	0
 Oomf	Ồm	0
 Ooif	Ồi	0
+Uooif	Uồi	0
 Uoocf	Uồc	0
 Uootf	Uồt	0
 Uoonf	Uồn	0
@@ -2605,6 +2610,7 @@ oachj	oạch	0
 oaij	oại	0
 oatj	oạt	0
 oanj	oạn	0
+oamj	oạm	0
 oangj	oạnh	0
 oanhj	oạng	0
 ###
@@ -2843,6 +2849,7 @@ ee	ê	0
 eeu	êu	0
 een	ên	0
 eenh	ênh	0
+eeng	êng	0
 eem	êm	0
 ieen	iên	0
 ieeng	iêng	0
@@ -3123,6 +3130,7 @@ oonf	ồn	0
 oongf	ồng	0
 oomf	ồm	0
 ooif	ồi	0
+uooif	uồi	0
 uoocf	uồc	0
 uootf	uồt	0
 uoonf	uồn	0
