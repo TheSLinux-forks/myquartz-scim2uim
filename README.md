@@ -18,7 +18,7 @@ will generate the file `xtelex.scm` which is ready to use in `uim`.
 However, `uim` need some patches to use that module. Please check example
 in the package `uim-vi` from `TheSLinux`.
 
-## Origin source
+## Original source
 
 The information comes from the output of the command `git svn info`.
 
