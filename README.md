@@ -14,7 +14,7 @@ The main script is `bin/scim2uim.rb` which is very simple. The command
 ./bin/scim2uim.rb < ./src/Telex.txt.in > ./src/xtelex.scm
 ````
 
-will generate the file `xtelex.scm` which is ready to use in `uim`.
+will generate the file `xtelex.scm` which is ready to be used in `uim`.
 However, `uim` need some patches to use that module. Please check example
 in the package `uim-vi` from `TheSLinux`.
 
