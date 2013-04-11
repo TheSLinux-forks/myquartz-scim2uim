@@ -32,6 +32,6 @@ puts <<-EOF
  "vi"
  "UTF-8"
  (N_ "XTelex")
- (N_ "XTelex table")
+ (N_ "Big table of predefined words for Vietnamese Telex users")
  xtelex-init-handler)
 EOF
