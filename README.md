@@ -1,12 +1,12 @@
 ## Description
 
 This package originally comes from the project `scim-tables-vietnamese-ext`
-which provides a comprehensive table for Vietnamese words to use in `Scim`.
-The project's author  is **Thach-Anh Tran** (aka myquartz at gmail dot com).
+which provides a comprehensive table of Vietnamese words to use in `Scim`.
+The project's author is **Thach-Anh Tran** (aka myquartz at gmail dot com).
 
 I did ask the author to support this table in `uim`; however he seems to
 switch to use `Ibus` and the project is quite inactive. Because the table
-is quite useful I decide to convert and maintain it to use in `UIM`.
+is quite useful I decide to convert and maintain it to use it in `UIM`.
 
 The main script is `bin/scim2uim.rb` which is very simple. The command
 
