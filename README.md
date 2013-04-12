@@ -11,7 +11,8 @@ is quite useful I decide to convert and maintain it to use it in `UIM`.
 The main script is `bin/scim2uim.rb` which is very simple. The command
 
 ````
-./bin/scim2uim.rb < ./src/Telex.txt.in > ./src/xtelex.scm
+./bin/scim2uim.rb --telex < ./src/Telex.txt.in > ./src/xtelex.scm
+./bin/scim2uim.rb --vni   < ./src/VNI.txt.in   > ./src/xvni.scm
 ````
 
 will generate the file `xtelex.scm` which is ready to be used in `uim`.
