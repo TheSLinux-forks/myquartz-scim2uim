@@ -23,6 +23,17 @@ reg  = {true => /^(\p{Alpha}+)\p{Space}+([^\p{Space}]+)\p{Space}+0$/,
         false => /^(\p{Alnum}+)\p{Space}+([^\p{Space}]+)\p{Space}+0$/ } [mode]
 
 puts <<-EOF
+;;
+;; This file is a generated file. Don't edit this file.
+;;
+;; For more details please visit the project home page
+;;   https://github.com/icy/myquartz-scim2uim
+;;
+;; This work is distributed under the license GPL (v2).
+;; You must read and accept the license if you want to
+;; use, distribute, modify this work, and/or to
+;; create any derivative work.
+;;
 (require "generic.scm")
 (define #{xname}-rule
   '(
