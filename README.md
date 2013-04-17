@@ -11,6 +11,8 @@ or `SCIM`.
 * `src/Telex.txt.in`: Combinations of type `Telex`
 * `src/VNI.txt.in`: Combinations of type `VNI`
 
+To modifty these tables, please refer to `./src/README.md`.
+
 ## Usage
 
 The main script is `bin/scim2uim.rb` which converts the tables to `UIM`
