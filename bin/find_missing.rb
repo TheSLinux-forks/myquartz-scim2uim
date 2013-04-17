@@ -9,6 +9,10 @@
 #   $cat missings >> Telex.txt.in
 #   $sort.rb < Telex.txt.in > Telex.txt.in.new
 #   $mv Telex.txt.in.new Telex.txt.in
+#
+# NOTE: Bc this script doesn't run recursively, you may need to
+# run this script at least twice to ensure there is no missing entry
+# in your table
 
 modifiers = %w{s f w x j r}
 
