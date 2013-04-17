@@ -11,6 +11,10 @@
 #   $0 --vni   < src/VNI.txt.in   > VNI.txt.in.new
 #   $mv Telex.txt.in.new Telex.txt.in
 #   $mv VNI.txt.in.new   VNI.txt.in
+#
+# Please note that each meanful line in the old table is ended by `0`,
+# while any meanful line in the new table doesn't have that number.
+# So if you execute this script for the new table, you almost get nothing.
 
 output = STDIN \
   .readlines \
@@ -27,7 +31,7 @@ output = STDIN \
       : ai.size <=> bi.size
   end
 
-puts <<-EOF
+puts(<<-EOF) unless output.empty?
 ;;
 ;; Table of predefined combinations for Vietnamese Telex/VNI users.
 ;;
