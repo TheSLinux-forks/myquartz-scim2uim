@@ -3,7 +3,7 @@
 ;;
 ;; This table is generated from the original table from the branch `scim`.
 ;; Once this table is manually edit, the generator must be disabled and
-;; any further udpate must be done manually.
+;; any further udpate must be done carefully.
 ;;
 ;; This work is distributed under the terms of the license GPL (v2).
 ;; To use this work you must read and accept the license that's found at
@@ -45,7 +45,6 @@ AU	AU
 AW	Ă
 AX	Ã
 AY	AY
-AY	AY
 Aa	Â
 Ac	Ac
 Af	À
@@ -61,7 +60,6 @@ At	At
 Au	Au
 Aw	Ă
 Ax	Ã
-Ay	Ay
 Ay	Ay
 DD	Đ
 Dd	Đ
@@ -94,7 +92,6 @@ Gi	Gi
 IA	IA
 IC	IC
 IE	IE
-IE	IE
 IF	Ì
 IJ	Ị
 IM	IM
@@ -107,7 +104,6 @@ IU	IU
 IX	Ĩ
 Ia	Ia
 Ic	Ic
-Ie	Ie
 Ie	Ie
 If	Ì
 Ij	Ị
@@ -166,7 +162,6 @@ UT	UT
 UW	Ư
 UX	Ũ
 UY	UY
-UY	UY
 Ua	Ua
 Uc	Uc
 Uf	Ù
@@ -181,7 +176,6 @@ Us	Ú
 Ut	Ut
 Uw	Ư
 Ux	Ũ
-Uy	Uy
 Uy	Uy
 WA	ƯA
 WO	WO
@@ -198,6 +192,7 @@ Yf	Ỳ
 Yj	Ỵ
 Yr	Ỷ
 Ys	Ý
+Yt	Yt
 Yx	Ỹ
 aa	â
 ac	ac
@@ -215,7 +210,6 @@ au	au
 aw	ă
 ax	ã
 ay	ay
-ay	ay
 dd	đ
 ec	ec
 ee	ê
@@ -232,7 +226,6 @@ ex	ẽ
 gi	gi
 ia	ia
 ic	ic
-ie	ie
 ie	ie
 if	ì
 ij	ị
@@ -275,14 +268,15 @@ ut	ut
 uw	ư
 ux	ũ
 uy	uy
-uy	uy
 wa	ưa
 wo	wo
+ww	ww
 ye	ye
 yf	ỳ
 yj	ỵ
 yr	ỷ
 ys	ý
+yt	yt
 yx	ỹ
 AAA	AA
 AAF	Ầ
@@ -355,16 +349,20 @@ AYR	ẢY
 AYS	ÁY
 AYX	ÃY
 Aaa	Aa
+Aac	Aac
 Aaf	Ầ
 Aaj	Ậ
 Aam	Âm
 Aan	Ân
+Aap	Aap
 Aar	Ẩ
 Aas	Ấ
+Aat	Aat
 Aau	Âu
 Aax	Ẫ
 Aay	Ây
 Acf	Àc
+Ach	Ach
 Acj	Ạc
 Acr	Ảc
 Acs	Ác
@@ -410,12 +408,15 @@ Auj	Ạu
 Aur	Ảu
 Aus	Áu
 Aux	Ãu
+Awc	Awc
 Awf	Ằ
 Awj	Ặ
 Awm	Ăm
 Awn	Ăn
+Awp	Awp
 Awr	Ẳ
 Aws	Ắ
+Awt	Awt
 Aww	Aw
 Awx	Ẵ
 Axx	Ax
@@ -475,13 +476,16 @@ Ecj	Ẹc
 Ecr	Ẻc
 Ecs	Éc
 Ecx	Ẽc
+Eec	Eec
 Eee	Ee
 Eef	Ề
 Eej	Ệ
 Eem	Êm
 Een	Ên
+Eep	Eep
 Eer	Ể
 Ees	Ế
+Eet	Eet
 Eeu	Êu
 Eex	Ễ
 Eff	Ef
@@ -492,6 +496,7 @@ Emr	Ẻm
 Ems	Ém
 Emx	Ẽm
 Enf	Èn
+Eng	Eng
 Enj	Ẹn
 Enr	Ẻn
 Ens	Én
@@ -555,7 +560,9 @@ Iar	Ỉa
 Ias	Ía
 Iax	Ĩa
 Ich	Ich
+Icj	Icj
 Ics	Íc
+Iee	Iee
 Iff	If
 Imf	Ìm
 Imj	Ịm
@@ -661,6 +668,7 @@ Oan	Oan
 Oar	Oả
 Oas	Oá
 Oat	Oat
+Oaw	Oaw
 Oax	Oã
 Ocf	Òc
 Ocj	Ọc
@@ -671,6 +679,7 @@ Oef	Oè
 Oej	Oẹ
 Oer	Oẻ
 Oes	Oé
+Oet	Oet
 Oex	Oẽ
 Off	Of
 Oif	Òi
@@ -800,6 +809,7 @@ Unj	Ụn
 Unr	Ủn
 Uns	Ún
 Unx	Ũn
+Uow	Uow
 Upj	Ụp
 Ups	Úp
 Urr	Ur
@@ -812,8 +822,10 @@ Uwf	Ừ
 Uwi	Ưi
 Uwj	Ự
 Uwn	Ưn
+Uwo	Uwo
 Uwr	Ử
 Uws	Ứ
+Uwt	Uwt
 Uwu	Ưu
 Uww	Uw
 Uwx	Ữ
@@ -826,22 +838,29 @@ Uyt	Uyt
 Uyx	Uỹ
 WWA	WA
 WWa	Wa
+Wow	Wow
 Wwa	Wa
 YSS	YS
 YTS	ÝT
+Yee	Yee
+Ynh	Ynh
 Yss	Ys
 Yts	Ýt
 aaa	aa
+aac	aac
 aaf	ầ
 aaj	ậ
 aam	âm
 aan	ân
+aap	aap
 aar	ẩ
 aas	ấ
+aat	aat
 aau	âu
 aax	ẫ
 aay	ây
 acf	àc
+ach	ach
 acj	ạc
 acr	ảc
 acs	ác
@@ -887,12 +906,15 @@ auj	ạu
 aur	ảu
 aus	áu
 aux	ãu
+awc	awc
 awf	ằ
 awj	ặ
 awm	ăm
 awn	ăn
+awp	awp
 awr	ẳ
 aws	ắ
+awt	awt
 aww	aw
 awx	ẵ
 axx	ax
@@ -907,13 +929,16 @@ ecj	ẹc
 ecr	ẻc
 ecs	éc
 ecx	ẽc
+eec	eec
 eee	ee
 eef	ề
 eej	ệ
 eem	êm
 een	ên
+eep	eep
 eer	ể
 ees	ế
+eet	eet
 eeu	êu
 eex	ễ
 eff	ef
@@ -924,6 +949,7 @@ emr	ẻm
 ems	ém
 emx	ẽm
 enf	èn
+eng	eng
 enj	ẹn
 enr	ẻn
 ens	én
@@ -954,7 +980,9 @@ iar	ỉa
 ias	ía
 iax	ĩa
 ich	ich
+icj	icj
 ics	íc
+iee	iee
 iff	if
 imf	ìm
 imj	ịm
@@ -983,10 +1011,12 @@ oac	oac
 oaf	oà
 oai	oai
 oaj	oạ
+oam	oam
 oan	oan
 oar	oả
 oas	oá
 oat	oat
+oaw	oaw
 oax	oã
 ocf	òc
 ocj	ọc
@@ -997,6 +1027,7 @@ oef	oè
 oej	oẹ
 oer	oẻ
 oes	oé
+oet	oet
 oex	oẽ
 off	of
 oif	òi
@@ -1077,6 +1108,7 @@ unj	ụn
 unr	ủn
 uns	ún
 unx	ũn
+uow	uow
 upj	ụp
 ups	úp
 urr	ur
@@ -1089,8 +1121,10 @@ uwf	ừ
 uwi	ưi
 uwj	ự
 uwn	ưn
+uwo	uwo
 uwr	ử
 uws	ứ
+uwt	uwt
 uwu	ưu
 uww	uw
 uwx	ữ
@@ -1101,8 +1135,11 @@ uyr	uỷ
 uys	uý
 uyt	uyt
 uyx	uỹ
+wow	wow
 wwa	wa
 www	www
+yee	yee
+ynh	ynh
 yss	ys
 yts	ýt
 AACF	ẦC
@@ -1161,7 +1198,6 @@ ANHR	ẢNH
 ANHS	ÁNH
 ANHX	ÃNH
 ANSS	ANS
-APSS	APS
 APSS	APS
 ATRR	ATR
 ATXX	ATX
@@ -1251,7 +1287,6 @@ Anhs	Ánh
 Anhx	Ãnh
 Anss	Ans
 Apss	Aps
-Apss	Aps
 Atrr	Atr
 Atxx	Atx
 Aurr	Aur
@@ -1325,6 +1360,7 @@ ETSS	ETS
 Ecff	Ecf
 Ecrr	Ecr
 Ecss	Ecs
+Eech	Eech
 Eecj	Ệc
 Eemf	Ềm
 Eemj	Ệm
@@ -1422,6 +1458,7 @@ Ieen	Iên
 Ieep	Iêp
 Ieer	Iể
 Iees	Iế
+Ieet	Ieet
 Ieeu	Iêu
 Ieex	Iễ
 Imff	Imf
@@ -1585,6 +1622,7 @@ Oatj	Oạt
 Oatr	Oảt
 Oats	Oát
 Oatx	Oãt
+Oawc	Oawc
 Oawf	Oằ
 Oawj	Oặ
 Oawn	Oăn
@@ -1774,6 +1812,7 @@ Uwcs	Ức
 Uwir	Ửi
 Uwng	Ưng
 Uwnx	Ữn
+Uwow	Uwow
 Uwts	Ứt
 Uwuf	Ừu
 Uwuj	Ựu
@@ -1781,6 +1820,7 @@ Uwur	Ửu
 Uwus	Ứu
 Uwux	Ữu
 Uych	Uych
+Uyee	Uyee
 Uynh	Uynh
 Uytj	Uỵt
 Uyts	Uýt
@@ -1879,7 +1919,6 @@ anhs	ánh
 anhx	ãnh
 anss	ans
 apss	aps
-apss	aps
 atrr	atr
 atxx	atx
 aurr	aur
@@ -1914,6 +1953,7 @@ awtx	ẵt
 ecff	ecf
 ecrr	ecr
 ecss	ecs
+eech	eech
 eecj	ệc
 eemf	ềm
 eemj	ệm
@@ -1971,6 +2011,7 @@ ieen	iên
 ieep	iêp
 ieer	iể
 iees	iế
+ieet	ieet
 ieeu	iêu
 ieex	iễ
 imff	imf
@@ -2019,6 +2060,7 @@ oatj	oạt
 oatr	oảt
 oats	oát
 oatx	oãt
+oawc	oawc
 oawf	oằ
 oawj	oặ
 oawn	oăn
@@ -2154,6 +2196,7 @@ uwcs	ức
 uwir	ửi
 uwng	ưng
 uwnx	ữn
+uwow	uwow
 uwts	ứt
 uwuf	ừu
 uwuj	ựu
@@ -2161,6 +2204,7 @@ uwur	ửu
 uwus	ứu
 uwux	ữu
 uych	uych
+uyee	uyee
 uynh	uynh
 uytj	uỵt
 uyts	uýt
@@ -2403,8 +2447,8 @@ UOOTR	UỔT
 UOOTS	UỐT
 UOOTX	UỖT
 UOWCJ	ƯỢC
-UOWCS	ƯỚNG
 UOWCS	ƯỚC
+UOWCS	ƯỚNG
 UOWIF	ƯỜI
 UOWIJ	ƯỢI
 UOWIR	ƯỞI
