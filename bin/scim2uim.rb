@@ -57,10 +57,10 @@ puts <<-EOF
     (generic-context-new id im #{xname}-rule #f)))
 
 (generic-register-im
- '#{xname}
- "vi"
- "UTF-8"
- (N_ "X#{name}")
- (N_ "Big table of predefined words for Vietnamese #{name} users")
- #{xname}-init-handler)
+  '#{xname}
+  "vi"
+  "UTF-8"
+  (N_ "X#{name}")
+  (N_ "Big table of predefined words for Vietnamese #{name} users")
+  #{xname}-init-handler)
 EOF
