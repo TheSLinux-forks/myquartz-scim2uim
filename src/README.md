@@ -3,7 +3,7 @@
 To contribute to the table `Telex.txt.in`
 
 1. Edit the file `Telex.txt.in`: edit, remove, fix errors
-2. Execute the script `find_missing` to find the missing items.
+2. Execute the script `find_missing` to find missing items.
    Add these missing items to the file `Telext.txt.in`
 4. Run the script `find_missing` again to see if thing is good now
 5. Sort the file `Telex.txt.in` by using the script `sort`
@@ -27,7 +27,7 @@ $ cat ./src/Telex.txt.in \
   | ./bin/sort.rb \
   > ./src/Telex.txt.in.tmp
 
-# Please sure that the file `Telex.txt.in.tmp` is good enough ;)
+# Please make sure that the file `Telex.txt.in.tmp` is good enough ;)
 $ mv ./src/Telex.txt.in.tmp ./src/Telex.txt.in
 ````
 
