@@ -31,7 +31,7 @@ Please check example in the package `uim-vi` from `TheSLinux`.
 ## Authors
 
 * **Ky-Anh Huynh** from `TheSLinux`
-* **Thach-Anh Tran** (aka myquartz at gmail dot com) _(original author)_
+* **Thach-Anh Tran** (aka myquartz at gmail dot com) _(the original author)_
 
 ## License
 
