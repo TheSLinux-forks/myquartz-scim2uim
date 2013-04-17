@@ -12,14 +12,16 @@
 #   $mv Telex.txt.in.new Telex.txt.in
 #   $mv VNI.txt.in.new   VNI.txt.in
 #
+#   # add new entries to the table
+#   # repeat the first step
+#
 # Please note that each meanful line in the old table is ended by `0`,
 # while any meanful line in the new table doesn't have that number.
-# So if you execute this script for the new table, you almost get nothing.
 
 output = STDIN \
   .readlines \
   .select do |line|
-    line.match(%r{^(\p{Alnum}+)\p{Space}+([^\p{Space}]+)\p{Space}+0$})
+    line.match(%r{^(\p{Alnum}+)\p{Space}+([^\p{Space}]+)(\p{Space}+0)?$})
   end \
   .map do |line|
      line.split.slice(0,2)
@@ -37,7 +39,7 @@ puts(<<-EOF) unless output.empty?
 ;;
 ;; This table is generated from the original table from the branch `scim`.
 ;; Once this table is manually edit, the generator must be disabled and
-;; any further udpate must be done manually.
+;; any further udpate must be done carefully.
 ;;
 ;; This work is distributed under the terms of the license GPL (v2).
 ;; To use this work you must read and accept the license that's found at
