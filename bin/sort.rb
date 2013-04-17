@@ -15,8 +15,14 @@
 #   # add new entries to the table
 #   # repeat the first step
 #
+# Note 1:
 # Please note that each meanful line in the old table is ended by `0`,
 # while any meanful line in the new table doesn't have that number.
+#
+# Note 2:
+# We may have duplicated entries!! We can use sort to eliminate them.
+#   $ sort -u Telex.txt.in | sort.rb > Telex.txt.in.new
+#
 
 output = STDIN \
   .readlines \
