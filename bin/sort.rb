@@ -4,7 +4,7 @@
 # Purpose: Sort the original tables on the branch `scim`
 #          and prepare new tables for UIM.
 # Author : Anh K. Huynh
-# Date   : 2013 Mar 17th
+# Date   : 2013 April 17th
 # Usage  : This script should be used **ONCE**
 #
 #   $0 --telex < src/Telex.txt.in > Telex.txt.in.new
