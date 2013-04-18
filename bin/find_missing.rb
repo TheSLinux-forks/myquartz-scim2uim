@@ -14,7 +14,7 @@
 # run this script at least twice to ensure there is no missing entry
 # in your table
 
-modifiers = %w{s f w x j r}
+modifiers = %w{s f w x j r S F W X J R}
 
 entries = STDIN \
   .readlines \
