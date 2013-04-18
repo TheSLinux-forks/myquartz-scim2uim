@@ -32,6 +32,7 @@ Please check example in the package `uim-vi` from `TheSLinux`.
 
 ## Authors
 
+* **Huy Ngo** from `TheSLinux`
 * **Ky-Anh Huynh** from `TheSLinux`
 * **Thach-Anh Tran** (aka myquartz at gmail dot com) _(the original author)_
 
