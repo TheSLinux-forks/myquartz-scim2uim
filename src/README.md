@@ -2,15 +2,18 @@
 
 To contribute to the table `Telex.txt.in`
 
-1. Edit the file `Telex.txt.in`: edit, remove, fix errors
+1. Edit the file `Telex.txt.in`. This file only contains the lowercase
+   combination. You need to use the script `upcase` as in the step 5.
 2. Execute the script `find_missing` to find missing items.
    Add these missing items to the file `Telext.txt.in`
 4. Run the script `find_missing` again to see if thing is good now
-5. Sort the file `Telex.txt.in` by using the script `sort`
-6. Transfer the last output to `Telex.txt.in`.
+5. Run the script `upcase` to generate all valid forms of entries
+6. Sort the file `Telex.txt.in` by using the script `sort`
+7. Transfer the last output to `Telex.txt.in`.
 
 Here is a sample session. Please don't blindly copy and execute the
-following commands because they may hurt your system.
+following commands because they may hurt your system. You may take a look
+at the sample `Makefile` (again, please don't blindy use that file).
 
 ````
 # add some entries to Telex.txt.in
@@ -23,6 +26,7 @@ $ ./bin/find_missing.rb < src/Telex.txt.in > src/missings
 # ...
 
 $ cat ./src/Telex.txt.in \
+  | ./bin/upcase.rb \
   | sort -u \
   | ./bin/sort.rb \
   > ./src/Telex.txt.in.tmp
