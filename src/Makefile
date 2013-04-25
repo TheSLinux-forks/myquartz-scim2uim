@@ -28,8 +28,11 @@ build-telex:
 	@echo "Find missing entries again"
 	@$(BIN_DIR)/find_missing.rb < Telex.txt.in > missing
 	@cat missing >> Telex.txt.in
-	@echo "Sorting the tables"
-	@sort -u Telex.txt.in | $(BIN_DIR)/sort.rb  > tmp
+	@echo "Generating Uppercase forms and Sorting the tables"
+	@cat Telex.txt.in \
+		| $(BIN_DIR)/upcase.rb \
+		| sort -u \
+		| $(BIN_DIR)/sort.rb  > tmp
 	@echo "Now done"
 	@mv tmp Telex.txt.in
 
