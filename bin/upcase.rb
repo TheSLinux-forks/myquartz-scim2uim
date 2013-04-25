@@ -29,7 +29,7 @@ STDIN \
     puts "#{ai}\t#{bi}"
     ai = "#{UnicodeUtils.upcase(foo.slice(0,1))}#{foo.slice(1,foo.size)}"
     if ai.size > 1
-      bi = "#{UnicodeUtils.upcase(bar.slice(0,1))}#{bar.slice(1,foo.size)}"
+      bi = "#{UnicodeUtils.upcase(bar.slice(0,1))}#{bar.slice(1,bar.size)}"
       puts "#{ai}\t#{bi}"
     end
   end
