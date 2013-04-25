@@ -10,10 +10,13 @@ default:
 	@echo "  install : install files to /usr/share/uim/"
 
 xtelex.scm: Telex.txt.in
-	@$(BINDIR)/scim2uim.rb --telex < Telex.txt.in > $(@)
+	@$(BIN_DIR)/scim2uim.rb --telex < Telex.txt.in > $(@)
 
 xvni.scm: VNI.txt.in
-	@$(BINDIR)/scim2uim.rb --vni < VNI.txt.in > $(@)
+	@$(BIN_DIR)/scim2uim.rb --vni < VNI.txt.in > $(@)
 
 install: xtelex.scm xvni.scm
-	@install -m644 xtelex.scm xvni.scm /usr/share/uim/
+	@install -v -m644 xtelex.scm xvni.scm /usr/share/uim/
+
+clean:
+	@rm -fv xtelex.scm xvni.scm
