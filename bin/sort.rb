@@ -30,7 +30,7 @@ output = STDIN \
     line.match(%r{^(\p{Alnum}+)\p{Space}+([^\p{Space}]+)(\p{Space}+0)?$})
   end \
   .map do |line|
-     line.split.slice(0,2)
+    line.split.slice(0,2)
   end \
   .sort do |foo, bar|
     ai, bi = foo[0], bar[0]
