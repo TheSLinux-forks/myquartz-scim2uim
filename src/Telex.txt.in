@@ -749,6 +749,7 @@ Owt	Ơt
 Oww	Ow
 Owx	Ỡ
 Oxx	Ox
+UAA	UAA
 UAF	ÙA
 UAJ	ỤA
 UAR	ỦA
@@ -796,12 +797,14 @@ UWU	ƯU
 UWW	UW
 UWX	Ữ
 UXX	UX
+UYE	UYE
 UYF	UỲ
 UYJ	UỴ
 UYR	UỶ
 UYS	UÝ
 UYT	UYT
 UYX	UỸ
+Uaa	Uaa
 Uaf	Ùa
 Uaj	Ụa
 Uar	Ủa
@@ -849,6 +852,7 @@ Uwu	Ưu
 Uww	Uw
 Uwx	Ữ
 Uxx	Ux
+Uye	Uye
 Uyf	Uỳ
 Uyj	Uỵ
 Uyr	Uỷ
@@ -1105,6 +1109,7 @@ owt	ơt
 oww	ow
 owx	ỡ
 oxx	ox
+uaa	uaa
 uaf	ùa
 uaj	ụa
 uar	ủa
@@ -1152,6 +1157,7 @@ uwu	ưu
 uww	uw
 uwx	ữ
 uxx	ux
+uye	uye
 uyf	uỳ
 uyj	uỵ
 uyr	uỷ
@@ -1737,8 +1743,13 @@ Owtr	Ởt
 Owts	Ớt
 Owtx	Ỡt
 Owxx	Owx
+UAAF	UẦ
+UAAJ	UẬ
 UAAN	UÂN
+UAAR	UẨ
+UAAS	UẤ
 UAAT	UÂT
+UAAX	UẪ
 UAFF	UAF
 UAXX	UAX
 UIFF	UIF
@@ -1772,6 +1783,7 @@ UOWR	ƯỞ
 UOWS	ƯỚ
 UOWT	ƯƠT
 UOWX	ƯỠ
+UPSS	UPS
 UWAF	ỪA
 UWAJ	ỰA
 UWAR	ỬA
@@ -1794,8 +1806,13 @@ UYEE	UYEE
 UYNH	UYNH
 UYTJ	UỴT
 UYTS	UÝT
+Uaaf	Uầ
+Uaaj	Uậ
 Uaan	Uân
+Uaar	Uẩ
+Uaas	Uấ
 Uaat	Uât
+Uaax	Uẫ
 Uaff	Uaf
 Uaxx	Uax
 Uiff	Uif
@@ -1829,6 +1846,7 @@ Uowr	Ưở
 Uows	Ướ
 Uowt	Ươt
 Uowx	Ưỡ
+Upss	Ups
 Uwaf	Ừa
 Uwaj	Ựa
 Uwar	Ửa
@@ -2177,8 +2195,13 @@ owtr	ởt
 owts	ớt
 owtx	ỡt
 owxx	owx
+uaaf	uầ
+uaaj	uậ
 uaan	uân
+uaar	uẩ
+uaas	uấ
 uaat	uât
+uaax	uẫ
 uaff	uaf
 uaxx	uax
 uiff	uif
@@ -2212,6 +2235,7 @@ uowr	ưở
 uows	ướ
 uowt	ươt
 uowx	ưỡ
+upss	ups
 uwaf	ừa
 uwaj	ựa
 uwar	ửa
