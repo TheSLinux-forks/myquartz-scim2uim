@@ -6,10 +6,11 @@ Vietnamese Telex/VNI users. It also focus on `UIM` support.
 ## Tables
 
 These tables are very original: they can't be used directly in `UIM`
-or `SCIM`.
+or `SCIM`. The tables only contains lowercase combinations. You need
+to run the script `upcase.rb` to generate all possible forms.
 
-* `src/Telex.txt.in`: Combinations of type `Telex`
-* `src/VNI.txt.in`: Combinations of type `VNI`
+* `src/Telex.txt.in`: Combinations for `Telex` users
+* `src/VNI.txt.in`: Combinations for `VNI` users
 
 To modifty these tables, please refer to `./src/README.md`.
 
@@ -19,8 +20,17 @@ The main script is `bin/scim2uim.rb` which converts the tables to `UIM`
 support. The commands
 
 ````
-./bin/scim2uim.rb --telex < ./src/Telex.txt.in > ./src/xtelex.scm
-./bin/scim2uim.rb --vni   < ./src/VNI.txt.in   > ./src/xvni.scm
+$ cat ./src/Telex.txt.in \
+  | ./bin/upcase.rb \
+  | sort -u \
+  | ./bin/sort.rb \
+  | ./bin/scim2uim.rb --telex
+
+$ cat ./src/VNI.txt.in \
+  | ./bin/upcase.rb \
+  | sort -u \
+  | ./bin/sort.rb \
+  | ./bin/scim2uim.rb --vni
 ````
 
 will generate the file `xtelex.scm` and `xvni.scm` that can be used in `uim`.
