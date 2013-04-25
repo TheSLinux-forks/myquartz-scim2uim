@@ -30,11 +30,8 @@ clean:
 	@rm -fv xtelex.scm xvni.scm
 
 build-telex:
-	@echo "Possibly missing entries"
-	@$(BIN_DIR)/find_missing.rb < Telex.txt.in > missing
-	@cat missing >> Telex.txt.in
-	@echo "Find missing entries again"
-	@$(BIN_DIR)/find_missing.rb < Telex.txt.in > missing
-	@cat missing >> Telex.txt.in
+	@echo "WARNING: Because will will not modify the file 'Telex.txt.in'"
+	@echo "WARNING: automatically this section will do nothing."
+	@echo "WARNING: Please run 'find_missing' manually."
 
 all: clean build-telex install
