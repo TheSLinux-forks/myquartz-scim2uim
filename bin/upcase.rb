@@ -24,6 +24,7 @@ STDIN \
     line.split.slice(0,2)
   end \
   .each do |foo,bar|
+    ai, bi = foo, bar
     puts "#{ai}\t#{bi}"
     ai, bi = UnicodeUtils.upcase(foo), UnicodeUtils.upcase(bar)
     puts "#{ai}\t#{bi}"
