@@ -3,7 +3,11 @@
 
 # Purpose: Read entries from STDIN (assumed to be in lowercase)
 #          and convert them to `Uppercase` and `UPPERCASE`. Within the help
-#          of this script we only need to handle `lowercase` entries
+#          of this script we only need to handle `lowercase` entries.
+#          This script will print all three forms for each line
+#             * lowercase
+#             * Uppercase
+#             * UPPERCASE
 # Author : Anh K. Huynh
 # Date   : 2013 April 25th
 # Usage  :
@@ -20,6 +24,7 @@ STDIN \
     line.split.slice(0,2)
   end \
   .each do |foo,bar|
+    puts "#{ai}\t#{bi}"
     ai, bi = UnicodeUtils.upcase(foo), UnicodeUtils.upcase(bar)
     puts "#{ai}\t#{bi}"
     ai = "#{UnicodeUtils.upcase(foo.slice(0,1))}#{foo.slice(1,foo.size)}"
