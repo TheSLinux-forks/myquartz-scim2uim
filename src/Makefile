@@ -10,6 +10,9 @@ default:
 	@echo "  install : install files to /usr/share/uim/"
 
 xtelex.scm: Telex.txt.in
+	@echo "Find missing entries you may want to add them manually"
+	@cat Telex.txt.in | $(BIN_DIR)/find_missing.rb
+	@echo "Generating $(@)"
 	@cat Telex.txt.in \
 		| $(BIN_DIR)/upcase.rb \
 		| sort -u \
@@ -17,6 +20,9 @@ xtelex.scm: Telex.txt.in
 		| $(BIN_DIR)/scim2uim.rb --telex > $(@)
 
 xvni.scm: VNI.txt.in
+	@echo "Find missing entries you may want to add them manually"
+	@cat VNI.txt.in | $(BIN_DIR)/find_missing.rb
+	@echo "Generating $(@)"
 	@cat VNI.txt.in \
 		| $(BIN_DIR)/upcase.rb \
 		| sort -u \
@@ -30,8 +36,8 @@ clean:
 	@rm -fv xtelex.scm xvni.scm
 
 build-telex:
-	@echo "WARNING: Because will will not modify the file 'Telex.txt.in'"
-	@echo "WARNING: automatically this section will do nothing."
-	@echo "WARNING: Please run 'find_missing' manually."
+	@echo ">> WARNING: Because will will not modify the file 'Telex.txt.in'"
+	@echo ">> WARNING: automatically this section '$(@)' will do nothing."
+	@echo ">> WARNING: Please run 'find_missing' manually."
 
 all: clean build-telex install
