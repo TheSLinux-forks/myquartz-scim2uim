@@ -10,10 +10,18 @@ default:
 	@echo "  install : install files to /usr/share/uim/"
 
 xtelex.scm: Telex.txt.in
-	@$(BIN_DIR)/scim2uim.rb --telex < Telex.txt.in > $(@)
+	@cat Telex.txt.in \
+		| $(BIN_DIR)/upcase.rb \
+		| sort -u \
+		| $(BIN_DIR)/sort.rb \
+		| $(BIN_DIR)/scim2uim.rb --telex > $(@)
 
 xvni.scm: VNI.txt.in
-	@$(BIN_DIR)/scim2uim.rb --vni < VNI.txt.in > $(@)
+	@cat VNI.txt.in \
+		| $(BIN_DIR)/upcase.rb \
+		| sort -u \
+		| $(BIN_DIR)/sort.rb \
+		| $(BIN_DIR)/scim2uim.rb --vni > $(@)
 
 install: xtelex.scm xvni.scm
 	@install -v -m644 xtelex.scm xvni.scm /usr/share/uim/
@@ -28,12 +36,5 @@ build-telex:
 	@echo "Find missing entries again"
 	@$(BIN_DIR)/find_missing.rb < Telex.txt.in > missing
 	@cat missing >> Telex.txt.in
-	@echo "Generating Uppercase forms and Sorting the tables"
-	@cat Telex.txt.in \
-		| $(BIN_DIR)/upcase.rb \
-		| sort -u \
-		| $(BIN_DIR)/sort.rb  > tmp
-	@echo "Now done"
-	@mv tmp Telex.txt.in
 
 all: clean build-telex install
