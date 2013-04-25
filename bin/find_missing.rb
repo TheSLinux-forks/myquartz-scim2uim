@@ -35,4 +35,4 @@ entries.each do |item|
   end
 end
 
-puts missings.map{|p| "#{p}\t#{p}"}.join("\n")
+puts missings.map{|p| "#{p}\t#{p}"}.join("\n") unless missings.empty?
