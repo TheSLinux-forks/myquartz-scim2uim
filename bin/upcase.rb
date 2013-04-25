@@ -13,7 +13,12 @@
 # Usage  :
 #   $0 < input > output
 
-require "unicode_utils/upcase"
+begin
+  require "unxicode_utils/upcase"
+rescue LoadError
+  STDERR.puts ":: Error: You need Ruby >= 1.9 and the gem 'unicode_utils'"
+  exit 1
+end
 
 STDIN \
   .readlines \
