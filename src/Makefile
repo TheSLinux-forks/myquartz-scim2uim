@@ -20,3 +20,17 @@ install: xtelex.scm xvni.scm
 
 clean:
 	@rm -fv xtelex.scm xvni.scm
+
+build-telex:
+	@echo "Possibly missing entries"
+	@$(BIN_DIR)/find_missing.rb < Telex.txt.in > missing
+	@cat missing >> Telex.txt.in
+	@echo "Find missing entries again"
+	@$(BIN_DIR)/find_missing.rb < Telex.txt.in > missing
+	@cat missing >> Telex.txt.in
+	@echo "Sorting the tables"
+	@sort -u Telex.txt.in | $(BIN_DIR)/sort.rb  > tmp
+	@echo "Now done"
+	@mv tmp Telex.txt.in
+
+all: clean build-telex install
