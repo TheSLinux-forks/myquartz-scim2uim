@@ -40,6 +40,14 @@ need to edit the files `loaded.scm` and `installed-modules.scm` in your
 
 Please check example in the package `uim-vi` from `TheSLinux`.
 
+## Important notes
+
+The old tables contain all available combinations and this requires a lot
+of time to maintain the table. Since the version `v1.0.0` the tables only
+contain the lowercase combinations. These tables are still working with
+the old script `scim2uim`, however you need to run the script `upcase`
+to get all kind of combinations (`lowercase`, `Uppercase` and `UPPERCASE`.)
+
 ## Authors
 
 * **Huy Ngo** from `TheSLinux`
