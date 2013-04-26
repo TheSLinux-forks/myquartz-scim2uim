@@ -77,7 +77,7 @@ unless has_uppercase_combination
 :: the raw input "Telex.txt.in" or "VNI.txt.in". Since the version 'v1.0.0'
 :: these files only contain the lowercase combinations. To get the full
 :: list of combinations you need to use the script "upcase.rb". Fore more
-:: details please check out the latest documenta at
+:: details please check out the latest documentation at
 ::
 ::    https://github.com/TheSLinux-forks/myquartz-scim2uim
 ::
