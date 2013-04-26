@@ -10,7 +10,7 @@ default:
 	@echo "  install : install files to /usr/share/uim/"
 
 xtelex.scm: Telex.txt.in
-	@echo "Find missing entries you may want to add them manually"
+	@echo "Find missing entries in 'Telext.txt.in' you may want to add them manually"
 	@cat Telex.txt.in | $(BIN_DIR)/find_missing.rb
 	@echo "Generating $(@)"
 	@cat Telex.txt.in \
@@ -20,7 +20,7 @@ xtelex.scm: Telex.txt.in
 		| $(BIN_DIR)/scim2uim.rb --telex > $(@)
 
 xvni.scm: VNI.txt.in
-	@echo "Find missing entries you may want to add them manually"
+	@echo "Find missing entries for 'VNI.txt.in' you may want to add them manually"
 	@cat VNI.txt.in | $(BIN_DIR)/find_missing.rb
 	@echo "Generating $(@)"
 	@cat VNI.txt.in \
