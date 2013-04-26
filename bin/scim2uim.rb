@@ -22,6 +22,8 @@ xname = {true => "xtelex", false => "xvni"} [mode]
 reg  = {true => /^(\p{Alpha}+)\p{Space}+([^\p{Space}]+)(\p{Space}+0)?$/,
         false => /^(\p{Alnum}+)\p{Space}+([^\p{Space}]+)(\p{Space}+0)?$/ } [mode]
 
+has_uppercase_combination = false
+
 puts <<-EOF
 ;;
 ;; This file is a generated file. Don't edit this file.
@@ -47,6 +49,7 @@ STDIN.readlines.each do |line|
     input, output = gs[1,2]
     input = input.split(//).map{|c| "\"#{c}\""}.join(" ")
     puts sprintf("(((%s ))(\"%s\"))", input, output)
+    has_uppercase_combination ||= input.match(/[A-Z]/)
   end
 end
 
@@ -64,3 +67,19 @@ puts <<-EOF
   (N_ "Big table of predefined words for Vietnamese #{name} users")
   #{xname}-init-handler)
 EOF
+
+unless has_uppercase_combination
+  STDERR.puts <<-EOF
+::
+:: WARNING
+::
+:: There is no uppercase letter in your input. It seems that you are using
+:: the raw input "Telex.txt.in" or "VNI.txt.in". Since the version 'v1.0.0'
+:: these files only contain the lowercase combinations. To get the full
+:: list of combinations you need to use the script "upcase.rb". Fore more
+:: details please check out the latest documenta at
+::
+::    https://github.com/TheSLinux-forks/myquartz-scim2uim
+::
+EOF
+end
