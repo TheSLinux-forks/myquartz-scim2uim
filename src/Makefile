@@ -14,7 +14,7 @@ xtelex.scm: Telex.txt.in
 	@cat Telex.txt.in | $(BIN_DIR)/find_missing.rb
 	@echo "Generating $(@)"
 	@cat Telex.txt.in \
-		| $(BIN_DIR)/upcase.rb \
+		| $(BIN_DIR)/upcase.awk \
 		| sort -u \
 		| $(BIN_DIR)/sort.rb \
 		| $(BIN_DIR)/scim2uim.rb --telex > $(@)
@@ -24,7 +24,7 @@ xvni.scm: VNI.txt.in
 	@cat VNI.txt.in | $(BIN_DIR)/find_missing.rb
 	@echo "Generating $(@)"
 	@cat VNI.txt.in \
-		| $(BIN_DIR)/upcase.rb \
+		| $(BIN_DIR)/upcase.awk \
 		| sort -u \
 		| $(BIN_DIR)/sort.rb \
 		| $(BIN_DIR)/scim2uim.rb --vni > $(@)

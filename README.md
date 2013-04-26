@@ -21,13 +21,13 @@ support. The commands
 
 ````
 $ cat ./src/Telex.txt.in \
-  | ./bin/upcase.rb \
+  | ./bin/upcase.awk \
   | sort -u \
   | ./bin/sort.rb \
   | ./bin/scim2uim.rb --telex
 
 $ cat ./src/VNI.txt.in \
-  | ./bin/upcase.rb \
+  | ./bin/upcase.awk \
   | sort -u \
   | ./bin/sort.rb \
   | ./bin/scim2uim.rb --vni

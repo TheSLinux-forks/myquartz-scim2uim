@@ -26,7 +26,7 @@ $ ./bin/find_missing.rb < src/Telex.txt.in > src/missings
 # ...
 
 $ cat ./src/Telex.txt.in \
-  | ./bin/upcase.rb \
+  | ./bin/upcase.awk \
   | sort -u \
   | ./bin/sort.rb \
   > ./src/Telex.txt.in.tmp
