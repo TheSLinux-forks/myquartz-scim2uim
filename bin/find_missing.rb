@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 # encoding=utf-8
 
-# Purpose: Find missing entries in the Telex table
+# Purpose: Find missing entries in the Telex/VNI table
 # Author : Anh K. Huynh
 # Date   : 2013 April 17th
 # Usage  :
