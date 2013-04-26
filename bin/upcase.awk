@@ -19,7 +19,7 @@ BEGIN {}
   if (length($1) > 1) {
     printf("%s%s\t%s%s\n",
       toupper(substr($1, 1, 1)), substr($1, 2, length($1)),
-      toupper(substr($2, 1,1)), substr($2, 2, length($2)))
+      toupper(substr($2, 1, 1)), substr($2, 2, length($2)))
   }
 }
 
