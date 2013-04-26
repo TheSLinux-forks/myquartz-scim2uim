@@ -36,8 +36,5 @@ clean:
 	@rm -fv xtelex.scm xvni.scm
 
 build-telex:
-	@echo ">> WARNING: Because will will not modify the file 'Telex.txt.in'"
-	@echo ">> WARNING: automatically this section '$(@)' will do nothing."
-	@echo ">> WARNING: Please run 'find_missing' manually."
 
 all: clean build-telex install
