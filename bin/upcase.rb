@@ -14,7 +14,7 @@
 #   $0 < input > output
 
 begin
-  require "unxicode_utils/upcase"
+  require "unicode_utils/upcase"
 rescue LoadError
   STDERR.puts ":: Error: You need Ruby >= 1.9 and the gem 'unicode_utils'"
   exit 1
