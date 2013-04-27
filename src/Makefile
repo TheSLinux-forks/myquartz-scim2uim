@@ -29,12 +29,12 @@ xvni.scm: VNI.txt.in
 		| $(BIN_DIR)/sort.rb \
 		| $(BIN_DIR)/scim2uim.rb --vni > $(@)
 
-install: xtelex.scm xvni.scm
+build: xtelex.scm xvni.scm
+
+install: build
 	@install -v -m644 xtelex.scm xvni.scm /usr/share/uim/
 
 clean:
 	@rm -fv xtelex.scm xvni.scm
 
-build-telex:
-
-all: clean build-telex install
+all: clean build install
