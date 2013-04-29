@@ -27,10 +27,10 @@
 output = STDIN \
   .readlines \
   .select do |line|
-    line.match(%r{^(\p{Alnum}+)\p{Space}+([^\p{Space}]+)(\p{Space}+0)?$})
+    line.match(%r{^(\p{Alnum}+)\p{Space}+([^\p{Space}]+)\p{Space}+([^\p{Space}]+)$})
   end \
   .map do |line|
-    line.split.slice(0,2)
+    line.split.slice(0,3)
   end \
   .sort do |foo, bar|
     ai, bi = foo[0], bar[0]
@@ -53,4 +53,4 @@ puts(<<-EOF) unless output.empty?
 ;;
 EOF
 
-puts output.map{|u,v| "#{u}\t#{v}"}.join("\n")
+puts output.map{|u,v, w| "#{u}\t#{v}\t#{w}"}.join("\n")
