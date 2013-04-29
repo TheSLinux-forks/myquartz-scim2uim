@@ -14,6 +14,7 @@ d	d	-
 e	e	-
 g	g	-
 i	i	-
+k	k	-
 o	o	-
 q	q	-
 u	u	-
@@ -77,6 +78,7 @@ os	ó	-
 ot	ot	-
 ow	ơ	-
 ox	õ	-
+qu	qu	-
 ua	ua	-
 uc	uc	-
 uf	ù	-
@@ -95,6 +97,7 @@ uy	uy	-
 ye	ye	-
 yf	ỳ	-
 yj	ỵ	-
+yn	yn	-
 yr	ỷ	-
 ys	ý	-
 yt	yt	-
@@ -514,7 +517,6 @@ khus	khú	-
 khuw	khư	-
 khux	khux	-
 khuy	khuy	-
-khuy	khuy	-
 oach	oach	-
 oacj	oạc	-
 oacs	oác	-
@@ -529,7 +531,6 @@ oang	oang	-
 oanh	oanh	-
 oanj	oạn	-
 oanr	oản	-
-oans	oán	-
 oans	oán	-
 oanx	oãn	-
 oasn	oán	-
@@ -737,7 +738,6 @@ khuss	khus	-
 khuwf	khừ	-
 khuws	khứ	-
 khuyr	khuỷu	-
-khuyr	khuỷu	-
 khuyu	khuyu	-
 oachj	oạch	-
 oachs	oách	-
@@ -860,6 +860,7 @@ ieengr	iểng	-
 ieengs	iếng	-
 ieengx	iễng	-
 khuoon	khuôn	-
+khuown	khươn	-
 khuryu	khuỷu	-
 khuyru	khuỷu	-
 khuyur	khuỷu	-
@@ -911,7 +912,6 @@ uyeern	uyển	-
 uyeetj	uyệt	-
 uyeets	uyết	-
 uyeexn	uyễn	-
-khuown	khươn	-
 uwowngf	ường	-
 uwowngj	ượng	-
 uwowngr	ưởng	-
