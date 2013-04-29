@@ -1,6 +1,11 @@
 #!/usr/bin/awk -f
 
 # Purpose: This script is an alternative of the Ruby version
+#          Convert `line` from STDIN them to `Uppercase`, `UPPERCASE`.
+#          This script will print all three forms for each line
+#             * lowercase
+#             * Uppercase
+#             * UPPERCASE
 # Author : Anh K. Huynh
 # Date   : 2013 April 27th
 # Usage  :
