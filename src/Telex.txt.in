@@ -9,924 +9,924 @@
 ;; To use this work you must read and accept the license that's found at
 ;;   http://www.gnu.org/licenses/gpl-2.0.html
 ;;
-a	a
-d	d
-e	e
-g	g
-i	i
-o	o
-q	q
-u	u
-y	y
-aa	â
-ac	ac
-af	à
-ai	ai
-aj	ạ
-am	am
-an	an
-ao	ao
-ap	ap
-ar	ả
-as	á
-at	at
-au	au
-aw	ă
-ax	ã
-ay	ay
-dd	đ
-ec	ec
-ee	ê
-ef	è
-ej	ẹ
-em	em
-en	en
-eo	eo
-ep	ep
-er	ẻ
-es	é
-et	et
-ex	ẽ
-gi	gi
-ia	ia
-ic	ic
-ie	ie
-if	ì
-ij	ị
-im	im
-in	in
-ip	ip
-ir	ỉ
-is	í
-it	it
-iu	iu
-ix	ĩ
-oa	oa
-oc	oc
-oe	oe
-of	ò
-oi	oi
-oj	ọ
-om	om
-on	on
-oo	ô
-op	op
-or	ỏ
-os	ó
-ot	ot
-ow	ơ
-ox	õ
-qu	qu
-ua	ua
-uc	uc
-uf	ù
-ui	ui
-uj	ụ
-um	um
-un	un
-uo	uo
-up	up
-ur	ủ
-us	ú
-ut	ut
-uw	ư
-ux	ũ
-uy	uy
-ye	ye
-yf	ỳ
-yj	ỵ
-yr	ỷ
-ys	ý
-yt	yt
-yx	ỹ
-aaa	aa
-aac	aac
-aaf	ầ
-aaj	ậ
-aam	âm
-aan	ân
-aap	aap
-aar	ẩ
-aas	ấ
-aat	aat
-aau	âu
-aax	ẫ
-aay	ây
-acf	àc
-ach	ach
-acj	ạc
-acr	ảc
-acs	ác
-aff	af
-aif	ài
-aij	ại
-air	ải
-ais	ái
-aix	ãi
-ajj	aj
-amf	àm
-amj	ạm
-amr	ảm
-ams	ám
-amx	ãm
-anf	àn
-ang	ang
-anh	anh
-anj	ạn
-anr	ản
-ans	án
-anx	ãn
-aof	ào
-aoj	ạo
-aor	ảo
-aos	áo
-aox	ão
-apf	àp
-apj	ạp
-apr	ảp
-aps	áp
-arr	ar
-ass	as
-atj	ạt
-ats	át
-auf	àu
-auj	ạu
-aur	ảu
-aus	áu
-awc	awc
-awf	ằ
-awj	ặ
-awm	ăm
-awn	ăn
-awp	awp
-awr	ẳ
-aws	ắ
-awt	awt
-aww	aw
-awx	ẵ
-axx	ax
-ayf	ày
-ayj	ạy
-ayr	ảy
-ays	áy
-ayx	ãy
-ddd	dd
-ecf	èc
-ecj	ẹc
-ecs	éc
-eec	eec
-eee	ee
-eef	ề
-eej	ệ
-eem	êm
-een	ên
-eep	eep
-eer	ể
-ees	ế
-eet	eet
-eeu	êu
-eex	ễ
-eff	ef
-ejj	ej
-emf	èm
-emj	ẹm
-emr	ẻm
-ems	ém
-emx	ẽm
-enf	èn
-eng	eng
-enj	ẹn
-enr	ẻn
-ens	én
-enx	ẽn
-eof	èo
-eoj	ẹo
-eor	ẻo
-eos	éo
-eox	ẽo
-epf	èp
-epj	ẹp
-eps	ép
-err	er
-ess	es
-etj	ẹt
-ets	ét
-exx	ex
-gif	gì
-gir	gỉ
-iaf	ìa
-iaj	ịa
-iar	ỉa
-ias	ía
-iax	ĩa
-ich	ich
-icj	icj
-ics	íc
-iee	iee
-iff	if
-imf	ìm
-imj	ịm
-imr	ỉm
-ims	ím
-imx	ĩm
-inf	ìn
-inh	inh
-inj	ịn
-inr	ỉn
-ins	ín
-inx	ĩn
-ipj	ịp
-ips	íp
-irr	ir
-iss	is
-itj	ịt
-its	ít
-iuf	ìu
-iuj	ịu
-iur	ỉu
-ius	íu
-iux	ĩu
-ixx	ix
-oac	oac
-oaf	oà
-oai	oai
-oaj	oạ
-oam	oam
-oan	oan
-oar	oả
-oas	óa
-oat	oat
-oaw	oaw
-oax	oã
-ocf	òc
-ocj	ọc
-ocr	ỏc
-ocs	óc
-ocx	õc
-oef	oè
-oej	oẹ
-oer	oẻ
-oes	oé
-oet	oet
-oex	oẽ
-off	of
-oif	òi
-oij	ọi
-oir	ỏi
-ois	ói
-oix	õi
-ojj	oj
-omf	òm
-omj	ọm
-omr	ỏm
-oms	óm
-omx	õm
-onf	òn
-ong	ong
-onj	ọn
-onr	ỏn
-ons	ón
-onx	õn
-ooc	ôc
-oof	ồ
-ooi	ôi
-ooj	ộ
-oom	ôm
-oon	ôn
-ooo	oo
-oop	ôp
-oor	ổ
-oos	ố
-oot	ôt
-oox	ỗ
-opf	òp
-opj	ọp
-opr	ỏp
-ops	óp
-opx	õp
-orr	or
-oss	os
-otf	òt
-otj	ọt
-otr	ỏt
-ots	ót
-otx	õt
-owf	ờ
-owi	ơi
-owj	ợ
-owm	ơm
-own	ơn
-owp	ơp
-owr	ở
-ows	ớ
-owt	ơt
-oww	ow
-owx	ỡ
-oxx	ox
-uaa	uaa
-uaf	ùa
-uaj	ụa
-uar	ủa
-uas	úa
-uax	ũa
-ucj	ục
-ucs	úc
-uff	uf
-uif	ùi
-uij	ụi
-uir	ủi
-uis	úi
-uix	ũi
-ujj	uj
-umf	ùm
-umj	ụm
-umr	ủm
-ums	úm
-umx	ũm
-unf	ùn
-ung	ung
-unj	ụn
-unr	ủn
-uns	ún
-unx	ũn
-uoo	uoo
-uow	uow
-upj	ụp
-ups	úp
-urr	ur
-uss	us
-utj	ụt
-uts	út
-uwa	ưa
-uwc	ưc
-uwf	ừ
-uwi	ưi
-uwj	ự
-uwn	ưn
-uwo	uwo
-uwr	ử
-uws	ứ
-uwt	uwt
-uwu	ưu
-uww	uw
-uwx	ữ
-uxx	ux
-uye	uye
-uyf	uỳ
-uyj	uỵ
-uyr	uỷ
-uys	uý
-uyt	uyt
-uyx	uỹ
-yee	yee
-ynh	ynh
-yss	ys
-yts	ýt
-aacj	ậc
-aacs	ấc
-aamf	ầm
-aamj	ậm
-aamr	ẩm
-aams	ấm
-aamx	ẫm
-aanf	ần
-aang	âng
-aanj	ận
-aanr	ẩn
-aans	ấn
-aanx	ẫn
-aapj	ập
-aaps	ấp
-aatj	ật
-aats	ất
-aauf	ầu
-aauj	ậu
-aaur	ẩu
-aaus	ấu
-aaux	ẫu
-aayf	ầy
-aayj	ậy
-aayr	ẩy
-aays	ấy
-aayx	ẫy
-achj	ạch
-achs	ách
-acjj	acj
-acrr	acr
-aixx	aix
-amss	ams
-angf	àng
-angj	ạng
-angr	ảng
-angs	áng
-angx	ãng
-anhf	ành
-anhj	ạnh
-anhr	ảnh
-anhs	ánh
-anhx	ãnh
-anss	ans
-apss	aps
-aurr	aur
-auss	aus
-awcj	ặc
-awcs	ắc
-awmf	ằm
-awmj	ặm
-awmr	ẳm
-awms	ắm
-awmx	ẵm
-awnf	ằn
-awng	ăng
-awnj	ặn
-awnr	ẳn
-awns	ắn
-awnx	ẵn
-awpj	ặp
-awps	ắp
-awtj	ặt
-awts	ắt
-ecff	ecf
-ecss	ecs
-eech	eech
-eecj	ệc
-eemf	ềm
-eemj	ệm
-eemr	ểm
-eems	ếm
-eemx	ễm
-eenf	ền
-eeng	êng
-eenh	ênh
-eenj	ện
-eenr	ển
-eens	ến
-eenx	ễn
-eepj	ệp
-eeps	ếp
-eerr	eer
-eess	ees
-eetj	ệt
-eets	ết
-eeuf	ều
-eeuj	ệu
-eeur	ểu
-eeus	ếu
-eeux	ễu
-emss	ems
-engf	èng
-engr	ẻng
-engs	éng
-enss	ens
-epss	eps
-etss	ets
-giff	gif
-girr	gir
-iaff	iaf
-iarr	iar
-iass	ias
-iaxx	iax
-ichj	ịch
-ichs	ích
-icjh	ịch
-icjj	icj
-icss	ics
-ieec	iêc
-ieef	iề
-ieej	iệ
-ieem	iêm
-ieen	iên
-ieep	iêp
-ieer	iể
-iees	iế
-ieet	ieet
-ieeu	iêu
-ieex	iễ
-imff	imf
-imrr	imr
-imxx	imx
-inff	inf
-inhf	ình
-inhj	ịnh
-inhr	ỉnh
-inhs	ính
-inhx	ĩnh
-injj	inj
-inrr	inr
-inss	ins
-inxx	inx
-ipjj	ipj
-ipss	ips
-itjj	itj
-itss	its
-iuff	iuf
-iujj	iuj
-iurr	iur
-iuxx	iux
-oacf	oàc
-oach	oach
-oacj	oạc
-oacr	oảc
-oacs	oác
-oacx	oãc
-oaif	oài
-oaij	oại
-oair	oải
-oais	oái
-oaix	oãi
-oamj	oạm
-oanf	oàn
-oang	oang
-oanh	oanh
-oanj	oạn
-oanr	oản
-oans	oán
-oans	oán
-oanx	oãn
-oasn	oán
-oass	oas
-oatf	oàt
-oatj	oạt
-oats	oát
-oawc	oawc
-oawf	oằ
-oawj	oặ
-oawn	oăn
-oawr	oẳ
-oaws	oắ
-oawt	oăt
-oawx	oẵ
-oeff	oef
-oerr	oer
-oetj	oẹt
-oets	oét
-oiss	ois
-omff	omf
-omss	oms
-onff	onf
-ongf	òng
-ongj	ọng
-ongr	ỏng
-ongs	óng
-ongx	õng
-onss	ons
-oocj	ộc
-oocs	ốc
-ooif	ồi
-ooij	ội
-ooir	ổi
-oois	ối
-ooix	ỗi
-oomf	ồm
-oomj	ộm
-oomr	ổm
-ooms	ốm
-oomx	ỗm
-oonf	ồn
-oong	ông
-oonj	ộn
-oonr	ổn
-oons	ốn
-oonx	ỗn
-ooof	oò
-oooj	oọ
-ooor	oỏ
-ooos	oó
-ooox	oõ
-oopj	ộp
-oops	ốp
-ootj	ột
-oots	ốt
-opff	opf
-opss	ops
-otff	otf
-otss	ots
-owff	owf
-owif	ời
-owij	ợi
-owir	ởi
-owis	ới
-owix	ỡi
-owjj	owj
-owmf	ờm
-owmj	ợm
-owmr	ởm
-owms	ớm
-owmx	ỡm
-ownf	ờn
-ownj	ợn
-ownr	ởn
-owns	ớn
-ownx	ỡn
-owpj	ợp
-owps	ớp
-owrr	owr
-owss	ows
-owtj	ợt
-owts	ớt
-owxx	owx
-uaaf	uầ
-uaaj	uậ
-uaan	uân
-uaar	uẩ
-uaas	uấ
-uaat	uât
-uaax	uẫ
-uaff	uaf
-uaxx	uax
-uiff	uif
-umff	umf
-umjj	umj
-umrr	umr
-umxx	umx
-unff	unf
-ungf	ùng
-ungj	ụng
-ungr	ủng
-ungs	úng
-ungx	ũng
-unjj	unj
-unrr	unr
-unxx	unx
-uooc	uôc
-uooi	uôi
-uoom	uôm
-uoon	uôn
-uoos	uố
-uoot	uôt
-uowc	ươc
-uowf	ườ
-uowi	ươi
-uowj	ượ
-uowm	ươm
-uown	ươn
-uowp	ươp
-uowr	ưở
-uows	ướ
-uowt	ươt
-uowx	ưỡ
-upss	ups
-uwaf	ừa
-uwaj	ựa
-uwar	ửa
-uwas	ứa
-uwax	ữa
-uwcj	ực
-uwcs	ức
-uwir	ửi
-uwng	ưng
-uwnx	ữn
-uwow	uwow
-uwts	ứt
-uwuf	ừu
-uwuj	ựu
-uwur	ửu
-uwus	ứu
-uwux	ữu
-uych	uych
-uyee	uyee
-uynh	uynh
-uytj	uỵt
-uyts	uýt
-yeef	yề
-yeem	yêm
-yeen	yên
-yees	yế
-yeet	yêt
-yeeu	yêu
-ynhf	ỳnh
-ynhs	ýnh
-aangf	ầng
-aangj	ậng
-aangr	ẩng
-aangs	ấng
-aangx	ẫng
-achss	achs
-awngf	ằng
-awngj	ặng
-awngr	ẳng
-awngs	ắng
-awngx	ẵng
-eechj	ệch
-eechs	ếch
-eecjh	ệch
-eengs	ếng
-eenhf	ềnh
-eenhj	ệnh
-eenhr	ểnh
-eenss	eens
-eepss	eeps
-eetss	eets
-ichjj	ichj
-ieecj	iệc
-ieecs	iếc
-ieejt	iệt
-ieemf	iềm
-ieemj	iệm
-ieemr	iểm
-ieems	iếm
-ieemx	iễm
-ieenf	iền
-ieeng	iêng
-ieenj	iện
-ieenr	iển
-ieens	iến
-ieenx	iễn
-ieepj	iệp
-ieeps	iếp
-ieest	iết
-ieetj	iệt
-ieets	iết
-ieeuf	iều
-ieeuj	iệu
-ieeur	iểu
-ieeus	iếu
-ieeux	iễu
-inhrr	inhr
-inhxx	inhx
-oachj	oạch
-oachs	oách
-oacss	oacs
-oangf	oàng
-oangj	oạnh
-oangr	oảng
-oangs	oáng
-oangx	oãng
-oanhf	oành
-oanhj	oạng
-oanhr	oảnh
-oanhs	oánh
-oawcj	oặc
-oawcs	oắc
-oawnf	oằn
-oawng	oăng
-oawnj	oặn
-oawnr	oẳn
-oawns	oắn
-oawnx	oẵn
-oawtj	oặt
-oawts	oắt
-oongf	ồng
-oongj	ộng
-oongr	ổng
-oongs	ống
-oongx	ỗng
-ootss	oots
-uaanf	uần
-uaang	uâng
-uaanj	uận
-uaanr	uẩn
-uaans	uấn
-uaanx	uẫn
-uaatf	uầt
-uaatj	uật
-uaats	uất
-uoocj	uộc
-uoocs	uốc
-uooif	uồi
-uooij	uội
-uooir	uổi
-uoois	uối
-uooix	uỗi
-uoojc	uộc
-uooji	uội
-uoomf	uồm
-uoomj	uộm
-uoomr	uổm
-uooms	uốm
-uoomx	uỗm
-uoonf	uồn
-uoong	uông
-uoonj	uộn
-uoonr	uổn
-uoons	uốn
-uoonx	uỗn
-uoosc	uốc
-uoosi	uối
-uooss	uoos
-uootj	uột
-uoots	uốt
-uowcj	ược
-uowcs	ước
-uowif	ười
-uowij	ượi
-uowir	ưởi
-uowis	ưới
-uowix	ưỡi
-uowmf	ườm
-uowmj	ượm
-uowms	ướm
-uownf	ườn
-uowng	ương
-uownj	ượn
-uownr	ưởn
-uowns	ướn
-uownx	ưỡn
-uowpj	ượp
-uowps	ướp
-uowtj	ượt
-uowts	ướt
-uwngf	ừng
-uwngj	ựng
-uwngr	ửng
-uwngs	ứng
-uwngx	ững
-uwowc	ươc
-uwowf	ườ
-uwowi	ươi
-uwowj	ượ
-uwowm	ươm
-uwown	ươn
-uwowp	ươp
-uwowr	ưở
-uwows	ướ
-uwowt	ươt
-uwowu	ươu
-uwowx	ưỡ
-uychj	uỵch
-uyeef	uyề
-uyeen	uyên
-uyees	uyế
-uyeet	uyêt
-uynhf	uỳnh
-uynhs	uýnh
-yeemf	yềm
-yeemj	yệm
-yeemr	yểm
-yeems	yếm
-yeenf	yền
-yeeng	yêng
-yeenj	yện
-yeenr	yển
-yeens	yến
-yeenx	yễn
-yeest	yết
-yeetj	yệt
-yeets	yết
-yeeuj	yệu
-yeeur	yểu
-yeeus	yếu
-ieengf	iềng
-ieengj	iệng
-ieengr	iểng
-ieengs	iếng
-ieengx	iễng
-oawngf	oằng
-oawngj	oặng
-oawngr	oẳng
-oawngs	oắng
-oawngx	oẵng
-uaangf	uầng
-uaangj	uậng
-uaangr	uẩng
-uaangs	uấng
-uaangx	uẫng
-uoongf	uồng
-uoongj	uộng
-uoongr	uổng
-uoongs	uống
-uoongx	uỗng
-uowngf	ường
-uowngj	ượng
-uowngr	ưởng
-uowngs	ướng
-uowngx	ưỡng
-uwowcj	ược
-uwowcs	ước
-uwowif	ười
-uwowij	ượi
-uwowir	ưởi
-uwowis	ưới
-uwowix	ưỡi
-uwowmf	ườm
-uwowmj	ượm
-uwowms	ướm
-uwownf	ườn
-uwowng	ương
-uwownj	ượn
-uwownr	ưởn
-uwowns	ướn
-uwownx	ưỡn
-uwowpj	ượp
-uwowps	ướp
-uwowtj	ượt
-uwowts	ướt
-uwowuj	ượu
-uwowus	ướu
-uyeejn	uyện
-uyeejt	uyệt
-uyeenf	uyền
-uyeenj	uyện
-uyeenr	uyển
-uyeens	uyến
-uyeenx	uyễn
-uyeern	uyển
-uyeetf	uyềt
-uyeetj	uyệt
-uyeets	uyết
-uyeexn	uyễn
-uwowngf	ường
-uwowngj	ượng
-uwowngr	ưởng
-uwowngs	ướng
-uwowngx	ưỡng
+a	a	-
+d	d	-
+e	e	-
+g	g	-
+i	i	-
+o	o	-
+q	q	-
+u	u	-
+y	y	-
+aa	â	-
+ac	ac	-
+af	à	-
+ai	ai	-
+aj	ạ	-
+am	am	-
+an	an	-
+ao	ao	-
+ap	ap	-
+ar	ả	-
+as	á	-
+at	at	-
+au	au	-
+aw	ă	-
+ax	ã	-
+ay	ay	-
+dd	đ	-
+ec	ec	-
+ee	ê	-
+ef	è	-
+ej	ẹ	-
+em	em	-
+en	en	-
+eo	eo	-
+ep	ep	-
+er	ẻ	-
+es	é	-
+et	et	-
+ex	ẽ	-
+gi	gi	-
+ia	ia	-
+ic	ic	-
+ie	ie	-
+if	ì	-
+ij	ị	-
+im	im	-
+in	in	-
+ip	ip	-
+ir	ỉ	-
+is	í	-
+it	it	-
+iu	iu	-
+ix	ĩ	-
+oa	oa	-
+oc	oc	-
+oe	oe	-
+of	ò	-
+oi	oi	-
+oj	ọ	-
+om	om	-
+on	on	-
+oo	ô	-
+op	op	-
+or	ỏ	-
+os	ó	-
+ot	ot	-
+ow	ơ	-
+ox	õ	-
+qu	qu	-
+ua	ua	-
+uc	uc	-
+uf	ù	-
+ui	ui	-
+uj	ụ	-
+um	um	-
+un	un	-
+uo	uo	-
+up	up	-
+ur	ủ	-
+us	ú	-
+ut	ut	-
+uw	ư	-
+ux	ũ	-
+uy	uy	-
+ye	ye	-
+yf	ỳ	-
+yj	ỵ	-
+yr	ỷ	-
+ys	ý	-
+yt	yt	-
+yx	ỹ	-
+aaa	aa	-
+aac	aac	-
+aaf	ầ	-
+aaj	ậ	-
+aam	âm	-
+aan	ân	-
+aap	aap	-
+aar	ẩ	-
+aas	ấ	-
+aat	aat	-
+aau	âu	-
+aax	ẫ	-
+aay	ây	-
+acf	àc	-
+ach	ach	-
+acj	ạc	-
+acr	ảc	-
+acs	ác	-
+aff	af	-
+aif	ài	-
+aij	ại	-
+air	ải	-
+ais	ái	-
+aix	ãi	-
+ajj	aj	-
+amf	àm	-
+amj	ạm	-
+amr	ảm	-
+ams	ám	-
+amx	ãm	-
+anf	àn	-
+ang	ang	-
+anh	anh	-
+anj	ạn	-
+anr	ản	-
+ans	án	-
+anx	ãn	-
+aof	ào	-
+aoj	ạo	-
+aor	ảo	-
+aos	áo	-
+aox	ão	-
+apf	àp	-
+apj	ạp	-
+apr	ảp	-
+aps	áp	-
+arr	ar	-
+ass	as	-
+atj	ạt	-
+ats	át	-
+auf	àu	-
+auj	ạu	-
+aur	ảu	-
+aus	áu	-
+awc	awc	-
+awf	ằ	-
+awj	ặ	-
+awm	ăm	-
+awn	ăn	-
+awp	awp	-
+awr	ẳ	-
+aws	ắ	-
+awt	awt	-
+aww	aw	-
+awx	ẵ	-
+axx	ax	-
+ayf	ày	-
+ayj	ạy	-
+ayr	ảy	-
+ays	áy	-
+ayx	ãy	-
+ddd	dd	-
+ecf	èc	-
+ecj	ẹc	-
+ecs	éc	-
+eec	eec	-
+eee	ee	-
+eef	ề	-
+eej	ệ	-
+eem	êm	-
+een	ên	-
+eep	eep	-
+eer	ể	-
+ees	ế	-
+eet	eet	-
+eeu	êu	-
+eex	ễ	-
+eff	ef	-
+ejj	ej	-
+emf	èm	-
+emj	ẹm	-
+emr	ẻm	-
+ems	ém	-
+emx	ẽm	-
+enf	èn	-
+eng	eng	-
+enj	ẹn	-
+enr	ẻn	-
+ens	én	-
+enx	ẽn	-
+eof	èo	-
+eoj	ẹo	-
+eor	ẻo	-
+eos	éo	-
+eox	ẽo	-
+epf	èp	-
+epj	ẹp	-
+eps	ép	-
+err	er	-
+ess	es	-
+etj	ẹt	-
+ets	ét	-
+exx	ex	-
+gif	gì	-
+gir	gỉ	-
+iaf	ìa	-
+iaj	ịa	-
+iar	ỉa	-
+ias	ía	-
+iax	ĩa	-
+ich	ich	-
+icj	icj	-
+ics	íc	-
+iee	iee	-
+iff	if	-
+imf	ìm	-
+imj	ịm	-
+imr	ỉm	-
+ims	ím	-
+imx	ĩm	-
+inf	ìn	-
+inh	inh	-
+inj	ịn	-
+inr	ỉn	-
+ins	ín	-
+inx	ĩn	-
+ipj	ịp	-
+ips	íp	-
+irr	ir	-
+iss	is	-
+itj	ịt	-
+its	ít	-
+iuf	ìu	-
+iuj	ịu	-
+iur	ỉu	-
+ius	íu	-
+iux	ĩu	-
+ixx	ix	-
+oac	oac	-
+oaf	oà	-
+oai	oai	-
+oaj	oạ	-
+oam	oam	-
+oan	oan	-
+oar	oả	-
+oas	óa	-
+oat	oat	-
+oaw	oaw	-
+oax	oã	-
+ocf	òc	-
+ocj	ọc	-
+ocr	ỏc	-
+ocs	óc	-
+ocx	õc	-
+oef	oè	-
+oej	oẹ	-
+oer	oẻ	-
+oes	oé	-
+oet	oet	-
+oex	oẽ	-
+off	of	-
+oif	òi	-
+oij	ọi	-
+oir	ỏi	-
+ois	ói	-
+oix	õi	-
+ojj	oj	-
+omf	òm	-
+omj	ọm	-
+omr	ỏm	-
+oms	óm	-
+omx	õm	-
+onf	òn	-
+ong	ong	-
+onj	ọn	-
+onr	ỏn	-
+ons	ón	-
+onx	õn	-
+ooc	ôc	-
+oof	ồ	-
+ooi	ôi	-
+ooj	ộ	-
+oom	ôm	-
+oon	ôn	-
+ooo	oo	-
+oop	ôp	-
+oor	ổ	-
+oos	ố	-
+oot	ôt	-
+oox	ỗ	-
+opf	òp	-
+opj	ọp	-
+opr	ỏp	-
+ops	óp	-
+opx	õp	-
+orr	or	-
+oss	os	-
+otf	òt	-
+otj	ọt	-
+otr	ỏt	-
+ots	ót	-
+otx	õt	-
+owf	ờ	-
+owi	ơi	-
+owj	ợ	-
+owm	ơm	-
+own	ơn	-
+owp	ơp	-
+owr	ở	-
+ows	ớ	-
+owt	ơt	-
+oww	ow	-
+owx	ỡ	-
+oxx	ox	-
+uaa	uaa	-
+uaf	ùa	-
+uaj	ụa	-
+uar	ủa	-
+uas	úa	-
+uax	ũa	-
+ucj	ục	-
+ucs	úc	-
+uff	uf	-
+uif	ùi	-
+uij	ụi	-
+uir	ủi	-
+uis	úi	-
+uix	ũi	-
+ujj	uj	-
+umf	ùm	-
+umj	ụm	-
+umr	ủm	-
+ums	úm	-
+umx	ũm	-
+unf	ùn	-
+ung	ung	-
+unj	ụn	-
+unr	ủn	-
+uns	ún	-
+unx	ũn	-
+uoo	uoo	-
+uow	uow	-
+upj	ụp	-
+ups	úp	-
+urr	ur	-
+uss	us	-
+utj	ụt	-
+uts	út	-
+uwa	ưa	-
+uwc	ưc	-
+uwf	ừ	-
+uwi	ưi	-
+uwj	ự	-
+uwn	ưn	-
+uwo	uwo	-
+uwr	ử	-
+uws	ứ	-
+uwt	uwt	-
+uwu	ưu	-
+uww	uw	-
+uwx	ữ	-
+uxx	ux	-
+uye	uye	-
+uyf	uỳ	-
+uyj	uỵ	-
+uyr	uỷ	-
+uys	uý	-
+uyt	uyt	-
+uyx	uỹ	-
+yee	yee	-
+ynh	ynh	-
+yss	ys	-
+yts	ýt	-
+aacj	ậc	-
+aacs	ấc	-
+aamf	ầm	-
+aamj	ậm	-
+aamr	ẩm	-
+aams	ấm	-
+aamx	ẫm	-
+aanf	ần	-
+aang	âng	-
+aanj	ận	-
+aanr	ẩn	-
+aans	ấn	-
+aanx	ẫn	-
+aapj	ập	-
+aaps	ấp	-
+aatj	ật	-
+aats	ất	-
+aauf	ầu	-
+aauj	ậu	-
+aaur	ẩu	-
+aaus	ấu	-
+aaux	ẫu	-
+aayf	ầy	-
+aayj	ậy	-
+aayr	ẩy	-
+aays	ấy	-
+aayx	ẫy	-
+achj	ạch	-
+achs	ách	-
+acjj	acj	-
+acrr	acr	-
+aixx	aix	-
+amss	ams	-
+angf	àng	-
+angj	ạng	-
+angr	ảng	-
+angs	áng	-
+angx	ãng	-
+anhf	ành	-
+anhj	ạnh	-
+anhr	ảnh	-
+anhs	ánh	-
+anhx	ãnh	-
+anss	ans	-
+apss	aps	-
+aurr	aur	-
+auss	aus	-
+awcj	ặc	-
+awcs	ắc	-
+awmf	ằm	-
+awmj	ặm	-
+awmr	ẳm	-
+awms	ắm	-
+awmx	ẵm	-
+awnf	ằn	-
+awng	ăng	-
+awnj	ặn	-
+awnr	ẳn	-
+awns	ắn	-
+awnx	ẵn	-
+awpj	ặp	-
+awps	ắp	-
+awtj	ặt	-
+awts	ắt	-
+ecff	ecf	-
+ecss	ecs	-
+eech	eech	-
+eecj	ệc	-
+eemf	ềm	-
+eemj	ệm	-
+eemr	ểm	-
+eems	ếm	-
+eemx	ễm	-
+eenf	ền	-
+eeng	êng	-
+eenh	ênh	-
+eenj	ện	-
+eenr	ển	-
+eens	ến	-
+eenx	ễn	-
+eepj	ệp	-
+eeps	ếp	-
+eerr	eer	-
+eess	ees	-
+eetj	ệt	-
+eets	ết	-
+eeuf	ều	-
+eeuj	ệu	-
+eeur	ểu	-
+eeus	ếu	-
+eeux	ễu	-
+emss	ems	-
+engf	èng	-
+engr	ẻng	-
+engs	éng	-
+enss	ens	-
+epss	eps	-
+etss	ets	-
+giff	gif	-
+girr	gir	-
+iaff	iaf	-
+iarr	iar	-
+iass	ias	-
+iaxx	iax	-
+ichj	ịch	-
+ichs	ích	-
+icjh	ịch	-
+icjj	icj	-
+icss	ics	-
+ieec	iêc	-
+ieef	iề	-
+ieej	iệ	-
+ieem	iêm	-
+ieen	iên	-
+ieep	iêp	-
+ieer	iể	-
+iees	iế	-
+ieet	ieet	-
+ieeu	iêu	-
+ieex	iễ	-
+imff	imf	-
+imrr	imr	-
+imxx	imx	-
+inff	inf	-
+inhf	ình	-
+inhj	ịnh	-
+inhr	ỉnh	-
+inhs	ính	-
+inhx	ĩnh	-
+injj	inj	-
+inrr	inr	-
+inss	ins	-
+inxx	inx	-
+ipjj	ipj	-
+ipss	ips	-
+itjj	itj	-
+itss	its	-
+iuff	iuf	-
+iujj	iuj	-
+iurr	iur	-
+iuxx	iux	-
+oacf	oàc	-
+oach	oach	-
+oacj	oạc	-
+oacr	oảc	-
+oacs	oác	-
+oacx	oãc	-
+oaif	oài	-
+oaij	oại	-
+oair	oải	-
+oais	oái	-
+oaix	oãi	-
+oamj	oạm	-
+oanf	oàn	-
+oang	oang	-
+oanh	oanh	-
+oanj	oạn	-
+oanr	oản	-
+oans	oán	-
+oans	oán	-
+oanx	oãn	-
+oasn	oán	-
+oass	oas	-
+oatf	oàt	-
+oatj	oạt	-
+oats	oát	-
+oawc	oawc	-
+oawf	oằ	-
+oawj	oặ	-
+oawn	oăn	-
+oawr	oẳ	-
+oaws	oắ	-
+oawt	oăt	-
+oawx	oẵ	-
+oeff	oef	-
+oerr	oer	-
+oetj	oẹt	-
+oets	oét	-
+oiss	ois	-
+omff	omf	-
+omss	oms	-
+onff	onf	-
+ongf	òng	-
+ongj	ọng	-
+ongr	ỏng	-
+ongs	óng	-
+ongx	õng	-
+onss	ons	-
+oocj	ộc	-
+oocs	ốc	-
+ooif	ồi	-
+ooij	ội	-
+ooir	ổi	-
+oois	ối	-
+ooix	ỗi	-
+oomf	ồm	-
+oomj	ộm	-
+oomr	ổm	-
+ooms	ốm	-
+oomx	ỗm	-
+oonf	ồn	-
+oong	ông	-
+oonj	ộn	-
+oonr	ổn	-
+oons	ốn	-
+oonx	ỗn	-
+ooof	oò	-
+oooj	oọ	-
+ooor	oỏ	-
+ooos	oó	-
+ooox	oõ	-
+oopj	ộp	-
+oops	ốp	-
+ootj	ột	-
+oots	ốt	-
+opff	opf	-
+opss	ops	-
+otff	otf	-
+otss	ots	-
+owff	owf	-
+owif	ời	-
+owij	ợi	-
+owir	ởi	-
+owis	ới	-
+owix	ỡi	-
+owjj	owj	-
+owmf	ờm	-
+owmj	ợm	-
+owmr	ởm	-
+owms	ớm	-
+owmx	ỡm	-
+ownf	ờn	-
+ownj	ợn	-
+ownr	ởn	-
+owns	ớn	-
+ownx	ỡn	-
+owpj	ợp	-
+owps	ớp	-
+owrr	owr	-
+owss	ows	-
+owtj	ợt	-
+owts	ớt	-
+owxx	owx	-
+uaaf	uầ	-
+uaaj	uậ	-
+uaan	uân	-
+uaar	uẩ	-
+uaas	uấ	-
+uaat	uât	-
+uaax	uẫ	-
+uaff	uaf	-
+uaxx	uax	-
+uiff	uif	-
+umff	umf	-
+umjj	umj	-
+umrr	umr	-
+umxx	umx	-
+unff	unf	-
+ungf	ùng	-
+ungj	ụng	-
+ungr	ủng	-
+ungs	úng	-
+ungx	ũng	-
+unjj	unj	-
+unrr	unr	-
+unxx	unx	-
+uooc	uôc	-
+uooi	uôi	-
+uoom	uôm	-
+uoon	uôn	-
+uoos	uố	-
+uoot	uôt	-
+uowc	ươc	-
+uowf	ườ	-
+uowi	ươi	-
+uowj	ượ	-
+uowm	ươm	-
+uown	ươn	-
+uowp	ươp	-
+uowr	ưở	-
+uows	ướ	-
+uowt	ươt	-
+uowx	ưỡ	-
+upss	ups	-
+uwaf	ừa	-
+uwaj	ựa	-
+uwar	ửa	-
+uwas	ứa	-
+uwax	ữa	-
+uwcj	ực	-
+uwcs	ức	-
+uwir	ửi	-
+uwng	ưng	-
+uwnx	ữn	-
+uwow	uwow	-
+uwts	ứt	-
+uwuf	ừu	-
+uwuj	ựu	-
+uwur	ửu	-
+uwus	ứu	-
+uwux	ữu	-
+uych	uych	-
+uyee	uyee	-
+uynh	uynh	-
+uytj	uỵt	-
+uyts	uýt	-
+yeef	yề	-
+yeem	yêm	-
+yeen	yên	-
+yees	yế	-
+yeet	yêt	-
+yeeu	yêu	-
+ynhf	ỳnh	-
+ynhs	ýnh	-
+aangf	ầng	-
+aangj	ậng	-
+aangr	ẩng	-
+aangs	ấng	-
+aangx	ẫng	-
+achss	achs	-
+awngf	ằng	-
+awngj	ặng	-
+awngr	ẳng	-
+awngs	ắng	-
+awngx	ẵng	-
+eechj	ệch	-
+eechs	ếch	-
+eecjh	ệch	-
+eengs	ếng	-
+eenhf	ềnh	-
+eenhj	ệnh	-
+eenhr	ểnh	-
+eenss	eens	-
+eepss	eeps	-
+eetss	eets	-
+ichjj	ichj	-
+ieecj	iệc	-
+ieecs	iếc	-
+ieejt	iệt	-
+ieemf	iềm	-
+ieemj	iệm	-
+ieemr	iểm	-
+ieems	iếm	-
+ieemx	iễm	-
+ieenf	iền	-
+ieeng	iêng	-
+ieenj	iện	-
+ieenr	iển	-
+ieens	iến	-
+ieenx	iễn	-
+ieepj	iệp	-
+ieeps	iếp	-
+ieest	iết	-
+ieetj	iệt	-
+ieets	iết	-
+ieeuf	iều	-
+ieeuj	iệu	-
+ieeur	iểu	-
+ieeus	iếu	-
+ieeux	iễu	-
+inhrr	inhr	-
+inhxx	inhx	-
+oachj	oạch	-
+oachs	oách	-
+oacss	oacs	-
+oangf	oàng	-
+oangj	oạnh	-
+oangr	oảng	-
+oangs	oáng	-
+oangx	oãng	-
+oanhf	oành	-
+oanhj	oạng	-
+oanhr	oảnh	-
+oanhs	oánh	-
+oawcj	oặc	-
+oawcs	oắc	-
+oawnf	oằn	-
+oawng	oăng	-
+oawnj	oặn	-
+oawnr	oẳn	-
+oawns	oắn	-
+oawnx	oẵn	-
+oawtj	oặt	-
+oawts	oắt	-
+oongf	ồng	-
+oongj	ộng	-
+oongr	ổng	-
+oongs	ống	-
+oongx	ỗng	-
+ootss	oots	-
+uaanf	uần	-
+uaang	uâng	-
+uaanj	uận	-
+uaanr	uẩn	-
+uaans	uấn	-
+uaanx	uẫn	-
+uaatf	uầt	-
+uaatj	uật	-
+uaats	uất	-
+uoocj	uộc	-
+uoocs	uốc	-
+uooif	uồi	-
+uooij	uội	-
+uooir	uổi	-
+uoois	uối	-
+uooix	uỗi	-
+uoojc	uộc	-
+uooji	uội	-
+uoomf	uồm	-
+uoomj	uộm	-
+uoomr	uổm	-
+uooms	uốm	-
+uoomx	uỗm	-
+uoonf	uồn	-
+uoong	uông	-
+uoonj	uộn	-
+uoonr	uổn	-
+uoons	uốn	-
+uoonx	uỗn	-
+uoosc	uốc	-
+uoosi	uối	-
+uooss	uoos	-
+uootj	uột	-
+uoots	uốt	-
+uowcj	ược	-
+uowcs	ước	-
+uowif	ười	-
+uowij	ượi	-
+uowir	ưởi	-
+uowis	ưới	-
+uowix	ưỡi	-
+uowmf	ườm	-
+uowmj	ượm	-
+uowms	ướm	-
+uownf	ườn	-
+uowng	ương	-
+uownj	ượn	-
+uownr	ưởn	-
+uowns	ướn	-
+uownx	ưỡn	-
+uowpj	ượp	-
+uowps	ướp	-
+uowtj	ượt	-
+uowts	ướt	-
+uwngf	ừng	-
+uwngj	ựng	-
+uwngr	ửng	-
+uwngs	ứng	-
+uwngx	ững	-
+uwowc	ươc	-
+uwowf	ườ	-
+uwowi	ươi	-
+uwowj	ượ	-
+uwowm	ươm	-
+uwown	ươn	-
+uwowp	ươp	-
+uwowr	ưở	-
+uwows	ướ	-
+uwowt	ươt	-
+uwowu	ươu	-
+uwowx	ưỡ	-
+uychj	uỵch	-
+uyeef	uyề	-
+uyeen	uyên	-
+uyees	uyế	-
+uyeet	uyêt	-
+uynhf	uỳnh	-
+uynhs	uýnh	-
+yeemf	yềm	-
+yeemj	yệm	-
+yeemr	yểm	-
+yeems	yếm	-
+yeenf	yền	-
+yeeng	yêng	-
+yeenj	yện	-
+yeenr	yển	-
+yeens	yến	-
+yeenx	yễn	-
+yeest	yết	-
+yeetj	yệt	-
+yeets	yết	-
+yeeuj	yệu	-
+yeeur	yểu	-
+yeeus	yếu	-
+ieengf	iềng	-
+ieengj	iệng	-
+ieengr	iểng	-
+ieengs	iếng	-
+ieengx	iễng	-
+oawngf	oằng	-
+oawngj	oặng	-
+oawngr	oẳng	-
+oawngs	oắng	-
+oawngx	oẵng	-
+uaangf	uầng	-
+uaangj	uậng	-
+uaangr	uẩng	-
+uaangs	uấng	-
+uaangx	uẫng	-
+uoongf	uồng	-
+uoongj	uộng	-
+uoongr	uổng	-
+uoongs	uống	-
+uoongx	uỗng	-
+uowngf	ường	-
+uowngj	ượng	-
+uowngr	ưởng	-
+uowngs	ướng	-
+uowngx	ưỡng	-
+uwowcj	ược	-
+uwowcs	ước	-
+uwowif	ười	-
+uwowij	ượi	-
+uwowir	ưởi	-
+uwowis	ưới	-
+uwowix	ưỡi	-
+uwowmf	ườm	-
+uwowmj	ượm	-
+uwowms	ướm	-
+uwownf	ườn	-
+uwowng	ương	-
+uwownj	ượn	-
+uwownr	ưởn	-
+uwowns	ướn	-
+uwownx	ưỡn	-
+uwowpj	ượp	-
+uwowps	ướp	-
+uwowtj	ượt	-
+uwowts	ướt	-
+uwowuj	ượu	-
+uwowus	ướu	-
+uyeejn	uyện	-
+uyeejt	uyệt	-
+uyeenf	uyền	-
+uyeenj	uyện	-
+uyeenr	uyển	-
+uyeens	uyến	-
+uyeenx	uyễn	-
+uyeern	uyển	-
+uyeetf	uyềt	-
+uyeetj	uyệt	-
+uyeets	uyết	-
+uyeexn	uyễn	-
+uwowngf	ường	-
+uwowngj	ượng	-
+uwowngr	ưởng	-
+uwowngs	ướng	-
+uwowngx	ưỡng	-
