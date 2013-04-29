@@ -19,8 +19,8 @@ end
 name = {true => "Telex", false => "VNI"} [mode]
 xname = {true => "xtelex", false => "xvni"} [mode]
 
-reg  = {true => /^(\p{Alpha}+)\p{Space}+([^\p{Space}]+)(\p{Space}+0)?$/,
-        false => /^(\p{Alnum}+)\p{Space}+([^\p{Space}]+)(\p{Space}+0)?$/ } [mode]
+reg  = {true => /^(\p{Alpha}+)\p{Space}+([^\p{Space}]+)\p{Space}+([^\p{Space}]+)$/,
+        false => /^(\p{Alnum}+)\p{Space}+([^\p{Space}]+)\p{Space}+([^\p{Space}]+)$/ } [mode]
 
 has_uppercase_combination = false
 
