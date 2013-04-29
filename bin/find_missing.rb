@@ -18,7 +18,7 @@ modifiers = %w{s f w x j r S F W X J R 1 2 3 4 5 6 7 8}
 
 entries = STDIN \
   .readlines \
-  .select {|l| l.match(%r{^(\p{Alnum}+)\p{Space}+([^\p{Space}]+)$}) } \
+  .select {|l| l.match(%r{^(\p{Alnum}+)\p{Space}+([^\p{Space}]+)\p{Space}+([^\p{Space}]+)$}) } \
   .map {|l| l.split.first }
 
 missings = []
