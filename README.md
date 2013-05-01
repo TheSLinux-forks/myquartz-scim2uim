@@ -5,16 +5,15 @@ Vietnamese Telex/VNI users. It also focus on `UIM` support.
 
 ## Tables
 
-These tables are very original: they can't be used directly in `UIM`
-or `SCIM`. The tables only contains lowercase combinations. You need
-to run the script `upcase.rb` to generate all possible forms.
+Orginally there are two tables `Telex.txt.in` and `VNI.txt.in`. We now
+have a script `telex2vni` to generate the `VNI` table so you can only
+see one table `Telex.txt.in` in the source tree.
 
-* `src/Telex.txt.in`: Combinations for `Telex` users
-* `src/VNI.txt.in`: Combinations for `VNI` users
-
-To modifty these tables, please refer to `./src/README.md`.
+To modifty the table, please refer to `./src/README.md`.
 
 ## Usage
+
+See an example in `src/Makefile`.
 
 The main script is `bin/scim2uim.rb` which converts the tables to `UIM`
 support. The commands
@@ -26,7 +25,8 @@ $ cat ./src/Telex.txt.in \
   | ./bin/sort.rb \
   | ./bin/scim2uim.rb --telex
 
-$ cat ./src/VNI.txt.in \
+$ cat ./src/Telex.txt.in \
+  | ./bin/telex2vni.rb \
   | ./bin/upcase.awk \
   | sort -u \
   | ./bin/sort.rb \
@@ -37,8 +37,6 @@ will generate the file `xtelex.scm` and `xvni.scm` that can be used in `uim`.
 Because the current version of `uim` doesn't load them dynamically, you
 need to edit the files `loaded.scm` and `installed-modules.scm` in your
 `uim` distribution to add new tables.
-
-Please check example in the package `uim-vi` from `TheSLinux`.
 
 ## Important notes
 
