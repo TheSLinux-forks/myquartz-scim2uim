@@ -9,7 +9,8 @@ To contribute to the table `Telex.txt.in`
 4. Run the script `find_missing` again to see if thing is good now
 5. Run the script `upcase` to generate all valid forms of entries
 6. Sort the file `Telex.txt.in` by using the script `sort`
-7. Transfer the last output to `Telex.txt.in`.
+7. Transfer the last output to `Telex.txt.in`
+8. Manually check if there is any duplication in the table
 
 If you are adding new set of combinations to the table, you may not edit
 the file `Telex.txt.in` directly because it is hard to locate your changes
