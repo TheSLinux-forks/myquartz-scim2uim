@@ -19,11 +19,10 @@ xtelex.scm: Telex.txt.in
 		| $(BIN_DIR)/sort.rb \
 		| $(BIN_DIR)/scim2uim.rb --telex > $(@)
 
-xvni.scm: VNI.txt.in
-	@echo "Find missing entries for 'VNI.txt.in' you may want to add them manually"
-	@cat VNI.txt.in | $(BIN_DIR)/find_missing.rb
+xvni.scm: Telex.txt.in
 	@echo "Generating $(@)"
-	@cat VNI.txt.in \
+	@cat Telex.txt.in \
+		| $(BIN_DIR)/telex2vni.rb \
 		| $(BIN_DIR)/upcase.awk \
 		| sort -u \
 		| $(BIN_DIR)/sort.rb \
