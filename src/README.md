@@ -11,6 +11,14 @@ To contribute to the table `Telex.txt.in`
 6. Sort the file `Telex.txt.in` by using the script `sort`
 7. Transfer the last output to `Telex.txt.in`.
 
+If you are adding new set of combinations to the table, you may not edit
+the file `Telex.txt.in` directly because it is hard to locate your changes
+after the file is sorted. You may create a temporary file `my-changes`
+where you put your new entries. By appending this file to the original
+file `Telex.txt.in` and using `git reset` to restore the file `Telex.txt.in`
+if there is something wrong, you are able to have your original set of
+new entries `my-changes`.
+
 Here is a sample session. Please don't blindly copy and execute the
 following commands because they may hurt your system. You may take a look
 at the sample `Makefile` (again, please don't blindy use that file).
