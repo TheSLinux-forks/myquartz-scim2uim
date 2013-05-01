@@ -21,7 +21,17 @@ entries = STDIN \
   .map {|l| l.split.slice(0,3) }
 
 entries.each do |source, output1, output2|
-  next if source.match(/([adoe])\1\1/)
+  # The cancel form
+  source = source.gsub(/([adoe])(\1\1)/) do |m|
+    tmp = combinations[$2]       # return "[adoe]6"
+    "#{$1}#{tmp.slice(1,1) * 2}" # return "[adoe]66"
+  end
+
+  # Another cancel form
+  source = source.gsub(/([aou]w)w/) do |m|
+    tmp = combinations[$1]        # return "a8"  or "[ou]7"
+    "#{$1}#{tmp.slice(1,1) * 2}"  # return "a88" or "[ou]77"
+  end
 
   combinations.keys.each do |key|
     source = source.gsub(key, combinations[key])
