@@ -8,6 +8,9 @@ BIN_DIR = ../bin/
 default:
 	@echo "Sample Makefile used by developer. Don't use this file"
 	@echo "  install : install files to /usr/share/uim/"
+	@echo "  build   : build xtelex.scm and xvni.scm"
+	@echo
+	@echo "Requirements: ruby, gawk, sort"
 
 xtelex.scm: Telex.txt.in
 	@echo "Find missing entries in 'Telext.txt.in' you may want to add them manually"
