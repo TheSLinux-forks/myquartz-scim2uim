@@ -10,6 +10,11 @@
 * `telex.png`: This is exported from `telex.svg` by using `ImageMagick`
 * `vni.png`: Generated from `vni.svg` by using `ImageMagick`
 
+## License
+
+All files are distributed under the license GPL v2 that can be found at
+http://www.gnu.org/licenses/gpl-2.0.html .
+
 ## Links
 
 [1] sif2svg: http://wiki.synfig.org/wiki/Sif2svg
