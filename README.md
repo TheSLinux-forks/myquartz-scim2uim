@@ -3,6 +3,14 @@
 This project provides two big tables of predefined combinations for
 Vietnamese Telex/VNI users. It also focus on `UIM` support.
 
+## Warning
+
+We swich to new branch **v3** which is clean and flexible. This branch
+does exist as part of the history, and it is not actively maintained.
+The latest tag on this branch **v1.1.0**.
+
+Please use the new branch **v3** if possible.
+
 ## Tables
 
 These tables are very original: they can't be used directly in `UIM`
