@@ -1,10 +1,14 @@
 ;;
 ;; Table of predefined combinations for Vietnamese Telex/VNI users.
 ;;
-;; This table is generated from the original table from the branch `scim`.
+;; This table is generated from the original table from the branch `v3`.
 ;; Once this table is manually edit, the generator must be disabled and
 ;; any further udpate must be done carefully.
 ;;
+;; Copyright (c) 2008 - 2010 Thach-Anh Tran
+;; Copyright (c) 2013 Ky-Anh Huynh
+;;
+;; This work is part of `TheSLinux` distribution.
 ;; This work is distributed under the terms of the license GPL (v2).
 ;; To use this work you must read and accept the license that's found at
 ;;   http://www.gnu.org/licenses/gpl-2.0.html
