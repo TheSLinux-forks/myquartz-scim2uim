@@ -5,7 +5,7 @@ Vietnamese Telex/VNI users. It also focus on `UIM` support.
 
 ## Tables
 
-Orginally there are two tables `Telex.txt.in` and `VNI.txt.in`. We now
+Originally there are two tables `Telex.txt.in` and `VNI.txt.in`. We now
 have a script `telex2vni` to generate the `VNI` table so you can only
 see one table `Telex.txt.in` in the source tree.
 
