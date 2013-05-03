@@ -5,7 +5,7 @@ Vietnamese Telex/VNI users. It also focus on `UIM` support.
 
 ## Warning
 
-We swich to new branch **v3** which is clean and flexible. This branch
+We switch to new branch **v3** which is clean and flexible. This branch
 does exist as part of the history, and it is not actively maintained.
 The latest tag on this branch **v1.1.0**.
 
