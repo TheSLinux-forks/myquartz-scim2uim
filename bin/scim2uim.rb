@@ -4,6 +4,7 @@
 # Purpose: Convert the Scim table to Uim table
 # Author : Anh K. Huynh
 # Date   : 2013 Mar 7th
+# License: GPL v2 (http://www.gnu.org/licenses/gpl-2.0.html)
 # Usage  :
 #   $0 --telex < src/Telex.txt.in > xteltex.scm
 #   $0 --vni   < src/VNI.txt.in   > xvni.scm

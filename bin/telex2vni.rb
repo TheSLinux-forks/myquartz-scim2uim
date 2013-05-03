@@ -4,6 +4,7 @@
 # Purpose: Convert Telex table to VNI table
 # Author : Anh K. Huynh
 # Date   : 2013 May 1st
+# License: GPL v2 (http://www.gnu.org/licenses/gpl-2.0.html)
 
 Accents = {
   :telex  => 'sfrxjw',

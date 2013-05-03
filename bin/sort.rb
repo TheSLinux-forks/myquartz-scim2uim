@@ -5,6 +5,7 @@
 #          and prepare new tables for UIM.
 # Author : Anh K. Huynh
 # Date   : 2013 April 17th
+# License: GPL v2 (http://www.gnu.org/licenses/gpl-2.0.html)
 # Usage  : This script should be used **ONCE**
 #
 #   $0 --telex < src/Telex.txt.in > Telex.txt.in.new

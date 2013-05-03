@@ -4,6 +4,7 @@
 # Purpose: Find missing entries in the Telex/VNI table
 # Author : Anh K. Huynh
 # Date   : 2013 April 17th
+# License: GPL v2 (http://www.gnu.org/licenses/gpl-2.0.html)
 # Usage  :
 #   $0 < Telex.txt.in > missings
 #   $cat missings >> Telex.txt.in

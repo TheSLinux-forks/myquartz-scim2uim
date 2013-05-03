@@ -8,9 +8,9 @@
 #             * UPPERCASE
 # Author : Anh K. Huynh
 # Date   : 2013 April 27th
+# License: GPL v2 (http://www.gnu.org/licenses/gpl-2.0.html)
 # Usage  :
 #   $0 < input > output
-
 
 BEGIN {}
 
