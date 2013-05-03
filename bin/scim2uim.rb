@@ -48,6 +48,7 @@ STDIN.readlines.each do |line|
   line.strip!
   if gs = line.match(reg)
     input, output = gs[1,2]
+    next if output == "!"
     input = input.split(//).map{|c| "\"#{c}\""}.join(" ")
     puts sprintf("(((%s ))(\"%s\"))", input, output)
     has_uppercase_combination ||= input.match(/[A-Z]/)
