@@ -38,7 +38,6 @@ puts <<-EOF
 ;; This file is a generated file. Don't edit this file.
 ;;
 ;; For more details please visit the project home page
-;;   https://github.com/icy/myquartz-scim2uim
 ;;   https://github.com/TheSLinux-forks/myquartz-scim2uim
 ;;
 ;; This work is distributed under the license GPL (v2).
