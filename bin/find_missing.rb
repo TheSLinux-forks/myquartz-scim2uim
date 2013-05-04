@@ -22,7 +22,7 @@ entries = STDIN \
   .select {|l| l.match(%r{^(\p{Alnum}+)\p{Space}+([^\p{Space}]+)\p{Space}+([^\p{Space}]+)$}) } \
   .map {|l| l.split.first }
 
-missings = []
+missings = {}
 
 entries.each do |item|
   size = item.size
@@ -30,10 +30,21 @@ entries.each do |item|
   last_char = item.slice(size - 1, 1)
   if modifiers.include?(last_char)
     needed = item.slice(0, size - 1)
-    missings << needed \
-      unless missings.include?(needed) \
+    missings[needed] = needed \
+      unless missings.keys.include?(needed) \
         or entries.include?(needed)
+
+    if size > 2
+      llast_char = item.slice(size - 2, 1)
+      next if llast_char.eql?(last_char)
+      next if item.match(/([aeo])\1/) or item.match(/w/)
+      needed = "#{item}#{last_char}"
+      missings[needed] = "#{item}" \
+        unless missings.keys.include?(needed) \
+          or entries.include?(needed)
+    end
   end
 end
 
-puts missings.map{|p| "#{p}\t#{p}\t-"}.join("\n") unless missings.empty?
+puts missings.map {|u,v| "#{u}\t#{v}\t-" }.join("\n") \
+  unless missings.empty?
