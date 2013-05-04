@@ -22,6 +22,14 @@ xtelex.scm: Telex.txt.in
 		| $(BIN_DIR)/sort.rb \
 		| $(BIN_DIR)/scim2uim.rb --telex > $(@)
 
+xtelex-ipa.scm:
+	@echo "Generating $(@)"
+	@cat Telex.txt.in \
+		| $(BIN_DIR)/upcase.awk \
+		| sort -u \
+		| $(BIN_DIR)/sort.rb \
+		| $(BIN_DIR)/scim2uim.rb --telex --ipa > $(@)
+
 xvni.scm: Telex.txt.in
 	@echo "Generating $(@)"
 	@cat Telex.txt.in \
@@ -31,12 +39,24 @@ xvni.scm: Telex.txt.in
 		| $(BIN_DIR)/sort.rb \
 		| $(BIN_DIR)/scim2uim.rb --vni > $(@)
 
-build: xtelex.scm xvni.scm
+xvni-ipa.scm: Telex.txt.in
+	@echo "Generating $(@)"
+	@cat Telex.txt.in \
+		| $(BIN_DIR)/telex2vni.rb \
+		| $(BIN_DIR)/upcase.awk \
+		| sort -u \
+		| $(BIN_DIR)/sort.rb \
+		| $(BIN_DIR)/scim2uim.rb --vni --ipa > $(@)
+
+build: xtelex.scm xvni.scm xtelex-ipa.scm xvni-ipa.scm
 
 install: build
-	@install -v -m644 xtelex.scm xvni.scm /usr/share/uim/
+	@install -v -m644 \
+		xtelex.scm xvni.scm \
+		xtelex-ipa.scm xvni-ipa.scm \
+		/usr/share/uim/
 
 clean:
-	@rm -fv xtelex.scm xvni.scm
+	@rm -fv xtelex.scm xvni.scm xtelex-ipa.scm xvni-ipa.scm
 
 all: clean build install
