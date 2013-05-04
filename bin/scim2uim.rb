@@ -9,19 +9,27 @@
 #   $0 --telex < src/Telex.txt.in > xteltex.scm
 #   $0 --vni   < src/VNI.txt.in   > xvni.scm
 
-mode = true
+telex, ipa = true, false
+
 ARGV.each do |p|
-  mode = case p
-  when "--telex" then true
-  when "--vni"   then false
+  case p
+  when "--telex" then
+    telex = true
+  when "--vni"   then
+    telex = false
+  when "--traditional" then
+    ipa = false
+  when "--ipa" then
+    ipa = true
   end
 end
 
-name = {true => "Telex", false => "VNI"} [mode]
-xname = {true => "xtelex", false => "xvni"} [mode]
+name = {true => "Telex", false => "VNI"} [telex]
+xname = {true => "xtelex", false => "xvni"} [telex]
+name, xname = "#{name}-IPA", "#{xname}-ipa" if ipa
 
 reg  = {true => /^(\p{Alpha}+)\p{Space}+([^\p{Space}]+)\p{Space}+([^\p{Space}]+)$/,
-        false => /^(\p{Alnum}+)\p{Space}+([^\p{Space}]+)\p{Space}+([^\p{Space}]+)$/ } [mode]
+        false => /^(\p{Alnum}+)\p{Space}+([^\p{Space}]+)\p{Space}+([^\p{Space}]+)$/ } [telex]
 
 has_uppercase_combination = false
 
@@ -47,7 +55,8 @@ EOF
 STDIN.readlines.each do |line|
   line.strip!
   if gs = line.match(reg)
-    input, output = gs[1,2]
+    input, output = gs[1], (ipa ? gs[3] : gs[2])
+    output = gs[2] if output == "-"
     next if output == "!"
     input = input.split(//).map{|c| "\"#{c}\""}.join(" ")
     puts sprintf("(((%s ))(\"%s\"))", input, output)
