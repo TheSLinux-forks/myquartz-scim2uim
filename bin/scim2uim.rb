@@ -35,7 +35,7 @@ has_uppercase_combination = false
 
 puts <<-EOF
 ;;
-;; This file is a generated file. Don't edit this file.
+;; This is a generated file. Don't edit this file.
 ;;
 ;; For more details please visit the project home page
 ;;   https://github.com/TheSLinux-forks/myquartz-scim2uim
