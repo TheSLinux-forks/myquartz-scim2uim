@@ -28,21 +28,20 @@ entries.each do |item|
   size = item.size
   next if size < 2
   last_char = item.slice(size - 1, 1)
-  if modifiers.include?(last_char)
-    needed = item.slice(0, size - 1)
-    missings[needed] = needed \
+  next unless modifiers.include?(last_char)
+  needed = item.slice(0, size - 1)
+  missings[needed] = needed \
+    unless missings.keys.include?(needed) \
+      or entries.include?(needed)
+
+  if size > 2
+    llast_char = item.slice(size - 2, 1)
+    next if llast_char.eql?(last_char)
+    next if item.match(/([aeo])\1/) or item.match(/w/)
+    needed = "#{item}#{last_char}"
+    missings[needed] = "#{item}" \
       unless missings.keys.include?(needed) \
         or entries.include?(needed)
-
-    if size > 2
-      llast_char = item.slice(size - 2, 1)
-      next if llast_char.eql?(last_char)
-      next if item.match(/([aeo])\1/) or item.match(/w/)
-      needed = "#{item}#{last_char}"
-      missings[needed] = "#{item}" \
-        unless missings.keys.include?(needed) \
-          or entries.include?(needed)
-    end
   end
 end
 
