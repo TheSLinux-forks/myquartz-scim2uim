@@ -48,7 +48,6 @@ to get all kind of combinations (`lowercase`, `Uppercase` and `UPPERCASE`.)
 
 ## Authors
 
-* **Huy Ngo** from `TheSLinux`
 * **Ky-Anh Huynh** from `TheSLinux`
 * **Thach-Anh Tran** (aka myquartz at gmail dot com) _(the original author)_
 
