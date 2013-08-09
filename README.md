@@ -55,6 +55,11 @@ to get all kind of combinations (`lowercase`, `Uppercase` and `UPPERCASE`.)
 
 GPL version 2
 
+## Support
+
+This work is part of `TheSLinux` project. To get support, please follow the
+guidelines at http://theslinux.org/bugs/ .
+
 ## History
 
 The tables originally comes from the project `scim-tables-vietnamese-ext`,
