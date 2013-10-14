@@ -10,7 +10,7 @@
 #   $cat missings >> Telex.txt.in
 #   $sort.rb < Telex.txt.in > Telex.txt.in.new
 #   $mv Telex.txt.in.new Telex.txt.in
-#
+# TODO   : Document the programs. What is "missing entry"?
 # NOTE: Bc this script doesn't run recursively, you may need to
 # run this script at least twice to ensure there is no missing entry
 # in your table
