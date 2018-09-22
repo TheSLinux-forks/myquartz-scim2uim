@@ -10,11 +10,14 @@
 #   $0 --vni   < src/VNI.txt.in   > xvni.scm
 
 telex, ipa = true, false
+german = false
 
 ARGV.each do |p|
   case p
   when "--telex" then
     telex = true
+  when "--german" then
+    german = true
   when "--vni"   then
     telex = false
   when "--traditional" then
@@ -24,12 +27,19 @@ ARGV.each do |p|
   end
 end
 
-name = {true => "Telex", false => "VNI"} [telex]
-xname = {true => "xtelex", false => "xvni"} [telex]
-name, xname = "#{name}-IPA", "#{xname}-ipa" if ipa
+if not german
+  name = {true => "Telex", false => "VNI"} [telex]
+  xname = {true => "xtelex", false => "xvni"} [telex]
+  name, xname = "#{name}-IPA", "#{xname}-ipa" if ipa
 
-reg  = {true => /^(\p{Alpha}+)\p{Space}+([^\p{Space}]+)\p{Space}+([^\p{Space}]+)$/,
-        false => /^(\p{Alnum}+)\p{Space}+([^\p{Space}]+)\p{Space}+([^\p{Space}]+)$/ } [telex]
+  reg  = {true => /^(\p{Alpha}+)\p{Space}+([^\p{Space}]+)\p{Space}+([^\p{Space}]+)$/,
+          false => /^(\p{Alnum}+)\p{Space}+([^\p{Space}]+)\p{Space}+([^\p{Space}]+)$/ } [telex]
+else
+  name = "German"
+  xname = "xgerm"
+  ipa = false
+  reg = /^(\p{Alpha}+)\p{Space}+([^\p{Space}]+)\p{Space}+([^\p{Space}]+)$/
+end
 
 has_uppercase_combination = false
 
@@ -74,17 +84,22 @@ puts <<-EOF
   "vi"
   "UTF-8"
   (N_ "X#{name}")
-  (N_ "Big table of predefined words for Vietnamese #{name} users")
+  (N_ "Big table of predefined words for #{name} users")
   #{xname}-init-handler)
 EOF
 
 unless has_uppercase_combination
+  if not german
+    src = '"Telex.txt.in" or "VNI.txt.in"'
+  else
+    src = 'German.txt.in'
+  end
   STDERR.puts <<-EOF
 ::
 :: WARNING
 ::
 :: There is no uppercase letter in your input. It seems that you are using
-:: the raw input "Telex.txt.in" or "VNI.txt.in". Since the version 'v1.0.0'
+:: the raw input #{src}. Since the version 'v1.0.0'
 :: these files only contain the lowercase combinations. To get the full
 :: list of combinations you need to use the script "upcase.rb". Fore more
 :: details please check out the latest documentation at

@@ -12,6 +12,16 @@ default:
 	@echo
 	@echo "Requirements: ruby, gawk, sort"
 
+xgerm.scm: German.txt.in
+	@echo "Find missing entries in '$<' you may want to add them manually"
+	@< $< $(BIN_DIR)/find_missing.rb
+	@echo "Generating $(@)"
+	@< $< \
+		$(BIN_DIR)/upcase.awk \
+		| sort -u \
+		| $(BIN_DIR)/sort.rb \
+		| $(BIN_DIR)/scim2uim.rb --german > $(@)
+
 xtelex.scm: Telex.txt.in
 	@echo "Find missing entries in 'Telext.txt.in' you may want to add them manually"
 	@cat Telex.txt.in | $(BIN_DIR)/find_missing.rb
@@ -57,6 +67,6 @@ install: build
 		/usr/share/uim/
 
 clean:
-	@rm -fv xtelex.scm xvni.scm xtelex-ipa.scm xvni-ipa.scm
+	@rm -fv xtelex.scm xvni.scm xtelex-ipa.scm xvni-ipa.scm xgerm.scm
 
 all: clean build install

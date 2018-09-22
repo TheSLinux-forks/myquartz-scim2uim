@@ -1,0 +1,19 @@
+;;
+;; Table of predefined combinations for German users.
+;;
+;; Copyright (c) 2018 Ky-Anh Huynh
+;;
+;; This work is part of `TheSLinux` distribution.
+;; This work is distributed under the terms of the license GPL (v2).
+;; To use this work you must read and accept the license that's found at
+;;   http://www.gnu.org/licenses/gpl-2.0.html
+;;
+a	a	-
+e	e	-
+o	o	-
+u	u	-
+s	s	-
+ae	ä	-
+oe	ö	-
+ue	ü	-
+ss	ß	-
