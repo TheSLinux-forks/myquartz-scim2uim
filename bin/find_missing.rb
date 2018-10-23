@@ -14,7 +14,11 @@
 # NOTE: run this script at least twice to ensure there is no missing entry
 # NOTE: in your table
 
-modifiers = %w{s f w x j r S F W X J R 1 2 3 4 5 6 7 8}
+if not ENV["GERMAN"].to_s.empty?
+  modifiers = %w{e s E S}
+else
+  modifiers = %w{s f w x j r S F W X J R 1 2 3 4 5 6 7 8}
+end
 
 # `entries` is list of the first item (colum) of the definition
 # Example:

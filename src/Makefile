@@ -14,7 +14,7 @@ default:
 
 xgerm.scm: German.txt.in
 	@echo "Find missing entries in '$<' you may want to add them manually"
-	@< $< $(BIN_DIR)/find_missing.rb
+	@GERMAN=true < $< $(BIN_DIR)/find_missing.rb
 	@echo "Generating $(@)"
 	@< $< \
 		$(BIN_DIR)/upcase.awk \
