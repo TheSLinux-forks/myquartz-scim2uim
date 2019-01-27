@@ -22,6 +22,11 @@ xgerm.scm: German.txt.in
 		| $(BIN_DIR)/sort.rb \
 		| $(BIN_DIR)/scim2uim.rb --german > $(@)
 
+.PHONY: xgerm-adhoc
+xgerm-adhoc: xgerm.scm
+	@sed -e 's#xgerm#xvni#g' < xgerm.scm > xvni.scm
+	@sudo cp -fuv xvni.scm /usr/share/uim/xvni.scm
+
 xtelex.scm: Telex.txt.in
 	@echo "Find missing entries in 'Telext.txt.in' you may want to add them manually"
 	@cat Telex.txt.in | $(BIN_DIR)/find_missing.rb
