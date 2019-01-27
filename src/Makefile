@@ -24,8 +24,8 @@ xgerm.scm: German.txt.in
 
 .PHONY: xgerm-adhoc
 xgerm-adhoc: xgerm.scm
-	@sed -e 's#xgerm#xvni#g' < xgerm.scm > xvni.scm
-	@sudo cp -fuv xvni.scm /usr/share/uim/xvni.scm
+	@sed -e 's#xgerm#xvni#g' < xgerm.scm > xvni-adhoc.scm
+	@sudo cp -fuv xvni-adhoc.scm /usr/share/uim/xvni.scm
 
 xtelex.scm: Telex.txt.in
 	@echo "Find missing entries in 'Telext.txt.in' you may want to add them manually"
